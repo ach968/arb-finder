@@ -1,0 +1,131 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "Arb Calculator API",
+        "description": "API documentation for the Arb Calculator application",
+        "version": "1.0.0"
+    },
+    "basePath": "/",
+    "schemes": [
+        "http"
+    ],
+    "paths": {
+        "/api/arb_opportunity": {
+            "post": {
+                "summary": "Create a new arbitrage opportunity",
+                "parameters": [
+                    {
+                        "name": "x-api-key",
+                        "in": "header",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/ArbOpportunity"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Arbitrage opportunity created"
+                    },
+                    "400": {
+                        "description": "Invalid input"
+                    },
+                    "401": {
+                        "description": "Unauthorized"
+                    }
+                }
+            },
+            "get": {
+                "summary": "Get arbitrage opportunities",
+                "parameters": [
+                    {
+                        "name": "get_latest_data",
+                        "in": "query",
+                        "required": false,
+                        "type": "boolean",
+                        "description": "Flag to get the latest data"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Arbitrage opportunities retrieved"
+                    },
+                    "400": {
+                        "description": "Invalid input"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                }
+            }
+        },
+        "/api/sport": {
+            "post": {
+                "summary": "Create a new sport",
+                "parameters": [
+                    {
+                        "name": "x-api-key",
+                        "in": "header",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/Sport"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Sport created"
+                    },
+                    "400": {
+                        "description": "Invalid input"
+                    },
+                    "401": {
+                        "description": "Unauthorized"
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "ArbOpportunity": {
+            "type": "object",
+            "properties": {
+                "sports": {
+                    "type": "string"
+                },
+                "markets": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "time_sent": {
+                    "type": "string"
+                }
+            }
+        },
+        "Sport": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "type": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}

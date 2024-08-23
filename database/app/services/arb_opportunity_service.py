@@ -32,6 +32,7 @@ def serialize_arb_opportunity(arb_opportunity):
 
 def save_arb_opportunity_model(api_key, sports, markets_string, time_sent):
     all_data = []
+    processed_sports = 0
     for sport in sports:
         if not no_fly_list.get(sport):
             try:
@@ -42,6 +43,7 @@ def save_arb_opportunity_model(api_key, sports, markets_string, time_sent):
                 all_data.extend(find_arb_opportunities(df))
             except:
                 continue
+            processed_sports += 1
 
     successful_attempts = 0
     total_attempts = 0
@@ -58,7 +60,7 @@ def save_arb_opportunity_model(api_key, sports, markets_string, time_sent):
         total_attempts += 1
     db.session.commit()
 
-    return f'{len(sports)} sports processed, {successful_attempts} out of {total_attempts} opportunities successfully inserted.'
+    return f'{processed_sports} sports processed, {successful_attempts} out of {total_attempts} opportunities successfully found!'
 
 
 def find_arb_opportunities(df):
