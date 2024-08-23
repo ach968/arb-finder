@@ -33,9 +33,9 @@ def arb_opportunity_blueprint_post():
     if not time_sent:
         return jsonify({'error': 'missing time sent information'}), 400
 
+    markets_string = ','.join(markets_list)
+    outcome = save_arb_opportunity_model(api_key, sports, markets_string, time_sent=time_sent)
     try:
-        markets_string = ','.join(markets_list)
-        outcome = save_arb_opportunity_model(api_key, sports, markets_string, time_sent=time_sent)
         logger.info(outcome)
         return {'success': str(outcome)}
     except Exception as e:

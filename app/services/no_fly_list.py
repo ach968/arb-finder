@@ -65,9 +65,9 @@ no_fly_list = {
     "soccer_sweden_superettan": False,
     "soccer_switzerland_superleague": False,
     "soccer_turkey_super_league": False,
-    "soccer_uefa_champs_league_qualification": False,
-    "soccer_uefa_europa_conference_league": False,
-    "soccer_uefa_europa_league": False,
+    "soccer_uefa_champs_league_qualification": True,
+    "soccer_uefa_europa_conference_league": True,
+    "soccer_uefa_europa_league": True,
     "soccer_usa_mls": False,
     "tennis_atp_cincinnati_open": True,
     "tennis_wta_cincinnati_open": True
