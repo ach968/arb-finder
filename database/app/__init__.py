@@ -1,6 +1,5 @@
 from flask import Flask
-from database import db, migrate
-from flask_swagger_ui import get_swaggerui_blueprint
+from database_init import db, migrate
 
 def create_app():
     app = Flask(__name__, instance_relative_config=True)

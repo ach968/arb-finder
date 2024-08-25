@@ -1,4 +1,4 @@
-from database import db
+from database_init import db
 
 class Sport(db.Model):
     key = db.Column(db.String(), primary_key=True, nullable=False, unique=True)

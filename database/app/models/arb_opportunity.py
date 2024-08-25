@@ -1,6 +1,6 @@
 from sqlalchemy.dialects.postgresql import JSONB
 
-from database import db
+from database_init import db
 
 
 class ArbOpportunity(db.Model):
@@ -8,7 +8,7 @@ class ArbOpportunity(db.Model):
     line_1 = db.Column(JSONB, nullable=False)
     line_2 = db.Column(JSONB, nullable=False)
     expected_value = db.Column(db.Float, nullable=False)
-    commence_time = db.Column(db.Float)
+    commence_time = db.Column(db.Float, nullable=False)
     league = db.Column(db.String())
     game_title = db.Column(db.String())
     last_update = db.Column(db.Float)

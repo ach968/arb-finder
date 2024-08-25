@@ -5,7 +5,7 @@ from flask import Blueprint, render_template, request, redirect, jsonify
 from sqlalchemy.dialects.postgresql import insert
 
 from app.models.sport import Sport
-from database import db
+from database_init import db
 import logging
 
 logger = logging.getLogger(__name__)

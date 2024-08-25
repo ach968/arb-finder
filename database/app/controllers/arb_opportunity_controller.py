@@ -5,7 +5,7 @@ from app.models.arb_opportunity import ArbOpportunity
 
 from app.services.arb_opportunity_service import generate_lines_df, find_arb_opportunities, serialize_arb_opportunity, \
     save_arb_opportunity_model
-from database import db
+from database_init import db
 
 arb_opportunity_blueprint = Blueprint('arb_opportunity', __name__)
 

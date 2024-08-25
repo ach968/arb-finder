@@ -7,9 +7,9 @@ import pandas as pd
 from sqlalchemy.dialects.postgresql import insert
 
 from app.models.arb_opportunity import ArbOpportunity
-from app.services.functions import calc_implied_probability, calc_expected_value
+from app.services.functions import calc_implied_probability, calc_expected_value, calc_stake_size
 from app.services.no_fly_list import no_fly_list
-from database import db
+from database_init import db
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)
@@ -36,7 +36,7 @@ def save_arb_opportunity_model(api_key, sports, markets_string, time_sent):
     for sport in sports:
         if not no_fly_list.get(sport):
             try:
-                template_url = f'https://api.the-odds-api.com/v4/sports/{sport}/odds/?apiKey={api_key}&regions=us,us2&markets={markets_string}&oddsFormat=american'
+                template_url = f'https://api.the-odds-api.com/v4/sports/{sport}/odds/?apiKey={api_key}&bookmakers=fliff,bovada,betonlineag&markets={markets_string}&oddsFormat=american'
                 response = urlopen(template_url)
                 data_json = json.loads(response.read())
                 df = generate_lines_df(data_json, time_sent)
@@ -74,38 +74,42 @@ def find_arb_opportunities(df):
         game_title = (f"{group['home_team'].iloc[0]} (H) @ "
                       f"{group['away_team'].iloc[0]} (A)")
         league = group['sport_title'].iloc[0]
-        best_underdog = group.loc[group['price'].idxmax()]
-        best_favorite = group.loc[group['price'].idxmin()]
+        line_1_raw = group.loc[group['price'].idxmax()]
+        line_2_raw = group.loc[group['price'].idxmin()]
 
-        condition1 = (calc_implied_probability(best_underdog['price']) +
-                      calc_implied_probability(best_favorite['price']) < 1)
-        condition2 = best_underdog['bookmaker_key'] != best_favorite['bookmaker_key']
-        condition3 = best_underdog['name'] != 'Draw' and best_favorite['name'] != 'Draw'
+        stakes = calc_stake_size(line_1_raw['price'], line_2_raw['price'])
+
+        condition1 = (calc_implied_probability(line_1_raw['price']) +
+                      calc_implied_probability(line_2_raw['price']) < 1)
+        condition2 = line_1_raw['bookmaker_key'] != line_2_raw['bookmaker_key']
+        condition3 = line_1_raw['name'] != 'Draw' and line_2_raw['name'] != 'Draw'
         if condition1 and condition2 and condition3:
-            expected_value = round(1 - float(calc_expected_value(best_underdog['price'], best_favorite['price'])), 2)
+            expected_value = round(1 - float(calc_expected_value(line_1_raw['price'], line_2_raw['price'])), 2)
             opportunity = {
-                'market': best_underdog['market_title'],
+                'market': line_1_raw['market_title'],
                 'line_1': {
-                    'bookmaker': best_underdog['bookmaker_key'],
-                    'name': best_underdog['name'],
-                    'price': int(best_underdog['price']),
-                    'implied odd': round(calc_implied_probability(best_underdog['price']), 2)
+                    'bookmaker': line_1_raw['bookmaker_key'],
+                    'name': line_1_raw['name'],
+                    'price': int(line_1_raw['price']),
+                    'implied odd': round(calc_implied_probability(line_1_raw['price']), 2),
+                    'stake': round(stakes[0], 2)
                 },
                 'line_2': {
-                    'bookmaker': best_favorite['bookmaker_key'],
-                    'name': best_favorite['name'],
-                    'price': int(best_favorite['price']),
-                    'implied odd': round(calc_implied_probability(best_favorite['price']), 2)
+                    'bookmaker': line_2_raw['bookmaker_key'],
+                    'name': line_2_raw['name'],
+                    'price': int(line_2_raw['price']),
+                    'implied odd': round(calc_implied_probability(line_2_raw['price']), 2),
+                    'stake': round(stakes[1], 2)
                 },
                 'expected_value': expected_value,
                 'commence_time': commence_time,
                 'league': league,
                 'game_title': game_title,
-                'last_update': float(best_underdog['last_update']),
-                'id': best_underdog['bookmaker_key'] + best_favorite['bookmaker_key'] + str(
-                    best_underdog['price']) + str(
-                    best_favorite['price']) + best_underdog['market_title'] + '@' + str(expected_value),
-                'time_sent': float(best_underdog['time_sent'])
+                'last_update': float(line_1_raw['last_update']),
+                'id': line_1_raw['bookmaker_key'] + line_2_raw['bookmaker_key'] + str(
+                    line_1_raw['price']) + str(
+                    line_2_raw['price']) + line_1_raw['market_title'] + '@' + str(expected_value),
+                'time_sent': float(line_1_raw['time_sent'])
             }
             opportunities_data.append(opportunity)
 
