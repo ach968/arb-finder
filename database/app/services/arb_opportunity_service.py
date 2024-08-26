@@ -30,13 +30,13 @@ def serialize_arb_opportunity(arb_opportunity):
     }
 
 
-def save_arb_opportunity_model(api_key, sports, markets_string, time_sent):
+def save_arb_opportunity_model(api_key, sports, markets_string, time_sent,bookmakers):
     all_data = []
     processed_sports = 0
     for sport in sports:
         if not no_fly_list.get(sport):
             try:
-                template_url = f'https://api.the-odds-api.com/v4/sports/{sport}/odds/?apiKey={api_key}&bookmakers=fliff,bovada,betonlineag&markets={markets_string}&oddsFormat=american'
+                template_url = f'https://api.the-odds-api.com/v4/sports/{sport}/odds/?apiKey={api_key}&bookmakers={bookmakers}&markets={markets_string}'
                 response = urlopen(template_url)
                 data_json = json.loads(response.read())
                 df = generate_lines_df(data_json, time_sent)
