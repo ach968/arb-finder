@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",                          /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "module": "ESNext",                        /* Specify what module code is generated. */
+    "rootDir": "./",                             /* Specify the root directory of input files. */
+    "outDir": "./dist",                          /* Redirect output structure to the directory. */
+    "strict": true,                              /* Enable all strict type-checking options. */
+    "esModuleInterop": true,                     /* Emit additional JavaScript to ease support for importing CommonJS modules. */
+    "skipLibCheck": true,                        /* Skip type checking all .d.ts files. */
+    "forceConsistentCasingInFileNames": true,    /* Ensure that casing is correct in imports. */
+    "resolveJsonModule": true,                   /* Include modules imported with .json extension. */
+    "noImplicitAny": true,                       /* Raise error on expressions and declarations with an implied 'any' type. */
+    "noImplicitThis": true,                      /* Raise error on 'this' expressions with an implied 'any' type. */
+    "noUnusedLocals": true,                      /* Report errors on unused locals. */
+    "noUnusedParameters": true,                  /* Report errors on unused parameters. */
+    "noFallthroughCasesInSwitch": true,          /* Report errors for fallthrough cases in switch statements. */
+    "moduleResolution": "node",                  /* Specify module resolution strategy: 'node' (Node.js) or 'classic' (TypeScript pre-1.6). */
+    "baseUrl": ".",                              /* Base directory to resolve non-relative module names. */
+    "paths": {
+      "@controllers/*": ["controllers/*"],       /* Alias for controllers directory. */
+      "@routes/*": ["src/routes/*"]                  /* Alias for routes directory. */
+    }
+  },
+  "include": ["controllers/**/*", "src/routes/**/*", "src/index.ts"],  /* Specify the files to include in the compilation. */
+  "exclude": ["node_modules", "dist"]            /* Specify the files to exclude from the compilation. */
+}
