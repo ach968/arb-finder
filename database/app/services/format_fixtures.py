@@ -1,6 +1,7 @@
 import pandas as pd
+import re
 
-path = '/home/acheney/Downloads/epl-2023-UTC.csv'
+path = '/home/acheney/Downloads/epl-2024-UTC.csv'
 df = pd.read_csv(path)
 
 # Define the substitutions as a dictionary
@@ -15,6 +16,10 @@ substitutions = {
     'West Ham':'West Ham United',
     'Norwich':'Norwich City',
     'Sheffield Utd':'Sheffield United',
+    'Leicester':'Leicester City',
+    "Nott'm Forest": "Nottingham Forest",
+    'Ipswich':'Ipswich Town',
+    
 }
 
 
@@ -31,7 +36,9 @@ def format_fixtures():
 # Function to apply substitutions
 def apply_substitutions(text):
     for old, new in substitutions.items():
-        text = text.replace(old, new)
+        # Use regex to ensure substitution is applied only once
+        pattern = re.compile(r'\b' + re.escape(old) + r'\b')
+        text = pattern.sub(new, text)
     return text
 
 if __name__ == "__main__":

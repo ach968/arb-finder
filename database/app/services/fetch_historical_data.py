@@ -76,53 +76,75 @@ def find_arb_opportunities(df):
 
     return pd.DataFrame(opportunities)
 
-
-def pull_historical_data(data_json):
-
+def extract_data(data):
     non_draws = []
     draws = []
+    identifier = data.get("id")
+    sport_key = data.get("sport_key")
+    commence_time = data.get("commence_time")
+    home_team = data.get("home_team")
+    away_team = data.get("away_team")
+    sport_title = data.get("sport_title")
 
-    for data in data_json.get("data"):
-        identifier = data.get("id")
-        sport_key = data.get("sport_key")
-        commence_time = data.get("commence_time")
-        home_team = data.get("home_team")
-        away_team = data.get("away_team")
-        sport_title = data.get("sport_title")
+    for bookmaker in data.get("bookmakers", []):
+        bookmaker_key = bookmaker.get("key")
 
-        for bookmaker in data.get("bookmakers", []):
-            bookmaker_key = bookmaker.get("key")
+        for market in bookmaker.get("markets", []):
+            market_last_update = market.get("last_update")
+            market_title = market.get("key")
 
-            for market in bookmaker.get("markets", []):
-                market_last_update = market.get("last_update")
-                market_title = market.get("key")
-
-                for outcome in market.get("outcomes", []):
-                    name = outcome.get("name")
-                    price = outcome.get("price")
-                    new_row = {
-                        "id": identifier,
-                        "sport_key": sport_key,
-                        "bookmaker_key": bookmaker_key,
-                        "market_title": market_title,
-                        "name": name,
-                        "price": price,
-                        "last_update": market_last_update,
-                        "commence_time": commence_time,
-                        "home_team": home_team,
-                        "away_team": away_team,
-                        "sport_title": sport_title,
-                    }
-                    if name == "Draw":
-                        draws.append(new_row)
-                    else:
-                        non_draws.append(new_row)
+            for outcome in market.get("outcomes", []):
+                name = outcome.get("name")
+                price = outcome.get("price")
+                new_row = {
+                    "id": identifier,
+                    "sport_key": sport_key,
+                    "bookmaker_key": bookmaker_key,
+                    "market_title": market_title,
+                    "name": name,
+                    "price": price,
+                    "last_update": market_last_update,
+                    "commence_time": commence_time,
+                    "home_team": home_team,
+                    "away_team": away_team,
+                    "sport_title": sport_title,
+                }
+                if name == "Draw":
+                    draws.append(new_row)
+                else:
+                    non_draws.append(new_row)
     return [pd.DataFrame(draws), pd.DataFrame(non_draws)]
 
+def pull_data(data_json):
+    all_non_draws = []
+    all_draws  = []
+    
 
-def run_test():
-    start_date = datetime.date(2023, 8, 1)
-    end_date = datetime.date(2024,5, 30)
+    try:
+        for data in data_json.get("data"):
+            all_non_draws.append(extract_data(data)[1])
+            all_draws.append(extract_data(data)[0])
+    except Exception as e:
+        for data in data_json:
+            all_non_draws.append(extract_data(data)[1])
+            all_draws.append(extract_data(data)[0])
+    return [pd.concat(all_draws), pd.concat(all_non_draws)]
+        
+
+def run_fetch_current():
+    template_url = "https://api.the-odds-api.com/v4/sports/soccer_epl/odds/?apiKey=a06923bffa794007036e956d4a22e3cb&bookmakers=bovada,fliff,betonlineag&markets=h2h"
+    try:
+        response = urlopen(template_url)
+        data_json = json.loads(response.read())
+        df_list = pull_data(data_json=data_json)
+        export_dataframe_to_csv(df_list[0], "draws_current.csv")
+        export_dataframe_to_csv(find_arb_opportunities(df_list[1]), "arb_opportunities_current.csv")
+    except Exception as e:
+        print(f'error fetching data: {e}')
+
+def run_fetch_historical():
+    start_date = datetime.date(2024, 8, 1)
+    end_date = datetime.date(2024,8, 30)
 
     arb_data = []
     draws = []
@@ -134,16 +156,17 @@ def run_test():
             try:
                 response = urlopen(template_url)
                 data_json = json.loads(response.read())
-                df_list = pull_historical_data(data_json=data_json)
+                df_list = pull_data(data_json=data_json)
                 draws.append(df_list[0])
                 arb_data.append(find_arb_opportunities(df_list[1]))
             except Exception as e:
                 print(f'error fetching data for {current_date}: {e}')
 
         current_date += datetime.timedelta(days=1)
-    export_dataframe_to_csv(pd.concat(arb_data), "arb_opportunities.csv")
-    export_dataframe_to_csv(pd.concat(draws), "draws.csv")
+    export_dataframe_to_csv(pd.concat(arb_data), "arb_opportunities_historical.csv")
+    export_dataframe_to_csv(pd.concat(draws), "draws_historical.csv")
 
 
 if __name__ == "__main__":
-    run_test()
+    run_fetch_historical()
+    # run_fetch_current()

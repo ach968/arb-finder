@@ -1,0 +1,49 @@
+id,sport_key,bookmaker_key,market_title,name,price,last_update,commence_time,home_team,away_team,sport_title
+055f48ea54ea77ffa2b16ef7310b04b6,soccer_epl,fliff,h2h,Draw,5.15,2024-08-31T00:25:52Z,2024-08-31T11:30:00Z,Arsenal,Brighton and Hove Albion,EPL
+055f48ea54ea77ffa2b16ef7310b04b6,soccer_epl,bovada,h2h,Draw,5.4,2024-08-31T00:25:51Z,2024-08-31T11:30:00Z,Arsenal,Brighton and Hove Albion,EPL
+055f48ea54ea77ffa2b16ef7310b04b6,soccer_epl,betonlineag,h2h,Draw,5.52,2024-08-31T00:24:40Z,2024-08-31T11:30:00Z,Arsenal,Brighton and Hove Albion,EPL
+2e24cd63783632e9f73604e972e830a8,soccer_epl,fliff,h2h,Draw,3.75,2024-08-31T00:25:52Z,2024-08-31T14:00:00Z,Leicester City,Aston Villa,EPL
+2e24cd63783632e9f73604e972e830a8,soccer_epl,bovada,h2h,Draw,4.0,2024-08-31T00:25:51Z,2024-08-31T14:00:00Z,Leicester City,Aston Villa,EPL
+2e24cd63783632e9f73604e972e830a8,soccer_epl,betonlineag,h2h,Draw,3.95,2024-08-31T00:24:40Z,2024-08-31T14:00:00Z,Leicester City,Aston Villa,EPL
+dcf1380413740a8f8ee4c016c8550ea8,soccer_epl,fliff,h2h,Draw,3.35,2024-08-31T00:25:52Z,2024-08-31T14:00:00Z,Everton,Bournemouth,EPL
+dcf1380413740a8f8ee4c016c8550ea8,soccer_epl,bovada,h2h,Draw,3.45,2024-08-31T00:25:51Z,2024-08-31T14:00:00Z,Everton,Bournemouth,EPL
+dcf1380413740a8f8ee4c016c8550ea8,soccer_epl,betonlineag,h2h,Draw,3.37,2024-08-31T00:24:40Z,2024-08-31T14:00:00Z,Everton,Bournemouth,EPL
+5c835569c5bedfa3ef295b5ef1118dbf,soccer_epl,fliff,h2h,Draw,3.7,2024-08-31T00:25:52Z,2024-08-31T14:00:00Z,Brentford,Southampton,EPL
+5c835569c5bedfa3ef295b5ef1118dbf,soccer_epl,bovada,h2h,Draw,3.9,2024-08-31T00:25:51Z,2024-08-31T14:00:00Z,Brentford,Southampton,EPL
+5c835569c5bedfa3ef295b5ef1118dbf,soccer_epl,betonlineag,h2h,Draw,3.88,2024-08-31T00:24:40Z,2024-08-31T14:00:00Z,Brentford,Southampton,EPL
+3fdb1474ffc8380ef82bb299afbac88f,soccer_epl,fliff,h2h,Draw,3.35,2024-08-31T00:25:52Z,2024-08-31T14:00:00Z,Ipswich Town,Fulham,EPL
+3fdb1474ffc8380ef82bb299afbac88f,soccer_epl,bovada,h2h,Draw,3.55,2024-08-31T00:25:51Z,2024-08-31T14:00:00Z,Ipswich Town,Fulham,EPL
+3fdb1474ffc8380ef82bb299afbac88f,soccer_epl,betonlineag,h2h,Draw,3.52,2024-08-31T00:24:40Z,2024-08-31T14:00:00Z,Ipswich Town,Fulham,EPL
+8b1906ff17c3bb18eb23409f223a4895,soccer_epl,fliff,h2h,Draw,3.5,2024-08-31T00:25:52Z,2024-08-31T14:00:00Z,Nottingham Forest,Wolverhampton Wanderers,EPL
+8b1906ff17c3bb18eb23409f223a4895,soccer_epl,bovada,h2h,Draw,3.6,2024-08-31T00:25:51Z,2024-08-31T14:00:00Z,Nottingham Forest,Wolverhampton Wanderers,EPL
+8b1906ff17c3bb18eb23409f223a4895,soccer_epl,betonlineag,h2h,Draw,3.61,2024-08-31T00:24:40Z,2024-08-31T14:00:00Z,Nottingham Forest,Wolverhampton Wanderers,EPL
+c9109e8a707da4eb673f2cfcef34bd15,soccer_epl,fliff,h2h,Draw,5.35,2024-08-31T00:25:52Z,2024-08-31T16:30:00Z,West Ham United,Manchester City,EPL
+c9109e8a707da4eb673f2cfcef34bd15,soccer_epl,bovada,h2h,Draw,5.6,2024-08-31T00:25:51Z,2024-08-31T16:30:00Z,West Ham United,Manchester City,EPL
+c9109e8a707da4eb673f2cfcef34bd15,soccer_epl,betonlineag,h2h,Draw,5.75,2024-08-31T00:24:40Z,2024-08-31T16:30:00Z,West Ham United,Manchester City,EPL
+fc3ce4f31b7fe23e3d8eccd0c12ebfbf,soccer_epl,fliff,h2h,Draw,4.2,2024-08-31T00:25:52Z,2024-09-01T12:30:00Z,Chelsea,Crystal Palace,EPL
+fc3ce4f31b7fe23e3d8eccd0c12ebfbf,soccer_epl,bovada,h2h,Draw,4.5,2024-08-31T00:25:51Z,2024-09-01T12:30:00Z,Chelsea,Crystal Palace,EPL
+fc3ce4f31b7fe23e3d8eccd0c12ebfbf,soccer_epl,betonlineag,h2h,Draw,4.46,2024-08-31T00:24:40Z,2024-09-01T12:30:00Z,Chelsea,Crystal Palace,EPL
+36c348ee3ab335d09cabd3a112caaa4a,soccer_epl,fliff,h2h,Draw,3.8,2024-08-31T00:25:52Z,2024-09-01T12:30:00Z,Newcastle United,Tottenham Hotspur,EPL
+36c348ee3ab335d09cabd3a112caaa4a,soccer_epl,bovada,h2h,Draw,4.1,2024-08-31T00:25:51Z,2024-09-01T12:30:00Z,Newcastle United,Tottenham Hotspur,EPL
+36c348ee3ab335d09cabd3a112caaa4a,soccer_epl,betonlineag,h2h,Draw,3.98,2024-08-31T00:24:40Z,2024-09-01T12:30:00Z,Newcastle United,Tottenham Hotspur,EPL
+eb749753d96a4af7d4a56f949573a279,soccer_epl,fliff,h2h,Draw,4.05,2024-08-31T00:25:52Z,2024-09-01T15:00:00Z,Manchester United,Liverpool,EPL
+eb749753d96a4af7d4a56f949573a279,soccer_epl,bovada,h2h,Draw,4.3,2024-08-31T00:25:51Z,2024-09-01T15:00:00Z,Manchester United,Liverpool,EPL
+eb749753d96a4af7d4a56f949573a279,soccer_epl,betonlineag,h2h,Draw,4.29,2024-08-31T00:24:40Z,2024-09-01T15:00:00Z,Manchester United,Liverpool,EPL
+91621ce0ca027651f08e4080857a5b57,soccer_epl,bovada,h2h,Draw,3.85,2024-08-31T00:25:51Z,2024-09-14T11:30:00Z,Southampton,Manchester United,EPL
+91621ce0ca027651f08e4080857a5b57,soccer_epl,fliff,h2h,Draw,3.6,2024-08-31T00:25:52Z,2024-09-14T11:30:00Z,Southampton,Manchester United,EPL
+06fc08971a7e70e236a5786ba0dc671b,soccer_epl,bovada,h2h,Draw,7.75,2024-08-31T00:25:51Z,2024-09-14T14:00:00Z,Manchester City,Brentford,EPL
+06fc08971a7e70e236a5786ba0dc671b,soccer_epl,fliff,h2h,Draw,7.55,2024-08-31T00:25:52Z,2024-09-14T14:00:00Z,Manchester City,Brentford,EPL
+ab9e62ee5632bc66cd23609a25a44812,soccer_epl,bovada,h2h,Draw,5.2,2024-08-31T00:25:51Z,2024-09-14T14:00:00Z,Brighton and Hove Albion,Ipswich Town,EPL
+ab9e62ee5632bc66cd23609a25a44812,soccer_epl,fliff,h2h,Draw,4.8,2024-08-31T00:25:52Z,2024-09-14T14:00:00Z,Brighton and Hove Albion,Ipswich Town,EPL
+c3b563ad6f5007355d9c0ce0e7e6f13e,soccer_epl,bovada,h2h,Draw,4.1,2024-08-31T00:25:51Z,2024-09-14T14:00:00Z,Crystal Palace,Leicester City,EPL
+c3b563ad6f5007355d9c0ce0e7e6f13e,soccer_epl,fliff,h2h,Draw,3.9,2024-08-31T00:25:52Z,2024-09-14T14:00:00Z,Crystal Palace,Leicester City,EPL
+3281d26485c4d33951cad339a09a59f0,soccer_epl,bovada,h2h,Draw,3.4,2024-08-31T00:25:51Z,2024-09-14T14:00:00Z,Fulham,West Ham United,EPL
+3281d26485c4d33951cad339a09a59f0,soccer_epl,fliff,h2h,Draw,3.35,2024-08-31T00:25:52Z,2024-09-14T14:00:00Z,Fulham,West Ham United,EPL
+432d58690dfca587c142527282d0d3a0,soccer_epl,bovada,h2h,Draw,7.0,2024-08-31T00:25:51Z,2024-09-14T14:00:00Z,Liverpool,Nottingham Forest,EPL
+432d58690dfca587c142527282d0d3a0,soccer_epl,fliff,h2h,Draw,6.6,2024-08-31T00:25:52Z,2024-09-14T14:00:00Z,Liverpool,Nottingham Forest,EPL
+e65a3a170d3def0f9d050d9aa1e1199a,soccer_epl,bovada,h2h,Draw,4.7,2024-08-31T00:25:51Z,2024-09-14T16:30:00Z,Aston Villa,Everton,EPL
+e65a3a170d3def0f9d050d9aa1e1199a,soccer_epl,fliff,h2h,Draw,4.25,2024-08-31T00:25:52Z,2024-09-14T16:30:00Z,Aston Villa,Everton,EPL
+5840ea1125fa92be303c1f8673c8d1c3,soccer_epl,bovada,h2h,Draw,3.75,2024-08-31T00:25:51Z,2024-09-14T19:00:00Z,Bournemouth,Chelsea,EPL
+5840ea1125fa92be303c1f8673c8d1c3,soccer_epl,fliff,h2h,Draw,3.65,2024-08-31T00:25:52Z,2024-09-14T19:00:00Z,Bournemouth,Chelsea,EPL
+2c13d2c658170f1809caf0bc268382ad,soccer_epl,bovada,h2h,Draw,3.65,2024-08-31T00:25:51Z,2024-09-15T13:00:00Z,Tottenham Hotspur,Arsenal,EPL
+0e7c9c96cdb69a3f7c4c03d756878c76,soccer_epl,bovada,h2h,Draw,3.45,2024-08-31T00:25:51Z,2024-09-15T15:30:00Z,Wolverhampton Wanderers,Newcastle United,EPL
