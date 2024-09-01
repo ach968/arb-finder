@@ -39,15 +39,20 @@ def arb_opportunity_blueprint_post():
     bookmakers = data.get("bookmakers")
     if not bookmakers:
         return jsonify({"error": "missing bookmakers information"}), 400
+    regions = data.get("regions")
+    if not regions:
+        return jsonify({"error": "missing regions information"}), 400
 
     markets_string = ",".join(markets_list)
     bookmakers_string = ",".join(bookmakers)
+    regions_string = ",".join(regions)
     outcome = save_arb_opportunity_model(
         api_key=api_key,
         sports=sports,
         markets_string=markets_string,
         time_sent=time_sent,
         bookmakers=bookmakers_string,
+        regions=regions_string
     )
     try:
         logger.info(outcome)

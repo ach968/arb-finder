@@ -19,7 +19,7 @@ def find_expected_value():
         print(f"\nImplied probability of {odd1} (odd 1): {round(calc_implied_probability(odd1)*100,2)}%")
         print(f"Implied probability of {odd2} (odd 2): {round(calc_implied_probability(odd2)*100,2)}%")
         print(
-            f"\nExpected value: {round(expected_value*100,2)}% \nStake on {odd1}: {round(output[0]*100,2)}%\nStake on {odd2}: {round(output[1]*100,2)}%"
+            f"\nExpected value: {round(100-(expected_value*100),2)}% \nStake on {odd1}: {round(output[0]*100,2)}%\nStake on {odd2}: {round(output[1]*100,2)}%"
         )
         # print(f"\nExpected payout: %{round(expected_payout * 100,2)}%")
         cont = input('\nX to exit: ')
