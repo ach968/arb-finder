@@ -28,7 +28,7 @@ def save_arb_opportunity_model(
     processed_sports = 0
     for sport in sports:
         if not no_fly_list.get(sport):
-            template_url = f"https://api.the-odds-api.com/v4/sports/{sport}/odds/?apiKey={api_key}&markets={markets_string}&regions={regions}&oddsFormat=american"
+            template_url = f"https://api.the-odds-api.com/v4/sports/{sport}/odds/?apiKey={api_key}&markets={markets_string}&regions={regions}&oddsFormat=american&bookmakers={bookmakers}"
             try:
                 response = urlopen(template_url)
                 data_json = json.loads(response.read())
@@ -64,7 +64,7 @@ def save_arb_opportunity_model(
 
 def find_arb_opportunities(dfs):
     try:
-        totals_arbs = find_totals_arbs(dfs[1])
+        totals_arbs = find_totals_spreads_arbs(dfs[1])
     except Exception as e:
         totals_arbs = []
     try:
@@ -79,7 +79,7 @@ def find_arb_opportunities(dfs):
     return totals_arbs + two_way_h2h_arbs
 
 
-def find_totals_arbs(df):
+def find_totals_spreads_arbs(df):
     arbs_data = []
     grouped_df = df.groupby("identifier")
     for current_id, group in grouped_df:

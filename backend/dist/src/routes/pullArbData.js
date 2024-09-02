@@ -111,7 +111,7 @@ router.get("/", async (_req, res) => {
             sports: l2,
             markets: ["h2h", "totals", "spreads"],
             time_sent: Date.now() / 1000, // Current time in seconds
-            bookmakers: ["bovada,fliff,betonlineag,draftkings,fanduel,bet365,betmgm,betrivers,betus,"],
+            bookmakers: ["bovada,fliff,betonlineag,draftkings,fanduel,bet365,betmgm,betrivers,betus"],
             regions: ["us", "us2"],
         };
         const response = await axios.post("http://localhost:5000/api/arb_opportunity", requestBody, {
