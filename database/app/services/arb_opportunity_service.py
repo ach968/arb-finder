@@ -28,8 +28,8 @@ def save_arb_opportunity_model(
     processed_sports = 0
     for sport in sports:
         if not no_fly_list.get(sport):
+            template_url = f"https://api.the-odds-api.com/v4/sports/{sport}/odds/?apiKey={api_key}&markets={markets_string}&regions={regions}&oddsFormat=american"
             try:
-                template_url = f"https://api.the-odds-api.com/v4/sports/{sport}/odds/?apiKey={api_key}&markets={markets_string}&regions={regions}&oddsFormat=american"
                 response = urlopen(template_url)
                 data_json = json.loads(response.read())
                 dfs = generate_lines_df(data_json, time_sent)
@@ -63,13 +63,23 @@ def save_arb_opportunity_model(
 
 
 def find_arb_opportunities(dfs):
-    two_way_h2h_arbs = find_two_way_h2h_arbs(dfs[0])
-    totals_spreads_arbs = find_totals_spreads_arbs(dfs[1])
-    # three_way_h2h_arbs = find_three_way_h2h_arbs(dfs[2])
-    return totals_spreads_arbs + two_way_h2h_arbs
+    try:
+        totals_arbs = find_totals_arbs(dfs[1])
+    except Exception as e:
+        totals_arbs = []
+    try:
+        two_way_h2h_arbs = find_two_way_h2h_arbs(dfs[0])
+    except Exception as e:
+        two_way_h2h_arbs = []
+    # try:
+    #     three_way_h2h_arbs = find_three_way_h2h_arbs(dfs[2])
+    # except Exception as e:
+    #     three_way_h2h_arbs = []
+        
+    return totals_arbs + two_way_h2h_arbs
 
 
-def find_totals_spreads_arbs(df):
+def find_totals_arbs(df):
     arbs_data = []
     grouped_df = df.groupby("identifier")
     for current_id, group in grouped_df:
@@ -86,16 +96,25 @@ def find_totals_spreads_arbs(df):
                         calc_expected_value(odd1=odd_1,odd2=odd_2), 2
                     )
 
-                    condition1 = line_1_raw["point"] == line_2_raw["point"]
+                    condition1 = False
+                    if line_1_raw["market_title"] == "spreads" and line_2_raw["market_title"] == "spreads":
+                        if line_1_raw["point"] == -line_2_raw["point"]:
+                            condition1 = True
+                    elif line_1_raw["market_title"] == "totals" and line_2_raw["market_title"] == "totals":
+                        if line_1_raw["point"] == line_2_raw["point"]:
+                            condition1 = True
+
+                    
                     condition2 = (
                         line_1_raw["name"] != line_2_raw["name"]
                     )
                     condition3 = expected_value > 0
                     
+                    stakes = calc_stake_size(
+                        odd1=odd_1, odd2=odd_2
+                    )
+
                     if condition1 and condition2 and condition3:
-                        stakes = calc_stake_size(
-                            odd1=odd_1, odd2=odd_2
-                        )
                         arb = {
                             "market": line_1_raw["market_title"],
                             "line_1": {
@@ -154,8 +173,8 @@ def find_two_way_h2h_arbs(df):
                 calc_expected_value(odd1=odd_1,odd2=odd_2), 2
             )
             condition1 = expected_value > 0
-            condition2 = line_1_raw["name"] != line_2_raw["name"]
-            if condition1 and condition2:
+            # condition2 = line_1_raw["name"] != line_2_raw["name"]
+            if condition1:
                 stakes = calc_stake_size(odd1=odd_1,odd2=odd_2)
                 arb = {
                     "market": line_1_raw["market_title"],
@@ -196,7 +215,7 @@ def find_two_way_h2h_arbs(df):
 
 
 def generate_lines_df(data_json, time_sent):
-    totals_spreads = []
+    totals_spreads= []
     two_way_h2h = []
     three_way_h2h = []
 
@@ -236,10 +255,12 @@ def generate_lines_df(data_json, time_sent):
                     if len(market.get("outcomes", [])) > 2:
                         three_way_h2h.append(new_row)
                     else:
-                        if new_row["point"]:
+                        if new_row["market_title"]=="totals":
                             totals_spreads.append(new_row)
-                        else:
+                        elif new_row["market_title"]=="h2h":
                             two_way_h2h.append(new_row)
+                        elif new_row["market_title"]=="spreads":
+                            totals_spreads.append(new_row)
 
     return [
         pd.DataFrame(two_way_h2h),

@@ -28,7 +28,7 @@ no_fly_list = {
     "politics_us_presidential_election_winner": True,
     "rugbyleague_nrl": True,
     "soccer_argentina_primera_division": False,
-    "soccer_austria_bundesliga": False,
+    "soccer_austria_bundesliga": True,
     "soccer_belgium_first_div": True,
     "soccer_brazil_campeonato": True,
     "soccer_brazil_serie_b": True,
