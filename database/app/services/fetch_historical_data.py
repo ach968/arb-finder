@@ -143,8 +143,8 @@ def run_fetch_current():
         print(f'error fetching data: {e}')
 
 def run_fetch_historical():
-    start_date = datetime.date(2024, 8, 1)
-    end_date = datetime.date(2024,8, 30)
+    start_date = datetime.date(2020, 8, 1)
+    end_date = datetime.date(2021,5, 30)
 
     arb_data = []
     draws = []

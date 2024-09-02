@@ -29,7 +29,7 @@ def save_arb_opportunity_model(
     for sport in sports:
         if not no_fly_list.get(sport):
             try:
-                template_url = f"https://api.the-odds-api.com/v4/sports/{sport}/odds/?apiKey={api_key}&bookmakers={bookmakers}&markets={markets_string}&regions={regions}&oddsFormat=american"
+                template_url = f"https://api.the-odds-api.com/v4/sports/{sport}/odds/?apiKey={api_key}&markets={markets_string}&regions={regions}&oddsFormat=american"
                 response = urlopen(template_url)
                 data_json = json.loads(response.read())
                 dfs = generate_lines_df(data_json, time_sent)

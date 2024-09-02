@@ -1,89 +1,891 @@
 id,sport_key,bookmaker_key,market_title,name,price,last_update,commence_time,home_team,away_team,sport_title
-7579d22151b7be3f590e9e338de9dff6,soccer_epl,betonlineag,h2h,Draw,4.44,2024-08-05T11:58:29Z,2024-08-16T19:00:00Z,Manchester United,Fulham,EPL
-7579d22151b7be3f590e9e338de9dff6,soccer_epl,bovada,h2h,Draw,4.8,2024-08-05T11:59:43Z,2024-08-16T19:00:00Z,Manchester United,Fulham,EPL
-7579d22151b7be3f590e9e338de9dff6,soccer_epl,fliff,h2h,Draw,4.45,2024-08-05T12:00:20Z,2024-08-16T19:00:00Z,Manchester United,Fulham,EPL
-295b86b1f5f7bc00e459da5b998cba57,soccer_epl,betonlineag,h2h,Draw,5.4,2024-08-05T11:58:29Z,2024-08-17T11:30:00Z,Ipswich Town,Liverpool,EPL
-295b86b1f5f7bc00e459da5b998cba57,soccer_epl,bovada,h2h,Draw,6.0,2024-08-05T11:59:43Z,2024-08-17T11:30:00Z,Ipswich Town,Liverpool,EPL
-295b86b1f5f7bc00e459da5b998cba57,soccer_epl,fliff,h2h,Draw,5.15,2024-08-05T12:00:20Z,2024-08-17T11:30:00Z,Ipswich Town,Liverpool,EPL
-9d2b152101cb8d09b84f6c58728d9e41,soccer_epl,betonlineag,h2h,Draw,7.5,2024-08-05T11:58:29Z,2024-08-17T14:00:00Z,Arsenal,Wolverhampton Wanderers,EPL
-9d2b152101cb8d09b84f6c58728d9e41,soccer_epl,bovada,h2h,Draw,6.75,2024-08-05T11:59:43Z,2024-08-17T14:00:00Z,Arsenal,Wolverhampton Wanderers,EPL
-9d2b152101cb8d09b84f6c58728d9e41,soccer_epl,fliff,h2h,Draw,6.5,2024-08-05T12:00:20Z,2024-08-17T14:00:00Z,Arsenal,Wolverhampton Wanderers,EPL
-e09a13134dbd8919ccc4805a59984ddc,soccer_epl,betonlineag,h2h,Draw,3.65,2024-08-05T11:58:29Z,2024-08-17T14:00:00Z,Nottingham Forest,Bournemouth,EPL
-e09a13134dbd8919ccc4805a59984ddc,soccer_epl,bovada,h2h,Draw,3.6,2024-08-05T11:59:43Z,2024-08-17T14:00:00Z,Nottingham Forest,Bournemouth,EPL
-e09a13134dbd8919ccc4805a59984ddc,soccer_epl,fliff,h2h,Draw,3.45,2024-08-05T12:00:20Z,2024-08-17T14:00:00Z,Nottingham Forest,Bournemouth,EPL
-1ded735e9bdcd609e5bd48cb1ba05c8e,soccer_epl,betonlineag,h2h,Draw,3.45,2024-08-05T11:58:29Z,2024-08-17T14:00:00Z,Everton,Brighton and Hove Albion,EPL
-1ded735e9bdcd609e5bd48cb1ba05c8e,soccer_epl,bovada,h2h,Draw,3.45,2024-08-05T11:59:43Z,2024-08-17T14:00:00Z,Everton,Brighton and Hove Albion,EPL
-1ded735e9bdcd609e5bd48cb1ba05c8e,soccer_epl,fliff,h2h,Draw,3.4,2024-08-05T12:00:20Z,2024-08-17T14:00:00Z,Everton,Brighton and Hove Albion,EPL
-9520b4cd30c7dd2f25346dea1e0cb685,soccer_epl,betonlineag,h2h,Draw,5.45,2024-08-05T11:58:29Z,2024-08-17T14:00:00Z,Newcastle United,Southampton,EPL
-9520b4cd30c7dd2f25346dea1e0cb685,soccer_epl,bovada,h2h,Draw,5.4,2024-08-05T11:59:43Z,2024-08-17T14:00:00Z,Newcastle United,Southampton,EPL
-9520b4cd30c7dd2f25346dea1e0cb685,soccer_epl,fliff,h2h,Draw,5.25,2024-08-05T12:00:20Z,2024-08-17T14:00:00Z,Newcastle United,Southampton,EPL
-846ea0dcf3f8e6e3259bafdbd9de736c,soccer_epl,betonlineag,h2h,Draw,3.62,2024-08-05T11:58:29Z,2024-08-17T16:30:00Z,West Ham United,Aston Villa,EPL
-846ea0dcf3f8e6e3259bafdbd9de736c,soccer_epl,bovada,h2h,Draw,3.55,2024-08-05T11:59:43Z,2024-08-17T16:30:00Z,West Ham United,Aston Villa,EPL
-846ea0dcf3f8e6e3259bafdbd9de736c,soccer_epl,fliff,h2h,Draw,3.55,2024-08-05T12:00:20Z,2024-08-17T16:30:00Z,West Ham United,Aston Villa,EPL
-291eafbf7314c7e76ef9c4d5fcfc51f7,soccer_epl,betonlineag,h2h,Draw,3.5,2024-08-05T11:58:29Z,2024-08-18T13:00:00Z,Brentford,Crystal Palace,EPL
-291eafbf7314c7e76ef9c4d5fcfc51f7,soccer_epl,bovada,h2h,Draw,3.35,2024-08-05T11:59:43Z,2024-08-18T13:00:00Z,Brentford,Crystal Palace,EPL
-291eafbf7314c7e76ef9c4d5fcfc51f7,soccer_epl,fliff,h2h,Draw,3.35,2024-08-05T12:00:20Z,2024-08-18T13:00:00Z,Brentford,Crystal Palace,EPL
-fa18efa02f086a86224b6c5bfc582d70,soccer_epl,betonlineag,h2h,Draw,4.02,2024-08-05T11:58:29Z,2024-08-18T15:30:00Z,Chelsea,Manchester City,EPL
-fa18efa02f086a86224b6c5bfc582d70,soccer_epl,bovada,h2h,Draw,3.95,2024-08-05T11:59:43Z,2024-08-18T15:30:00Z,Chelsea,Manchester City,EPL
-fa18efa02f086a86224b6c5bfc582d70,soccer_epl,fliff,h2h,Draw,3.9,2024-08-05T12:00:20Z,2024-08-18T15:30:00Z,Chelsea,Manchester City,EPL
-36808dc52374b40df08cab6b1d5664d1,soccer_epl,betonlineag,h2h,Draw,4.18,2024-08-05T11:58:29Z,2024-08-19T19:00:00Z,Leicester City,Tottenham Hotspur,EPL
-36808dc52374b40df08cab6b1d5664d1,soccer_epl,bovada,h2h,Draw,4.1,2024-08-05T11:59:43Z,2024-08-19T19:00:00Z,Leicester City,Tottenham Hotspur,EPL
-36808dc52374b40df08cab6b1d5664d1,soccer_epl,fliff,h2h,Draw,4.05,2024-08-05T12:00:20Z,2024-08-19T19:00:00Z,Leicester City,Tottenham Hotspur,EPL
-7579d22151b7be3f590e9e338de9dff6,soccer_epl,betonlineag,h2h,Draw,4.42,2024-08-15T11:58:23Z,2024-08-16T19:00:00Z,Manchester United,Fulham,EPL
-7579d22151b7be3f590e9e338de9dff6,soccer_epl,bovada,h2h,Draw,4.5,2024-08-15T11:59:59Z,2024-08-16T19:00:00Z,Manchester United,Fulham,EPL
-7579d22151b7be3f590e9e338de9dff6,soccer_epl,fliff,h2h,Draw,4.2,2024-08-15T11:59:59Z,2024-08-16T19:00:00Z,Manchester United,Fulham,EPL
-295b86b1f5f7bc00e459da5b998cba57,soccer_epl,betonlineag,h2h,Draw,5.67,2024-08-15T11:58:23Z,2024-08-17T11:30:00Z,Ipswich Town,Liverpool,EPL
-295b86b1f5f7bc00e459da5b998cba57,soccer_epl,bovada,h2h,Draw,6.0,2024-08-15T11:59:59Z,2024-08-17T11:30:00Z,Ipswich Town,Liverpool,EPL
-295b86b1f5f7bc00e459da5b998cba57,soccer_epl,fliff,h2h,Draw,5.4,2024-08-15T11:59:59Z,2024-08-17T11:30:00Z,Ipswich Town,Liverpool,EPL
-9d2b152101cb8d09b84f6c58728d9e41,soccer_epl,betonlineag,h2h,Draw,7.6,2024-08-15T11:58:23Z,2024-08-17T14:00:00Z,Arsenal,Wolverhampton Wanderers,EPL
-9d2b152101cb8d09b84f6c58728d9e41,soccer_epl,bovada,h2h,Draw,7.0,2024-08-15T11:59:59Z,2024-08-17T14:00:00Z,Arsenal,Wolverhampton Wanderers,EPL
-9d2b152101cb8d09b84f6c58728d9e41,soccer_epl,fliff,h2h,Draw,7.0,2024-08-15T11:59:59Z,2024-08-17T14:00:00Z,Arsenal,Wolverhampton Wanderers,EPL
-e09a13134dbd8919ccc4805a59984ddc,soccer_epl,betonlineag,h2h,Draw,3.46,2024-08-15T11:58:23Z,2024-08-17T14:00:00Z,Nottingham Forest,Bournemouth,EPL
-e09a13134dbd8919ccc4805a59984ddc,soccer_epl,bovada,h2h,Draw,3.55,2024-08-15T11:59:59Z,2024-08-17T14:00:00Z,Nottingham Forest,Bournemouth,EPL
-e09a13134dbd8919ccc4805a59984ddc,soccer_epl,fliff,h2h,Draw,3.35,2024-08-15T11:59:59Z,2024-08-17T14:00:00Z,Nottingham Forest,Bournemouth,EPL
-1ded735e9bdcd609e5bd48cb1ba05c8e,soccer_epl,betonlineag,h2h,Draw,3.46,2024-08-15T11:58:23Z,2024-08-17T14:00:00Z,Everton,Brighton and Hove Albion,EPL
-1ded735e9bdcd609e5bd48cb1ba05c8e,soccer_epl,bovada,h2h,Draw,3.45,2024-08-15T11:59:59Z,2024-08-17T14:00:00Z,Everton,Brighton and Hove Albion,EPL
-1ded735e9bdcd609e5bd48cb1ba05c8e,soccer_epl,fliff,h2h,Draw,3.3,2024-08-15T11:59:59Z,2024-08-17T14:00:00Z,Everton,Brighton and Hove Albion,EPL
-9520b4cd30c7dd2f25346dea1e0cb685,soccer_epl,betonlineag,h2h,Draw,5.65,2024-08-15T11:58:23Z,2024-08-17T14:00:00Z,Newcastle United,Southampton,EPL
-9520b4cd30c7dd2f25346dea1e0cb685,soccer_epl,bovada,h2h,Draw,5.6,2024-08-15T11:59:59Z,2024-08-17T14:00:00Z,Newcastle United,Southampton,EPL
-9520b4cd30c7dd2f25346dea1e0cb685,soccer_epl,fliff,h2h,Draw,5.25,2024-08-15T11:59:59Z,2024-08-17T14:00:00Z,Newcastle United,Southampton,EPL
-846ea0dcf3f8e6e3259bafdbd9de736c,soccer_epl,betonlineag,h2h,Draw,3.66,2024-08-15T11:58:23Z,2024-08-17T16:30:00Z,West Ham United,Aston Villa,EPL
-846ea0dcf3f8e6e3259bafdbd9de736c,soccer_epl,bovada,h2h,Draw,3.65,2024-08-15T11:59:59Z,2024-08-17T16:30:00Z,West Ham United,Aston Villa,EPL
-846ea0dcf3f8e6e3259bafdbd9de736c,soccer_epl,fliff,h2h,Draw,3.5,2024-08-15T11:59:59Z,2024-08-17T16:30:00Z,West Ham United,Aston Villa,EPL
-291eafbf7314c7e76ef9c4d5fcfc51f7,soccer_epl,betonlineag,h2h,Draw,3.45,2024-08-15T11:58:23Z,2024-08-18T13:00:00Z,Brentford,Crystal Palace,EPL
-291eafbf7314c7e76ef9c4d5fcfc51f7,soccer_epl,bovada,h2h,Draw,3.35,2024-08-15T11:59:59Z,2024-08-18T13:00:00Z,Brentford,Crystal Palace,EPL
-291eafbf7314c7e76ef9c4d5fcfc51f7,soccer_epl,fliff,h2h,Draw,3.3,2024-08-15T11:59:59Z,2024-08-18T13:00:00Z,Brentford,Crystal Palace,EPL
-fa18efa02f086a86224b6c5bfc582d70,soccer_epl,betonlineag,h2h,Draw,4.0,2024-08-15T11:58:23Z,2024-08-18T15:30:00Z,Chelsea,Manchester City,EPL
-fa18efa02f086a86224b6c5bfc582d70,soccer_epl,bovada,h2h,Draw,4.1,2024-08-15T11:59:59Z,2024-08-18T15:30:00Z,Chelsea,Manchester City,EPL
-fa18efa02f086a86224b6c5bfc582d70,soccer_epl,fliff,h2h,Draw,3.8,2024-08-15T11:59:59Z,2024-08-18T15:30:00Z,Chelsea,Manchester City,EPL
-36808dc52374b40df08cab6b1d5664d1,soccer_epl,betonlineag,h2h,Draw,4.4,2024-08-15T11:58:23Z,2024-08-19T19:00:00Z,Leicester City,Tottenham Hotspur,EPL
-36808dc52374b40df08cab6b1d5664d1,soccer_epl,bovada,h2h,Draw,4.5,2024-08-15T11:59:59Z,2024-08-19T19:00:00Z,Leicester City,Tottenham Hotspur,EPL
-36808dc52374b40df08cab6b1d5664d1,soccer_epl,fliff,h2h,Draw,4.15,2024-08-15T11:59:59Z,2024-08-19T19:00:00Z,Leicester City,Tottenham Hotspur,EPL
-9dbb0c7273505daf36408bfb5b1eaa56,soccer_epl,bovada,h2h,Draw,3.75,2024-08-25T12:00:27Z,2024-08-25T13:00:00Z,Bournemouth,Newcastle United,EPL
-9dbb0c7273505daf36408bfb5b1eaa56,soccer_epl,betonlineag,h2h,Draw,3.66,2024-08-25T12:00:28Z,2024-08-25T13:00:00Z,Bournemouth,Newcastle United,EPL
-9dbb0c7273505daf36408bfb5b1eaa56,soccer_epl,fliff,h2h,Draw,3.5,2024-08-25T12:00:28Z,2024-08-25T13:00:00Z,Bournemouth,Newcastle United,EPL
-261a430bdad4c5c78dd76feb5680e2d5,soccer_epl,fliff,h2h,Draw,3.75,2024-08-25T12:00:28Z,2024-08-25T13:00:00Z,Wolverhampton Wanderers,Chelsea,EPL
-261a430bdad4c5c78dd76feb5680e2d5,soccer_epl,bovada,h2h,Draw,4.0,2024-08-25T12:00:27Z,2024-08-25T13:00:00Z,Wolverhampton Wanderers,Chelsea,EPL
-261a430bdad4c5c78dd76feb5680e2d5,soccer_epl,betonlineag,h2h,Draw,3.97,2024-08-25T12:00:28Z,2024-08-25T13:00:00Z,Wolverhampton Wanderers,Chelsea,EPL
-9d9884791a08209708a26ac6e5627a4e,soccer_epl,fliff,h2h,Draw,6.8,2024-08-25T12:00:28Z,2024-08-25T15:30:00Z,Liverpool,Brentford,EPL
-9d9884791a08209708a26ac6e5627a4e,soccer_epl,bovada,h2h,Draw,7.0,2024-08-25T12:00:27Z,2024-08-25T15:30:00Z,Liverpool,Brentford,EPL
-055f48ea54ea77ffa2b16ef7310b04b6,soccer_epl,fliff,h2h,Draw,5.4,2024-08-25T12:00:28Z,2024-08-31T11:30:00Z,Arsenal,Brighton and Hove Albion,EPL
-055f48ea54ea77ffa2b16ef7310b04b6,soccer_epl,bovada,h2h,Draw,5.6,2024-08-25T12:00:27Z,2024-08-31T11:30:00Z,Arsenal,Brighton and Hove Albion,EPL
-2e24cd63783632e9f73604e972e830a8,soccer_epl,fliff,h2h,Draw,3.75,2024-08-25T12:00:28Z,2024-08-31T14:00:00Z,Leicester City,Aston Villa,EPL
-2e24cd63783632e9f73604e972e830a8,soccer_epl,bovada,h2h,Draw,4.0,2024-08-25T12:00:27Z,2024-08-31T14:00:00Z,Leicester City,Aston Villa,EPL
-dcf1380413740a8f8ee4c016c8550ea8,soccer_epl,fliff,h2h,Draw,3.3,2024-08-25T12:00:28Z,2024-08-31T14:00:00Z,Everton,Bournemouth,EPL
-dcf1380413740a8f8ee4c016c8550ea8,soccer_epl,bovada,h2h,Draw,3.45,2024-08-25T12:00:27Z,2024-08-31T14:00:00Z,Everton,Bournemouth,EPL
-5c835569c5bedfa3ef295b5ef1118dbf,soccer_epl,fliff,h2h,Draw,3.8,2024-08-25T12:00:28Z,2024-08-31T14:00:00Z,Brentford,Southampton,EPL
-5c835569c5bedfa3ef295b5ef1118dbf,soccer_epl,bovada,h2h,Draw,4.0,2024-08-25T12:00:27Z,2024-08-31T14:00:00Z,Brentford,Southampton,EPL
-3fdb1474ffc8380ef82bb299afbac88f,soccer_epl,fliff,h2h,Draw,3.4,2024-08-25T12:00:28Z,2024-08-31T14:00:00Z,Ipswich Town,Fulham,EPL
-3fdb1474ffc8380ef82bb299afbac88f,soccer_epl,bovada,h2h,Draw,3.55,2024-08-25T12:00:27Z,2024-08-31T14:00:00Z,Ipswich Town,Fulham,EPL
-8b1906ff17c3bb18eb23409f223a4895,soccer_epl,fliff,h2h,Draw,3.5,2024-08-25T12:00:28Z,2024-08-31T14:00:00Z,Nottingham Forest,Wolverhampton Wanderers,EPL
-8b1906ff17c3bb18eb23409f223a4895,soccer_epl,bovada,h2h,Draw,3.65,2024-08-25T12:00:27Z,2024-08-31T14:00:00Z,Nottingham Forest,Wolverhampton Wanderers,EPL
-c9109e8a707da4eb673f2cfcef34bd15,soccer_epl,fliff,h2h,Draw,5.3,2024-08-25T12:00:28Z,2024-08-31T16:30:00Z,West Ham United,Manchester City,EPL
-c9109e8a707da4eb673f2cfcef34bd15,soccer_epl,bovada,h2h,Draw,5.6,2024-08-25T12:00:27Z,2024-08-31T16:30:00Z,West Ham United,Manchester City,EPL
-fc3ce4f31b7fe23e3d8eccd0c12ebfbf,soccer_epl,fliff,h2h,Draw,3.95,2024-08-25T12:00:28Z,2024-09-01T12:30:00Z,Chelsea,Crystal Palace,EPL
-fc3ce4f31b7fe23e3d8eccd0c12ebfbf,soccer_epl,bovada,h2h,Draw,4.2,2024-08-25T12:00:27Z,2024-09-01T12:30:00Z,Chelsea,Crystal Palace,EPL
-36c348ee3ab335d09cabd3a112caaa4a,soccer_epl,fliff,h2h,Draw,3.85,2024-08-25T12:00:28Z,2024-09-01T12:30:00Z,Newcastle United,Tottenham Hotspur,EPL
-36c348ee3ab335d09cabd3a112caaa4a,soccer_epl,bovada,h2h,Draw,4.1,2024-08-25T12:00:27Z,2024-09-01T12:30:00Z,Newcastle United,Tottenham Hotspur,EPL
-eb749753d96a4af7d4a56f949573a279,soccer_epl,fliff,h2h,Draw,3.9,2024-08-25T12:00:28Z,2024-09-01T15:00:00Z,Manchester United,Liverpool,EPL
-eb749753d96a4af7d4a56f949573a279,soccer_epl,bovada,h2h,Draw,4.2,2024-08-25T12:00:27Z,2024-09-01T15:00:00Z,Manchester United,Liverpool,EPL
+fc73c42c5ea655f9dd9288b56695140d,soccer_epl,bovada,h2h,Draw,3.5,2020-08-25T11:58:46Z,2020-09-12T14:00:00Z,Tottenham Hotspur,Everton,EPL
+fc73c42c5ea655f9dd9288b56695140d,soccer_epl,betonlineag,h2h,Draw,3.3,2020-08-25T11:58:57Z,2020-09-12T14:00:00Z,Tottenham Hotspur,Everton,EPL
+534f39877f64e7207c6c6adf70ab697d,soccer_epl,bovada,h2h,Draw,3.25,2020-08-25T11:58:46Z,2020-09-12T14:00:00Z,Crystal Palace,Southampton,EPL
+534f39877f64e7207c6c6adf70ab697d,soccer_epl,betonlineag,h2h,Draw,3.0,2020-08-25T11:58:57Z,2020-09-12T14:00:00Z,Crystal Palace,Southampton,EPL
+c7e18bcc17e3602a8f0313eb33ca710d,soccer_epl,bovada,h2h,Draw,3.65,2020-08-25T11:58:46Z,2020-09-12T14:00:00Z,West Bromwich Albion,Leicester City,EPL
+c7e18bcc17e3602a8f0313eb33ca710d,soccer_epl,betonlineag,h2h,Draw,3.3,2020-08-25T11:58:57Z,2020-09-12T14:00:00Z,West Bromwich Albion,Leicester City,EPL
+d9a387fc6c7daca4efe712840bb32ea0,soccer_epl,bovada,h2h,Draw,4.05,2020-08-25T11:58:46Z,2020-09-12T14:00:00Z,Fulham,Arsenal,EPL
+d9a387fc6c7daca4efe712840bb32ea0,soccer_epl,betonlineag,h2h,Draw,3.6,2020-08-25T11:58:57Z,2020-09-12T14:00:00Z,Fulham,Arsenal,EPL
+756c0f7ed8433711f5d2fc52e5526745,soccer_epl,bovada,h2h,Draw,3.45,2020-08-25T11:58:46Z,2020-09-12T14:00:00Z,West Ham United,Newcastle United,EPL
+298c6538b54bb0e6bc340302a1f37994,soccer_epl,bovada,h2h,Draw,6.25,2020-08-25T11:58:46Z,2020-09-12T14:00:00Z,Liverpool,Leeds United,EPL
+298c6538b54bb0e6bc340302a1f37994,soccer_epl,betonlineag,h2h,Draw,5.0,2020-08-25T11:58:57Z,2020-09-12T14:00:00Z,Liverpool,Leeds United,EPL
+065869e2b4698213ac897e4a0f8a7b1e,soccer_epl,bovada,h2h,Draw,3.8,2020-08-25T11:58:46Z,2020-09-14T19:00:00Z,Brighton and Hove Albion,Chelsea,EPL
+065869e2b4698213ac897e4a0f8a7b1e,soccer_epl,betonlineag,h2h,Draw,3.55,2020-08-25T11:58:57Z,2020-09-14T19:00:00Z,Brighton and Hove Albion,Chelsea,EPL
+ab5b9c591e0e1ec2af55461ccb744f62,soccer_epl,bovada,h2h,Draw,3.1,2020-08-25T11:58:46Z,2020-09-14T19:00:00Z,Sheffield United,Wolverhampton Wanderers,EPL
+ab5b9c591e0e1ec2af55461ccb744f62,soccer_epl,betonlineag,h2h,Draw,3.1,2020-08-25T11:58:57Z,2020-09-14T19:00:00Z,Sheffield United,Wolverhampton Wanderers,EPL
+c5e1b082ae3838baabd3e0b3d80bb033,soccer_epl,bovada,h2h,Draw,3.75,2020-08-25T11:58:46Z,2020-09-19T20:00:00Z,Arsenal,West Ham United,EPL
+799528b1727e4c09a90316f97cbb97ac,soccer_epl,bovada,h2h,Draw,3.4,2020-08-25T11:58:46Z,2020-09-19T20:00:00Z,Aston Villa,Sheffield United,EPL
+574fdcf02e274b4c43765577904414eb,soccer_epl,bovada,h2h,Draw,3.5,2020-08-25T11:58:46Z,2020-09-19T20:00:00Z,Chelsea,Liverpool,EPL
+2e88b69006c617bc71995c3913839dce,soccer_epl,bovada,h2h,Draw,3.5,2020-08-25T11:58:46Z,2020-09-19T20:00:00Z,Leicester City,Burnley,EPL
+99e87157d9c5073f975f93a9e5b2b8c0,soccer_epl,bovada,h2h,Draw,3.6,2020-08-25T11:58:46Z,2020-09-19T20:00:00Z,Leeds United,Fulham,EPL
+8302e5d91615e30d98c829bb2456f19a,soccer_epl,bovada,h2h,Draw,3.4,2020-08-25T11:58:46Z,2020-09-19T20:00:00Z,Newcastle United,Brighton and Hove Albion,EPL
+39eecf30d0e509660259fb3e47a3ac2d,soccer_epl,bovada,h2h,Draw,3.4,2020-08-25T11:58:46Z,2020-09-19T20:00:00Z,Southampton,Tottenham Hotspur,EPL
+50216841184e7d648721541762832206,soccer_epl,bovada,h2h,Draw,4.0,2020-08-25T11:58:46Z,2020-09-19T20:00:00Z,Wolverhampton Wanderers,Manchester City,EPL
+644fa058d471c2f858fb4c83e4c2a4c2,soccer_epl,bovada,h2h,Draw,6.0,2020-08-25T11:58:46Z,2020-09-19T14:00:00Z,Manchester United,Crystal Palace,EPL
+4333f7f9ee09401c84e68ea43704f43a,soccer_epl,bovada,h2h,Draw,3.75,2020-08-25T11:58:46Z,2020-09-19T14:00:00Z,Everton,West Bromwich Albion,EPL
+534f39877f64e7207c6c6adf70ab697d,soccer_epl,bovada,h2h,Draw,3.2,2020-09-05T11:53:51Z,2020-09-12T14:00:00Z,Crystal Palace,Southampton,EPL
+534f39877f64e7207c6c6adf70ab697d,soccer_epl,betonlineag,h2h,Draw,3.05,2020-09-05T11:58:24Z,2020-09-12T14:00:00Z,Crystal Palace,Southampton,EPL
+d9a387fc6c7daca4efe712840bb32ea0,soccer_epl,bovada,h2h,Draw,4.15,2020-09-05T11:53:51Z,2020-09-12T11:30:00Z,Fulham,Arsenal,EPL
+d9a387fc6c7daca4efe712840bb32ea0,soccer_epl,betonlineag,h2h,Draw,3.7,2020-09-05T11:58:24Z,2020-09-12T11:30:00Z,Fulham,Arsenal,EPL
+756c0f7ed8433711f5d2fc52e5526745,soccer_epl,bovada,h2h,Draw,3.45,2020-09-05T11:53:51Z,2020-09-12T14:00:00Z,West Ham United,Newcastle United,EPL
+756c0f7ed8433711f5d2fc52e5526745,soccer_epl,betonlineag,h2h,Draw,3.3,2020-09-05T11:58:24Z,2020-09-12T14:00:00Z,West Ham United,Newcastle United,EPL
+298c6538b54bb0e6bc340302a1f37994,soccer_epl,bovada,h2h,Draw,6.0,2020-09-05T11:53:51Z,2020-09-12T16:30:00Z,Liverpool,Leeds United,EPL
+298c6538b54bb0e6bc340302a1f37994,soccer_epl,betonlineag,h2h,Draw,5.2,2020-09-05T11:58:24Z,2020-09-12T16:30:00Z,Liverpool,Leeds United,EPL
+065869e2b4698213ac897e4a0f8a7b1e,soccer_epl,bovada,h2h,Draw,3.85,2020-09-05T11:53:51Z,2020-09-14T19:00:00Z,Brighton and Hove Albion,Chelsea,EPL
+065869e2b4698213ac897e4a0f8a7b1e,soccer_epl,betonlineag,h2h,Draw,3.65,2020-09-05T11:58:24Z,2020-09-14T19:00:00Z,Brighton and Hove Albion,Chelsea,EPL
+ab5b9c591e0e1ec2af55461ccb744f62,soccer_epl,bovada,h2h,Draw,3.1,2020-09-05T11:53:51Z,2020-09-14T19:00:00Z,Sheffield United,Wolverhampton Wanderers,EPL
+ab5b9c591e0e1ec2af55461ccb744f62,soccer_epl,betonlineag,h2h,Draw,2.91,2020-09-05T11:58:24Z,2020-09-14T19:00:00Z,Sheffield United,Wolverhampton Wanderers,EPL
+644fa058d471c2f858fb4c83e4c2a4c2,soccer_epl,bovada,h2h,Draw,6.0,2020-09-05T11:53:51Z,2020-09-19T16:30:00Z,Manchester United,Crystal Palace,EPL
+644fa058d471c2f858fb4c83e4c2a4c2,soccer_epl,betonlineag,h2h,Draw,5.4,2020-09-05T11:58:24Z,2020-09-19T16:30:00Z,Manchester United,Crystal Palace,EPL
+4333f7f9ee09401c84e68ea43704f43a,soccer_epl,bovada,h2h,Draw,4.0,2020-09-05T11:53:51Z,2020-09-19T11:30:00Z,Everton,West Bromwich Albion,EPL
+4333f7f9ee09401c84e68ea43704f43a,soccer_epl,betonlineag,h2h,Draw,3.7,2020-09-05T11:58:24Z,2020-09-19T11:30:00Z,Everton,West Bromwich Albion,EPL
+86cb4d8e874710ef4e73ee93edd63fcc,soccer_epl,betonlineag,h2h,Draw,3.3,2020-09-05T11:58:24Z,2020-09-13T13:00:00Z,West Bromwich Albion,Leicester City,EPL
+86cb4d8e874710ef4e73ee93edd63fcc,soccer_epl,bovada,h2h,Draw,3.6,2020-09-05T11:53:51Z,2020-09-13T13:00:00Z,West Bromwich Albion,Leicester City,EPL
+cd26c00553b0c48e9d56e1b9594087a1,soccer_epl,bovada,h2h,Draw,3.65,2020-09-05T11:53:51Z,2020-09-13T15:30:00Z,Tottenham Hotspur,Everton,EPL
+dfd3784c0639badccb8b4deb6b3d8f12,soccer_epl,bovada,h2h,Draw,3.65,2020-09-05T11:53:51Z,2020-09-19T14:00:00Z,Leeds United,Fulham,EPL
+dfd3784c0639badccb8b4deb6b3d8f12,soccer_epl,betonlineag,h2h,Draw,3.35,2020-09-05T11:58:24Z,2020-09-19T14:00:00Z,Leeds United,Fulham,EPL
+209fca3c41182006c0b3c0a3a790f286,soccer_epl,bovada,h2h,Draw,3.75,2020-09-05T11:53:51Z,2020-09-19T14:00:00Z,Leicester City,Burnley,EPL
+209fca3c41182006c0b3c0a3a790f286,soccer_epl,betonlineag,h2h,Draw,3.6,2020-09-05T11:58:24Z,2020-09-19T14:00:00Z,Leicester City,Burnley,EPL
+ec9192eb9d811f1d1e531d4e32400f33,soccer_epl,betonlineag,h2h,Draw,3.15,2020-09-05T11:58:24Z,2020-09-20T11:00:00Z,Southampton,Tottenham Hotspur,EPL
+861cf62ce91935a170f3da79c47397fb,soccer_epl,betonlineag,h2h,Draw,3.1,2020-09-05T11:58:24Z,2020-09-20T13:00:00Z,Aston Villa,Sheffield United,EPL
+af54734ce548bac5bdb31eede31f6f4a,soccer_epl,betonlineag,h2h,Draw,3.0,2020-09-05T11:58:24Z,2020-09-20T13:00:00Z,Newcastle United,Brighton and Hove Albion,EPL
+80329ddb1d859c5ada6c3a6c2e77b37f,soccer_epl,betonlineag,h2h,Draw,3.85,2020-09-05T11:58:24Z,2020-09-20T13:00:00Z,Arsenal,West Ham United,EPL
+49a94d3035e09f183db24836d4eb1055,soccer_epl,betonlineag,h2h,Draw,3.5,2020-09-05T11:58:24Z,2020-09-20T15:30:00Z,Chelsea,Liverpool,EPL
+4c307858856c62d861db14fd01fd545f,soccer_epl,betonlineag,h2h,Draw,4.2,2020-09-05T11:58:24Z,2020-09-21T19:00:00Z,Wolverhampton Wanderers,Manchester City,EPL
+4333f7f9ee09401c84e68ea43704f43a,soccer_epl,bovada,h2h,Draw,4.1,2020-09-15T11:54:04Z,2020-09-19T11:30:00Z,Everton,West Bromwich Albion,EPL
+4333f7f9ee09401c84e68ea43704f43a,soccer_epl,betonlineag,h2h,Draw,4.0,2020-09-15T11:55:43Z,2020-09-19T11:30:00Z,Everton,West Bromwich Albion,EPL
+dfd3784c0639badccb8b4deb6b3d8f12,soccer_epl,bovada,h2h,Draw,3.95,2020-09-15T11:54:04Z,2020-09-19T14:00:00Z,Leeds United,Fulham,EPL
+dfd3784c0639badccb8b4deb6b3d8f12,soccer_epl,betonlineag,h2h,Draw,3.95,2020-09-15T11:55:43Z,2020-09-19T14:00:00Z,Leeds United,Fulham,EPL
+894522367aa3b0b271d44c093309655b,soccer_epl,bovada,h2h,Draw,5.5,2020-09-15T11:54:04Z,2020-09-19T16:30:00Z,Manchester United,Crystal Palace,EPL
+894522367aa3b0b271d44c093309655b,soccer_epl,betonlineag,h2h,Draw,5.0,2020-09-15T11:55:43Z,2020-09-19T16:30:00Z,Manchester United,Crystal Palace,EPL
+b9df31e6937978b67b7ecee24a506a2a,soccer_epl,betonlineag,h2h,Draw,4.3,2020-09-15T11:55:43Z,2020-09-19T19:00:00Z,Arsenal,West Ham United,EPL
+b9df31e6937978b67b7ecee24a506a2a,soccer_epl,bovada,h2h,Draw,4.4,2020-09-15T11:54:04Z,2020-09-19T19:00:00Z,Arsenal,West Ham United,EPL
+ec9192eb9d811f1d1e531d4e32400f33,soccer_epl,bovada,h2h,Draw,3.25,2020-09-15T11:54:04Z,2020-09-20T11:00:00Z,Southampton,Tottenham Hotspur,EPL
+ec9192eb9d811f1d1e531d4e32400f33,soccer_epl,betonlineag,h2h,Draw,3.3,2020-09-15T11:55:43Z,2020-09-20T11:00:00Z,Southampton,Tottenham Hotspur,EPL
+af54734ce548bac5bdb31eede31f6f4a,soccer_epl,bovada,h2h,Draw,3.05,2020-09-15T11:54:04Z,2020-09-20T13:00:00Z,Newcastle United,Brighton and Hove Albion,EPL
+af54734ce548bac5bdb31eede31f6f4a,soccer_epl,betonlineag,h2h,Draw,2.99,2020-09-15T11:55:43Z,2020-09-20T13:00:00Z,Newcastle United,Brighton and Hove Albion,EPL
+49a94d3035e09f183db24836d4eb1055,soccer_epl,bovada,h2h,Draw,3.7,2020-09-15T11:54:04Z,2020-09-20T15:30:00Z,Chelsea,Liverpool,EPL
+49a94d3035e09f183db24836d4eb1055,soccer_epl,betonlineag,h2h,Draw,3.55,2020-09-15T11:55:43Z,2020-09-20T15:30:00Z,Chelsea,Liverpool,EPL
+3e40502b55212f77ef37f6ef1995f310,soccer_epl,bovada,h2h,Draw,3.9,2020-09-15T11:54:04Z,2020-09-20T18:00:00Z,Leicester City,Burnley,EPL
+3e40502b55212f77ef37f6ef1995f310,soccer_epl,betonlineag,h2h,Draw,3.8,2020-09-15T11:55:43Z,2020-09-20T18:00:00Z,Leicester City,Burnley,EPL
+93c1388375c09e9616b20d0d986f242e,soccer_epl,betonlineag,h2h,Draw,3.1,2020-09-15T11:55:43Z,2020-09-21T17:00:00Z,Aston Villa,Sheffield United,EPL
+93c1388375c09e9616b20d0d986f242e,soccer_epl,bovada,h2h,Draw,3.2,2020-09-15T11:54:04Z,2020-09-21T17:00:00Z,Aston Villa,Sheffield United,EPL
+4c307858856c62d861db14fd01fd545f,soccer_epl,bovada,h2h,Draw,4.5,2020-09-15T11:54:04Z,2020-09-21T19:15:00Z,Wolverhampton Wanderers,Manchester City,EPL
+4c307858856c62d861db14fd01fd545f,soccer_epl,betonlineag,h2h,Draw,4.4,2020-09-15T11:55:43Z,2020-09-21T19:15:00Z,Wolverhampton Wanderers,Manchester City,EPL
+a244f30e1a1c4a08fc69327796ee0a69,soccer_epl,bovada,h2h,Draw,3.8,2020-09-15T11:54:04Z,2020-09-26T11:30:00Z,Brighton and Hove Albion,Manchester United,EPL
+a244f30e1a1c4a08fc69327796ee0a69,soccer_epl,betonlineag,h2h,Draw,3.65,2020-09-15T11:55:43Z,2020-09-26T11:30:00Z,Brighton and Hove Albion,Manchester United,EPL
+27bf79f20f79dfd3287fc650dfb6dabe,soccer_epl,bovada,h2h,Draw,3.2,2020-09-15T11:54:04Z,2020-09-26T14:00:00Z,Crystal Palace,Everton,EPL
+27bf79f20f79dfd3287fc650dfb6dabe,soccer_epl,betonlineag,h2h,Draw,3.25,2020-09-15T11:55:43Z,2020-09-26T14:00:00Z,Crystal Palace,Everton,EPL
+122e29160f6efd40ce5a7120fdec2051,soccer_epl,bovada,h2h,Draw,4.7,2020-09-15T11:54:04Z,2020-09-26T16:30:00Z,West Bromwich Albion,Chelsea,EPL
+122e29160f6efd40ce5a7120fdec2051,soccer_epl,betonlineag,h2h,Draw,4.59,2020-09-15T11:55:43Z,2020-09-26T16:30:00Z,West Bromwich Albion,Chelsea,EPL
+eb5aacb81b4c9e1fcfec2020b3b3d883,soccer_epl,bovada,h2h,Draw,3.25,2020-09-15T11:54:04Z,2020-09-26T19:00:00Z,Burnley,Southampton,EPL
+eb5aacb81b4c9e1fcfec2020b3b3d883,soccer_epl,betonlineag,h2h,Draw,3.15,2020-09-15T11:55:43Z,2020-09-26T19:00:00Z,Burnley,Southampton,EPL
+340dbf612967873c00cd3c4f11b4e7cd,soccer_epl,bovada,h2h,Draw,3.15,2020-09-15T11:54:04Z,2020-09-27T11:00:00Z,Sheffield United,Leeds United,EPL
+340dbf612967873c00cd3c4f11b4e7cd,soccer_epl,betonlineag,h2h,Draw,3.05,2020-09-15T11:55:43Z,2020-09-27T11:00:00Z,Sheffield United,Leeds United,EPL
+d83fb1de588436c67339f0135e4150b6,soccer_epl,betonlineag,h2h,Draw,3.7,2020-09-15T11:55:43Z,2020-09-27T13:00:00Z,Tottenham Hotspur,Newcastle United,EPL
+94cdb1d8c05e7543dcf40a8196ad9603,soccer_epl,bovada,h2h,Draw,5.75,2020-09-15T11:54:04Z,2020-09-27T15:30:00Z,Manchester City,Leicester City,EPL
+94cdb1d8c05e7543dcf40a8196ad9603,soccer_epl,betonlineag,h2h,Draw,4.7,2020-09-15T11:55:43Z,2020-09-27T15:30:00Z,Manchester City,Leicester City,EPL
+1ec834d45a0c014669be853f7b45feff,soccer_epl,betonlineag,h2h,Draw,3.2,2020-09-15T11:55:43Z,2020-09-27T18:00:00Z,West Ham United,Wolverhampton Wanderers,EPL
+5324d0783b610d6a5f283492c86cce4f,soccer_epl,betonlineag,h2h,Draw,3.1,2020-09-15T11:55:43Z,2020-09-28T17:00:00Z,Fulham,Aston Villa,EPL
+ca416b6373f359f21dbda0618e72a3c7,soccer_epl,bovada,h2h,Draw,4.4,2020-09-15T11:54:04Z,2020-09-28T19:15:00Z,Liverpool,Arsenal,EPL
+ca416b6373f359f21dbda0618e72a3c7,soccer_epl,betonlineag,h2h,Draw,3.8,2020-09-15T11:55:43Z,2020-09-28T19:15:00Z,Liverpool,Arsenal,EPL
+e8fcefe45eef5a1a5418ca8138653ba8,soccer_epl,betonlineag,h2h,Draw,3.4,2020-09-25T11:55:44Z,2020-10-04T15:30:00Z,Manchester United,Tottenham Hotspur,EPL
+896b34b22ef56c070e0b0489d8fe63c3,soccer_epl,betonlineag,h2h,Draw,3.6,2020-09-25T11:55:44Z,2020-10-04T11:00:00Z,Southampton,West Bromwich Albion,EPL
+d62a339bdf59c797d5bc9f89e00429e0,soccer_epl,betonlineag,h2h,Draw,3.8,2020-09-25T11:55:44Z,2020-10-04T13:00:00Z,Wolverhampton Wanderers,Fulham,EPL
+d62a339bdf59c797d5bc9f89e00429e0,soccer_epl,bovada,h2h,Draw,4.0,2020-09-25T11:55:46Z,2020-10-04T13:00:00Z,Wolverhampton Wanderers,Fulham,EPL
+1ca733cb127b5cccfac315051f8e55fe,soccer_epl,betonlineag,h2h,Draw,3.65,2020-09-25T11:55:44Z,2020-10-04T13:00:00Z,Arsenal,Sheffield United,EPL
+1ca733cb127b5cccfac315051f8e55fe,soccer_epl,bovada,h2h,Draw,4.0,2020-09-25T11:55:46Z,2020-10-04T13:00:00Z,Arsenal,Sheffield United,EPL
+b240d5b82130a0bb98432177c56d1854,soccer_epl,betonlineag,h2h,Draw,5.0,2020-09-25T11:55:44Z,2020-10-04T18:15:00Z,Aston Villa,Liverpool,EPL
+a244f30e1a1c4a08fc69327796ee0a69,soccer_epl,bovada,h2h,Draw,3.7,2020-09-25T11:55:46Z,2020-09-26T11:30:00Z,Brighton and Hove Albion,Manchester United,EPL
+a244f30e1a1c4a08fc69327796ee0a69,soccer_epl,betonlineag,h2h,Draw,3.55,2020-09-25T11:55:44Z,2020-09-26T11:30:00Z,Brighton and Hove Albion,Manchester United,EPL
+27bf79f20f79dfd3287fc650dfb6dabe,soccer_epl,bovada,h2h,Draw,3.25,2020-09-25T11:55:46Z,2020-09-26T14:00:00Z,Crystal Palace,Everton,EPL
+27bf79f20f79dfd3287fc650dfb6dabe,soccer_epl,betonlineag,h2h,Draw,3.2,2020-09-25T11:55:44Z,2020-09-26T14:00:00Z,Crystal Palace,Everton,EPL
+122e29160f6efd40ce5a7120fdec2051,soccer_epl,bovada,h2h,Draw,5.0,2020-09-25T11:55:46Z,2020-09-26T16:30:00Z,West Bromwich Albion,Chelsea,EPL
+122e29160f6efd40ce5a7120fdec2051,soccer_epl,betonlineag,h2h,Draw,4.7,2020-09-25T11:55:44Z,2020-09-26T16:30:00Z,West Bromwich Albion,Chelsea,EPL
+eb5aacb81b4c9e1fcfec2020b3b3d883,soccer_epl,bovada,h2h,Draw,3.25,2020-09-25T11:55:46Z,2020-09-26T19:00:00Z,Burnley,Southampton,EPL
+eb5aacb81b4c9e1fcfec2020b3b3d883,soccer_epl,betonlineag,h2h,Draw,2.99,2020-09-25T11:55:44Z,2020-09-26T19:00:00Z,Burnley,Southampton,EPL
+340dbf612967873c00cd3c4f11b4e7cd,soccer_epl,bovada,h2h,Draw,3.35,2020-09-25T11:55:46Z,2020-09-27T11:00:00Z,Sheffield United,Leeds United,EPL
+340dbf612967873c00cd3c4f11b4e7cd,soccer_epl,betonlineag,h2h,Draw,3.15,2020-09-25T11:55:44Z,2020-09-27T11:00:00Z,Sheffield United,Leeds United,EPL
+d83fb1de588436c67339f0135e4150b6,soccer_epl,betonlineag,h2h,Draw,3.9,2020-09-25T11:55:44Z,2020-09-27T13:00:00Z,Tottenham Hotspur,Newcastle United,EPL
+d83fb1de588436c67339f0135e4150b6,soccer_epl,bovada,h2h,Draw,4.5,2020-09-25T11:55:46Z,2020-09-27T13:00:00Z,Tottenham Hotspur,Newcastle United,EPL
+94cdb1d8c05e7543dcf40a8196ad9603,soccer_epl,bovada,h2h,Draw,6.0,2020-09-25T11:55:46Z,2020-09-27T15:30:00Z,Manchester City,Leicester City,EPL
+94cdb1d8c05e7543dcf40a8196ad9603,soccer_epl,betonlineag,h2h,Draw,4.9,2020-09-25T11:55:44Z,2020-09-27T15:30:00Z,Manchester City,Leicester City,EPL
+1ec834d45a0c014669be853f7b45feff,soccer_epl,betonlineag,h2h,Draw,3.2,2020-09-25T11:55:44Z,2020-09-27T18:00:00Z,West Ham United,Wolverhampton Wanderers,EPL
+1ec834d45a0c014669be853f7b45feff,soccer_epl,bovada,h2h,Draw,3.4,2020-09-25T11:55:46Z,2020-09-27T18:00:00Z,West Ham United,Wolverhampton Wanderers,EPL
+5324d0783b610d6a5f283492c86cce4f,soccer_epl,betonlineag,h2h,Draw,3.0,2020-09-25T11:55:44Z,2020-09-28T16:45:00Z,Fulham,Aston Villa,EPL
+5324d0783b610d6a5f283492c86cce4f,soccer_epl,bovada,h2h,Draw,3.2,2020-09-25T11:55:46Z,2020-09-28T16:45:00Z,Fulham,Aston Villa,EPL
+ca416b6373f359f21dbda0618e72a3c7,soccer_epl,bovada,h2h,Draw,4.65,2020-09-25T11:55:46Z,2020-09-28T19:00:00Z,Liverpool,Arsenal,EPL
+ca416b6373f359f21dbda0618e72a3c7,soccer_epl,betonlineag,h2h,Draw,4.0,2020-09-25T11:55:44Z,2020-09-28T19:00:00Z,Liverpool,Arsenal,EPL
+a90eb91502b99cbb0a308c63af5950b6,soccer_epl,betonlineag,h2h,Draw,3.75,2020-09-25T11:55:44Z,2020-10-03T14:00:00Z,Everton,Brighton and Hove Albion,EPL
+a90eb91502b99cbb0a308c63af5950b6,soccer_epl,bovada,h2h,Draw,3.75,2020-09-25T11:55:46Z,2020-10-03T14:00:00Z,Everton,Brighton and Hove Albion,EPL
+aaee89638a46c3a02cdf9c4d3ef2e9d6,soccer_epl,bovada,h2h,Draw,3.8,2020-09-25T11:55:46Z,2020-10-03T14:00:00Z,Southampton,West Bromwich Albion,EPL
+1c4563bd3c2722c1af4bde55f31b2c08,soccer_epl,betonlineag,h2h,Draw,2.92,2020-09-25T11:55:44Z,2020-10-03T19:00:00Z,Newcastle United,Burnley,EPL
+1c4563bd3c2722c1af4bde55f31b2c08,soccer_epl,bovada,h2h,Draw,3.1,2020-09-25T11:55:46Z,2020-10-03T19:00:00Z,Newcastle United,Burnley,EPL
+e629be133de468dc3811b7626ae7fc22,soccer_epl,bovada,h2h,Draw,5.25,2020-09-25T11:55:46Z,2020-10-03T14:00:00Z,Aston Villa,Liverpool,EPL
+123ef3ef94a44428d4547fa163cd187d,soccer_epl,betonlineag,h2h,Draw,3.75,2020-09-25T11:55:44Z,2020-10-03T14:00:00Z,Leicester City,West Ham United,EPL
+123ef3ef94a44428d4547fa163cd187d,soccer_epl,bovada,h2h,Draw,4.0,2020-09-25T11:55:46Z,2020-10-03T14:00:00Z,Leicester City,West Ham United,EPL
+fad560166c81692495e7b4038dcbc611,soccer_epl,betonlineag,h2h,Draw,4.7,2020-09-25T11:55:44Z,2020-10-03T11:30:00Z,Chelsea,Crystal Palace,EPL
+fad560166c81692495e7b4038dcbc611,soccer_epl,bovada,h2h,Draw,5.0,2020-09-25T11:55:46Z,2020-10-03T11:30:00Z,Chelsea,Crystal Palace,EPL
+bea2b991403027e0da2211b443449c59,soccer_epl,betonlineag,h2h,Draw,6.4,2020-09-25T11:55:44Z,2020-10-03T16:30:00Z,Leeds United,Manchester City,EPL
+bea2b991403027e0da2211b443449c59,soccer_epl,bovada,h2h,Draw,6.5,2020-09-25T11:55:46Z,2020-10-03T16:30:00Z,Leeds United,Manchester City,EPL
+d089735b134b16cf3f320c66c64ffd25,soccer_epl,bovada,h2h,Draw,3.65,2020-09-25T11:55:46Z,2020-10-03T14:00:00Z,Manchester United,Tottenham Hotspur,EPL
+c20317f3ffae56193e6f06d4b5b4f2bf,soccer_epl,bovada,h2h,Draw,4.65,2020-10-05T11:56:21Z,2020-10-17T14:00:00Z,Chelsea,Southampton,EPL
+c20317f3ffae56193e6f06d4b5b4f2bf,soccer_epl,betonlineag,h2h,Draw,3.95,2020-10-05T11:55:55Z,2020-10-17T14:00:00Z,Chelsea,Southampton,EPL
+9cd1ae59090428cacb1e86e107ce0b98,soccer_epl,bovada,h2h,Draw,5.0,2020-10-05T11:56:21Z,2020-10-17T16:30:00Z,Manchester City,Arsenal,EPL
+9cd1ae59090428cacb1e86e107ce0b98,soccer_epl,betonlineag,h2h,Draw,4.4,2020-10-05T11:55:55Z,2020-10-17T16:30:00Z,Manchester City,Arsenal,EPL
+c98e1c303d504153833624ca8ad0fdea,soccer_epl,bovada,h2h,Draw,3.9,2020-10-05T11:56:21Z,2020-10-17T14:00:00Z,Newcastle United,Manchester United,EPL
+c98e1c303d504153833624ca8ad0fdea,soccer_epl,betonlineag,h2h,Draw,3.6,2020-10-05T11:55:55Z,2020-10-17T14:00:00Z,Newcastle United,Manchester United,EPL
+7f10adbeb6daf8c59adf49e2d1f85ec4,soccer_epl,bovada,h2h,Draw,3.25,2020-10-05T11:56:21Z,2020-10-17T14:00:00Z,West Bromwich Albion,Burnley,EPL
+7f10adbeb6daf8c59adf49e2d1f85ec4,soccer_epl,betonlineag,h2h,Draw,3.05,2020-10-05T11:55:55Z,2020-10-17T14:00:00Z,West Bromwich Albion,Burnley,EPL
+485a1602990b87030f32a0076e15a2dc,soccer_epl,betonlineag,h2h,Draw,3.3,2020-10-05T11:55:55Z,2020-10-17T11:30:00Z,Everton,Liverpool,EPL
+485a1602990b87030f32a0076e15a2dc,soccer_epl,bovada,h2h,Draw,4.1,2020-10-05T11:56:21Z,2020-10-17T11:30:00Z,Everton,Liverpool,EPL
+50410332de26500327a5a664f941df5e,soccer_epl,betonlineag,h2h,Draw,3.6,2020-10-05T11:55:55Z,2020-10-17T14:00:00Z,Leicester City,Aston Villa,EPL
+50410332de26500327a5a664f941df5e,soccer_epl,bovada,h2h,Draw,3.95,2020-10-05T11:56:21Z,2020-10-17T14:00:00Z,Leicester City,Aston Villa,EPL
+4a7487288792c632ae1b6d31ec821940,soccer_epl,betonlineag,h2h,Draw,3.2,2020-10-05T11:55:55Z,2020-10-17T14:00:00Z,Sheffield United,Fulham,EPL
+4a7487288792c632ae1b6d31ec821940,soccer_epl,bovada,h2h,Draw,3.35,2020-10-05T11:56:21Z,2020-10-17T14:00:00Z,Sheffield United,Fulham,EPL
+036cbeddff561843397c11087503a2aa,soccer_epl,betonlineag,h2h,Draw,3.05,2020-10-05T11:55:55Z,2020-10-18T13:00:00Z,Crystal Palace,Brighton and Hove Albion,EPL
+738ab6c03bba01184a7403b60221d0a3,soccer_epl,bovada,h2h,Draw,3.95,2020-10-05T11:56:21Z,2020-10-18T15:30:00Z,Tottenham Hotspur,West Ham United,EPL
+738ab6c03bba01184a7403b60221d0a3,soccer_epl,betonlineag,h2h,Draw,3.95,2020-10-05T11:55:55Z,2020-10-18T15:30:00Z,Tottenham Hotspur,West Ham United,EPL
+58a001c6e66117c03a23e0700e72a35d,soccer_epl,bovada,h2h,Draw,6.0,2020-10-05T11:56:21Z,2020-10-24T11:30:00Z,West Ham United,Manchester City,EPL
+9e5525f3f982bec1389f045acaff334c,soccer_epl,bovada,h2h,Draw,3.4,2020-10-05T11:56:21Z,2020-10-24T14:00:00Z,Aston Villa,Leeds United,EPL
+b179bb916524e765af81d5eafd4bbc31,soccer_epl,bovada,h2h,Draw,7.0,2020-10-05T11:56:21Z,2020-10-24T14:00:00Z,Liverpool,Sheffield United,EPL
+b065688fb920d5f64d764275da2db27f,soccer_epl,bovada,h2h,Draw,3.4,2020-10-05T11:56:21Z,2020-10-24T14:00:00Z,Fulham,Crystal Palace,EPL
+d56386e6c70e052fee452806bcca5f6e,soccer_epl,bovada,h2h,Draw,3.6,2020-10-05T11:56:21Z,2020-10-24T14:00:00Z,Brighton and Hove Albion,West Bromwich Albion,EPL
+8d5339d7f122ff95427075df8b3a1425,soccer_epl,bovada,h2h,Draw,3.75,2020-10-05T11:56:21Z,2020-10-24T14:00:00Z,Arsenal,Leicester City,EPL
+4ad5af65040d52568c3328cad86482c5,soccer_epl,bovada,h2h,Draw,3.5,2020-10-05T11:56:21Z,2020-10-24T16:30:00Z,Manchester United,Chelsea,EPL
+0598a358b5bc749c78e429827d0ee20b,soccer_epl,bovada,h2h,Draw,3.5,2020-10-05T11:56:21Z,2020-10-25T14:00:00Z,Southampton,Everton,EPL
+ae4f6ea485d0361d39bd37f32c75232c,soccer_epl,bovada,h2h,Draw,3.9,2020-10-05T11:56:21Z,2020-10-25T16:30:00Z,Wolverhampton Wanderers,Newcastle United,EPL
+55945e3d86f62a94c5e87d0dd5ce3ccf,soccer_epl,bovada,h2h,Draw,3.9,2020-10-05T11:56:21Z,2020-10-26T20:00:00Z,Burnley,Tottenham Hotspur,EPL
+ed1822de601d0ce603640f935026dd35,soccer_epl,bovada,h2h,Draw,3.15,2020-10-05T11:56:21Z,2020-10-17T15:00:00Z,Crystal Palace,Brighton and Hove Albion,EPL
+b7cd0bf05b38fbd5b4320b3fbfc19083,soccer_epl,betonlineag,h2h,Draw,3.15,2020-10-05T11:55:55Z,2020-10-19T19:00:00Z,Leeds United,Wolverhampton Wanderers,EPL
+b7cd0bf05b38fbd5b4320b3fbfc19083,soccer_epl,bovada,h2h,Draw,3.25,2020-10-05T11:56:21Z,2020-10-19T19:00:00Z,Leeds United,Wolverhampton Wanderers,EPL
+c20317f3ffae56193e6f06d4b5b4f2bf,soccer_epl,bovada,h2h,Draw,4.65,2020-10-15T11:57:19Z,2020-10-17T14:00:00Z,Chelsea,Southampton,EPL
+c20317f3ffae56193e6f06d4b5b4f2bf,soccer_epl,betonlineag,h2h,Draw,4.4,2020-10-15T11:53:40Z,2020-10-17T14:00:00Z,Chelsea,Southampton,EPL
+9cd1ae59090428cacb1e86e107ce0b98,soccer_epl,bovada,h2h,Draw,5.0,2020-10-15T11:57:19Z,2020-10-17T16:30:00Z,Manchester City,Arsenal,EPL
+9cd1ae59090428cacb1e86e107ce0b98,soccer_epl,betonlineag,h2h,Draw,4.8,2020-10-15T11:53:40Z,2020-10-17T16:30:00Z,Manchester City,Arsenal,EPL
+c98e1c303d504153833624ca8ad0fdea,soccer_epl,bovada,h2h,Draw,4.15,2020-10-15T11:57:19Z,2020-10-17T19:00:00Z,Newcastle United,Manchester United,EPL
+c98e1c303d504153833624ca8ad0fdea,soccer_epl,betonlineag,h2h,Draw,3.75,2020-10-15T11:53:40Z,2020-10-17T19:00:00Z,Newcastle United,Manchester United,EPL
+485a1602990b87030f32a0076e15a2dc,soccer_epl,betonlineag,h2h,Draw,3.7,2020-10-15T11:53:40Z,2020-10-17T11:30:00Z,Everton,Liverpool,EPL
+485a1602990b87030f32a0076e15a2dc,soccer_epl,bovada,h2h,Draw,4.05,2020-10-15T11:57:19Z,2020-10-17T11:30:00Z,Everton,Liverpool,EPL
+ab429074997a53fbc007b85917723166,soccer_epl,betonlineag,h2h,Draw,3.3,2020-10-15T12:00:22Z,2020-10-26T17:30:00Z,Brighton and Hove Albion,West Bromwich Albion,EPL
+ab429074997a53fbc007b85917723166,soccer_epl,bovada,h2h,Draw,3.8,2020-10-15T11:57:19Z,2020-10-26T17:30:00Z,Brighton and Hove Albion,West Bromwich Albion,EPL
+036cbeddff561843397c11087503a2aa,soccer_epl,betonlineag,h2h,Draw,3.1,2020-10-15T11:53:40Z,2020-10-18T13:00:00Z,Crystal Palace,Brighton and Hove Albion,EPL
+036cbeddff561843397c11087503a2aa,soccer_epl,bovada,h2h,Draw,3.2,2020-10-15T11:57:19Z,2020-10-18T13:00:00Z,Crystal Palace,Brighton and Hove Albion,EPL
+738ab6c03bba01184a7403b60221d0a3,soccer_epl,bovada,h2h,Draw,4.2,2020-10-15T11:57:19Z,2020-10-18T15:30:00Z,Tottenham Hotspur,West Ham United,EPL
+738ab6c03bba01184a7403b60221d0a3,soccer_epl,betonlineag,h2h,Draw,4.0,2020-10-15T12:00:22Z,2020-10-18T15:30:00Z,Tottenham Hotspur,West Ham United,EPL
+58a001c6e66117c03a23e0700e72a35d,soccer_epl,bovada,h2h,Draw,5.75,2020-10-15T11:57:19Z,2020-10-24T11:30:00Z,West Ham United,Manchester City,EPL
+58a001c6e66117c03a23e0700e72a35d,soccer_epl,betonlineag,h2h,Draw,5.0,2020-10-15T12:00:22Z,2020-10-24T11:30:00Z,West Ham United,Manchester City,EPL
+b179bb916524e765af81d5eafd4bbc31,soccer_epl,bovada,h2h,Draw,6.75,2020-10-15T11:57:19Z,2020-10-24T19:00:00Z,Liverpool,Sheffield United,EPL
+b179bb916524e765af81d5eafd4bbc31,soccer_epl,betonlineag,h2h,Draw,6.4,2020-10-15T12:00:22Z,2020-10-24T19:00:00Z,Liverpool,Sheffield United,EPL
+b065688fb920d5f64d764275da2db27f,soccer_epl,bovada,h2h,Draw,3.3,2020-10-15T11:57:19Z,2020-10-24T14:00:00Z,Fulham,Crystal Palace,EPL
+b065688fb920d5f64d764275da2db27f,soccer_epl,betonlineag,h2h,Draw,3.1,2020-10-15T12:00:22Z,2020-10-24T14:00:00Z,Fulham,Crystal Palace,EPL
+4ad5af65040d52568c3328cad86482c5,soccer_epl,bovada,h2h,Draw,3.5,2020-10-15T11:57:19Z,2020-10-24T16:30:00Z,Manchester United,Chelsea,EPL
+4ad5af65040d52568c3328cad86482c5,soccer_epl,betonlineag,h2h,Draw,3.2,2020-10-15T12:00:22Z,2020-10-24T16:30:00Z,Manchester United,Chelsea,EPL
+0598a358b5bc749c78e429827d0ee20b,soccer_epl,bovada,h2h,Draw,3.4,2020-10-15T11:57:19Z,2020-10-25T14:00:00Z,Southampton,Everton,EPL
+0598a358b5bc749c78e429827d0ee20b,soccer_epl,betonlineag,h2h,Draw,3.3,2020-10-15T12:00:22Z,2020-10-25T14:00:00Z,Southampton,Everton,EPL
+ae4f6ea485d0361d39bd37f32c75232c,soccer_epl,bovada,h2h,Draw,3.65,2020-10-15T11:57:19Z,2020-10-25T16:30:00Z,Wolverhampton Wanderers,Newcastle United,EPL
+ae4f6ea485d0361d39bd37f32c75232c,soccer_epl,betonlineag,h2h,Draw,3.55,2020-10-15T12:00:22Z,2020-10-25T16:30:00Z,Wolverhampton Wanderers,Newcastle United,EPL
+55945e3d86f62a94c5e87d0dd5ce3ccf,soccer_epl,bovada,h2h,Draw,3.85,2020-10-15T11:57:19Z,2020-10-26T20:00:00Z,Burnley,Tottenham Hotspur,EPL
+55945e3d86f62a94c5e87d0dd5ce3ccf,soccer_epl,betonlineag,h2h,Draw,3.6,2020-10-15T12:00:22Z,2020-10-26T20:00:00Z,Burnley,Tottenham Hotspur,EPL
+b7cd0bf05b38fbd5b4320b3fbfc19083,soccer_epl,betonlineag,h2h,Draw,3.1,2020-10-15T12:00:22Z,2020-10-19T19:00:00Z,Leeds United,Wolverhampton Wanderers,EPL
+b7cd0bf05b38fbd5b4320b3fbfc19083,soccer_epl,bovada,h2h,Draw,3.3,2020-10-15T11:57:19Z,2020-10-19T19:00:00Z,Leeds United,Wolverhampton Wanderers,EPL
+162f6d59aa0e629262cb0e2905cba483,soccer_epl,betonlineag,h2h,Draw,3.2,2020-10-15T12:00:22Z,2020-10-19T16:30:00Z,West Bromwich Albion,Burnley,EPL
+162f6d59aa0e629262cb0e2905cba483,soccer_epl,bovada,h2h,Draw,3.3,2020-10-15T11:57:19Z,2020-10-19T16:30:00Z,West Bromwich Albion,Burnley,EPL
+e90e64cc12e08ca749f9f04fccbde6ca,soccer_epl,betonlineag,h2h,Draw,3.2,2020-10-15T12:00:22Z,2020-10-18T11:00:00Z,Sheffield United,Fulham,EPL
+e90e64cc12e08ca749f9f04fccbde6ca,soccer_epl,bovada,h2h,Draw,3.35,2020-10-15T11:57:19Z,2020-10-18T11:00:00Z,Sheffield United,Fulham,EPL
+b948ffc276189b8733f2c92a43f80408,soccer_epl,bovada,h2h,Draw,3.85,2020-10-15T11:57:19Z,2020-10-18T18:15:00Z,Leicester City,Aston Villa,EPL
+b948ffc276189b8733f2c92a43f80408,soccer_epl,betonlineag,h2h,Draw,3.65,2020-10-15T12:00:22Z,2020-10-18T18:15:00Z,Leicester City,Aston Villa,EPL
+dac15d83ceca05c507d39f598060bd93,soccer_epl,betonlineag,h2h,Draw,3.1,2020-10-15T12:00:22Z,2020-10-23T19:00:00Z,Aston Villa,Leeds United,EPL
+dac15d83ceca05c507d39f598060bd93,soccer_epl,bovada,h2h,Draw,3.45,2020-10-15T11:57:19Z,2020-10-23T19:00:00Z,Aston Villa,Leeds United,EPL
+6b147b9c82206b4db152e740b3508204,soccer_epl,bovada,h2h,Draw,3.65,2020-10-15T11:57:19Z,2020-10-25T19:15:00Z,Arsenal,Leicester City,EPL
+6b147b9c82206b4db152e740b3508204,soccer_epl,betonlineag,h2h,Draw,3.45,2020-10-15T12:00:22Z,2020-10-25T19:15:00Z,Arsenal,Leicester City,EPL
+0598a358b5bc749c78e429827d0ee20b,soccer_epl,bovada,h2h,Draw,3.45,2020-10-25T11:58:50Z,2020-10-25T14:00:00Z,Southampton,Everton,EPL
+0598a358b5bc749c78e429827d0ee20b,soccer_epl,betonlineag,h2h,Draw,3.24,2020-10-25T11:58:51Z,2020-10-25T14:00:00Z,Southampton,Everton,EPL
+ae4f6ea485d0361d39bd37f32c75232c,soccer_epl,bovada,h2h,Draw,3.45,2020-10-25T11:58:50Z,2020-10-25T16:30:00Z,Wolverhampton Wanderers,Newcastle United,EPL
+ae4f6ea485d0361d39bd37f32c75232c,soccer_epl,betonlineag,h2h,Draw,3.11,2020-10-25T11:58:51Z,2020-10-25T16:30:00Z,Wolverhampton Wanderers,Newcastle United,EPL
+55945e3d86f62a94c5e87d0dd5ce3ccf,soccer_epl,bovada,h2h,Draw,4.05,2020-10-25T11:58:50Z,2020-10-26T20:00:00Z,Burnley,Tottenham Hotspur,EPL
+55945e3d86f62a94c5e87d0dd5ce3ccf,soccer_epl,betonlineag,h2h,Draw,3.46,2020-10-25T11:58:51Z,2020-10-26T20:00:00Z,Burnley,Tottenham Hotspur,EPL
+6b147b9c82206b4db152e740b3508204,soccer_epl,bovada,h2h,Draw,3.55,2020-10-25T11:58:50Z,2020-10-25T19:15:00Z,Arsenal,Leicester City,EPL
+6b147b9c82206b4db152e740b3508204,soccer_epl,betonlineag,h2h,Draw,3.2,2020-10-25T11:58:51Z,2020-10-25T19:15:00Z,Arsenal,Leicester City,EPL
+ab429074997a53fbc007b85917723166,soccer_epl,betonlineag,h2h,Draw,3.2,2020-10-25T11:58:51Z,2020-10-26T17:30:00Z,Brighton and Hove Albion,West Bromwich Albion,EPL
+ab429074997a53fbc007b85917723166,soccer_epl,bovada,h2h,Draw,4.0,2020-10-25T11:58:50Z,2020-10-26T17:30:00Z,Brighton and Hove Albion,West Bromwich Albion,EPL
+e08a1f280ca1a92b8426f0f4428bd8f6,soccer_epl,bovada,h2h,Draw,3.55,2020-10-25T11:58:50Z,2020-11-01T16:30:00Z,Manchester United,Arsenal,EPL
+e08a1f280ca1a92b8426f0f4428bd8f6,soccer_epl,betonlineag,h2h,Draw,2.85,2020-10-25T11:58:51Z,2020-11-01T16:30:00Z,Manchester United,Arsenal,EPL
+21abfb79939c0cf9e3ae9dd8acc2a0de,soccer_epl,bovada,h2h,Draw,4.05,2020-10-25T11:58:50Z,2020-11-01T19:15:00Z,Tottenham Hotspur,Brighton and Hove Albion,EPL
+21abfb79939c0cf9e3ae9dd8acc2a0de,soccer_epl,betonlineag,h2h,Draw,3.42,2020-10-25T11:58:51Z,2020-11-01T19:15:00Z,Tottenham Hotspur,Brighton and Hove Albion,EPL
+2bef2447a1403ac9ce4a1a2f4e47dd92,soccer_epl,bovada,h2h,Draw,3.35,2020-10-25T11:58:50Z,2020-10-30T20:00:00Z,Wolverhampton Wanderers,Crystal Palace,EPL
+2bef2447a1403ac9ce4a1a2f4e47dd92,soccer_epl,betonlineag,h2h,Draw,3.11,2020-10-25T11:58:51Z,2020-10-30T20:00:00Z,Wolverhampton Wanderers,Crystal Palace,EPL
+9ea64132bd08f74014a2c68043165487,soccer_epl,bovada,h2h,Draw,5.5,2020-10-25T11:58:50Z,2020-10-31T12:30:00Z,Sheffield United,Manchester City,EPL
+9ea64132bd08f74014a2c68043165487,soccer_epl,betonlineag,h2h,Draw,4.43,2020-10-25T11:58:51Z,2020-10-31T12:30:00Z,Sheffield United,Manchester City,EPL
+44789237a1609435286fe675ba14491b,soccer_epl,bovada,h2h,Draw,4.45,2020-10-25T11:58:50Z,2020-10-31T15:00:00Z,Burnley,Chelsea,EPL
+44789237a1609435286fe675ba14491b,soccer_epl,betonlineag,h2h,Draw,3.6,2020-10-25T11:58:51Z,2020-10-31T15:00:00Z,Burnley,Chelsea,EPL
+0fa49ed956d0c8c78063e06deabbd263,soccer_epl,bovada,h2h,Draw,3.7,2020-10-25T11:58:50Z,2020-11-01T14:00:00Z,Newcastle United,Everton,EPL
+0fa49ed956d0c8c78063e06deabbd263,soccer_epl,betonlineag,h2h,Draw,3.11,2020-10-25T11:58:51Z,2020-11-01T14:00:00Z,Newcastle United,Everton,EPL
+21c7d4f9225489ec06babad9ca545ac9,soccer_epl,bovada,h2h,Draw,3.3,2020-10-25T11:58:50Z,2020-11-02T17:30:00Z,Fulham,West Bromwich Albion,EPL
+21c7d4f9225489ec06babad9ca545ac9,soccer_epl,betonlineag,h2h,Draw,2.85,2020-10-25T11:58:51Z,2020-11-02T17:30:00Z,Fulham,West Bromwich Albion,EPL
+18f49ec31982377052a420c0cd9d1c2e,soccer_epl,bovada,h2h,Draw,3.5,2020-10-25T11:58:50Z,2020-11-02T20:00:00Z,Leeds United,Leicester City,EPL
+18f49ec31982377052a420c0cd9d1c2e,soccer_epl,betonlineag,h2h,Draw,2.8,2020-10-25T11:58:51Z,2020-11-02T20:00:00Z,Leeds United,Leicester City,EPL
+7020a7e45aa0abdf35634ad32a9e3eda,soccer_epl,bovada,h2h,Draw,5.25,2020-10-25T11:58:50Z,2020-10-31T17:30:00Z,Liverpool,West Ham United,EPL
+7020a7e45aa0abdf35634ad32a9e3eda,soccer_epl,betonlineag,h2h,Draw,4.34,2020-10-25T11:58:51Z,2020-10-31T17:30:00Z,Liverpool,West Ham United,EPL
+588467ff8b888a3a399c7ed29409d5d2,soccer_epl,bovada,h2h,Draw,3.6,2020-10-25T11:58:50Z,2020-11-01T12:00:00Z,Aston Villa,Southampton,EPL
+588467ff8b888a3a399c7ed29409d5d2,soccer_epl,betonlineag,h2h,Draw,3.07,2020-10-25T11:58:51Z,2020-11-01T12:00:00Z,Aston Villa,Southampton,EPL
+055b1e27e78f7b1f808a84ad31c24e4f,soccer_epl,bovada,h2h,Draw,3.6,2020-11-05T11:59:50Z,2020-11-06T20:00:00Z,Southampton,Newcastle United,EPL
+055b1e27e78f7b1f808a84ad31c24e4f,soccer_epl,betonlineag,h2h,Draw,3.3,2020-11-05T11:54:57Z,2020-11-06T20:00:00Z,Southampton,Newcastle United,EPL
+d895d98c8cc8e84d925c51c74a61dc8b,soccer_epl,bovada,h2h,Draw,4.85,2020-11-05T11:59:50Z,2020-11-07T17:30:00Z,Chelsea,Sheffield United,EPL
+d895d98c8cc8e84d925c51c74a61dc8b,soccer_epl,betonlineag,h2h,Draw,4.59,2020-11-05T11:54:57Z,2020-11-07T17:30:00Z,Chelsea,Sheffield United,EPL
+ea704d3da58d1b2b1a027c3b5f5b0857,soccer_epl,bovada,h2h,Draw,3.3,2020-11-05T11:59:50Z,2020-11-07T15:00:00Z,Crystal Palace,Leeds United,EPL
+ea704d3da58d1b2b1a027c3b5f5b0857,soccer_epl,betonlineag,h2h,Draw,3.2,2020-11-05T11:54:57Z,2020-11-07T15:00:00Z,Crystal Palace,Leeds United,EPL
+9c995c735d5c582471cd7cc71eae9664,soccer_epl,bovada,h2h,Draw,3.45,2020-11-05T11:59:50Z,2020-11-07T12:30:00Z,Everton,Manchester United,EPL
+9c995c735d5c582471cd7cc71eae9664,soccer_epl,betonlineag,h2h,Draw,3.3,2020-11-05T11:54:57Z,2020-11-07T12:30:00Z,Everton,Manchester United,EPL
+6ca5c6dc73defbfa7ca5eb5761feb99e,soccer_epl,bovada,h2h,Draw,3.65,2020-11-05T11:59:50Z,2020-11-07T20:00:00Z,West Ham United,Fulham,EPL
+6ca5c6dc73defbfa7ca5eb5761feb99e,soccer_epl,betonlineag,h2h,Draw,3.5,2020-11-05T11:54:57Z,2020-11-07T20:00:00Z,West Ham United,Fulham,EPL
+73325f0237b091247486691a81ef2a5a,soccer_epl,bovada,h2h,Draw,3.15,2020-11-05T11:59:50Z,2020-11-08T14:00:00Z,Leicester City,Wolverhampton Wanderers,EPL
+73325f0237b091247486691a81ef2a5a,soccer_epl,betonlineag,h2h,Draw,3.05,2020-11-05T11:54:57Z,2020-11-08T14:00:00Z,Leicester City,Wolverhampton Wanderers,EPL
+ae9653b30d1fb2157330a5bb7285d21c,soccer_epl,bovada,h2h,Draw,4.05,2020-11-05T11:59:50Z,2020-11-08T16:30:00Z,Manchester City,Liverpool,EPL
+ae9653b30d1fb2157330a5bb7285d21c,soccer_epl,betonlineag,h2h,Draw,3.55,2020-11-05T11:54:57Z,2020-11-08T16:30:00Z,Manchester City,Liverpool,EPL
+9310b3275b031c53be164248d20ddb63,soccer_epl,betonlineag,h2h,Draw,3.4,2020-11-05T11:54:57Z,2020-11-06T17:30:00Z,Brighton and Hove Albion,Burnley,EPL
+9310b3275b031c53be164248d20ddb63,soccer_epl,bovada,h2h,Draw,3.6,2020-11-05T11:59:50Z,2020-11-06T17:30:00Z,Brighton and Hove Albion,Burnley,EPL
+fd120ef371a10c16b2d9e0a4f76a350e,soccer_epl,betonlineag,h2h,Draw,4.09,2020-11-05T11:54:57Z,2020-11-08T12:00:00Z,West Bromwich Albion,Tottenham Hotspur,EPL
+fd120ef371a10c16b2d9e0a4f76a350e,soccer_epl,bovada,h2h,Draw,4.3,2020-11-05T11:59:50Z,2020-11-08T12:00:00Z,West Bromwich Albion,Tottenham Hotspur,EPL
+be43333127cfd52542da1bf1714004fa,soccer_epl,betonlineag,h2h,Draw,3.7,2020-11-05T11:54:57Z,2020-11-08T19:15:00Z,Arsenal,Aston Villa,EPL
+be43333127cfd52542da1bf1714004fa,soccer_epl,bovada,h2h,Draw,3.9,2020-11-05T11:59:50Z,2020-11-08T19:15:00Z,Arsenal,Aston Villa,EPL
+1692ddbc51c0ef39ad9f455550891db7,soccer_epl,betonlineag,h2h,Draw,3.65,2020-11-05T11:54:57Z,2020-11-21T12:30:00Z,Newcastle United,Chelsea,EPL
+1692ddbc51c0ef39ad9f455550891db7,soccer_epl,bovada,h2h,Draw,4.2,2020-11-05T11:59:50Z,2020-11-21T12:30:00Z,Newcastle United,Chelsea,EPL
+11568662f0a0447ac8d7596744e4311a,soccer_epl,betonlineag,h2h,Draw,3.15,2020-11-05T11:54:57Z,2020-11-21T15:00:00Z,Aston Villa,Brighton and Hove Albion,EPL
+11568662f0a0447ac8d7596744e4311a,soccer_epl,bovada,h2h,Draw,3.35,2020-11-05T11:59:50Z,2020-11-21T15:00:00Z,Aston Villa,Brighton and Hove Albion,EPL
+4e04ae960489dac2cbaa1a9800c72877,soccer_epl,betonlineag,h2h,Draw,3.1,2020-11-05T11:54:57Z,2020-11-21T15:00:00Z,Burnley,Crystal Palace,EPL
+4e04ae960489dac2cbaa1a9800c72877,soccer_epl,bovada,h2h,Draw,3.2,2020-11-05T11:59:50Z,2020-11-21T15:00:00Z,Burnley,Crystal Palace,EPL
+43f73ba8e0d987d6c41dacba5de88aaf,soccer_epl,betonlineag,h2h,Draw,3.4,2020-11-05T11:54:57Z,2020-11-21T15:00:00Z,Fulham,Everton,EPL
+43f73ba8e0d987d6c41dacba5de88aaf,soccer_epl,bovada,h2h,Draw,3.7,2020-11-05T11:59:50Z,2020-11-21T15:00:00Z,Fulham,Everton,EPL
+ff49ac916065d011afd500e18d24e67c,soccer_epl,betonlineag,h2h,Draw,3.75,2020-11-05T11:54:57Z,2020-11-21T15:00:00Z,Liverpool,Leicester City,EPL
+ff49ac916065d011afd500e18d24e67c,soccer_epl,bovada,h2h,Draw,4.1,2020-11-05T11:59:50Z,2020-11-21T15:00:00Z,Liverpool,Leicester City,EPL
+e61239b1ffb1efc85057d01bbc67f1a8,soccer_epl,betonlineag,h2h,Draw,4.3,2020-11-05T11:54:57Z,2020-11-21T15:00:00Z,Manchester United,West Bromwich Albion,EPL
+e61239b1ffb1efc85057d01bbc67f1a8,soccer_epl,bovada,h2h,Draw,5.0,2020-11-05T11:59:50Z,2020-11-21T15:00:00Z,Manchester United,West Bromwich Albion,EPL
+a5ea739ab96ef773c41e1ec3d6c19c51,soccer_epl,betonlineag,h2h,Draw,3.05,2020-11-05T11:54:57Z,2020-11-21T15:00:00Z,Wolverhampton Wanderers,Southampton,EPL
+a5ea739ab96ef773c41e1ec3d6c19c51,soccer_epl,bovada,h2h,Draw,3.2,2020-11-05T11:59:50Z,2020-11-21T15:00:00Z,Wolverhampton Wanderers,Southampton,EPL
+8b409d299a660108c6dc061344977cfb,soccer_epl,betonlineag,h2h,Draw,3.45,2020-11-05T11:54:57Z,2020-11-21T17:30:00Z,Tottenham Hotspur,Manchester City,EPL
+8b409d299a660108c6dc061344977cfb,soccer_epl,bovada,h2h,Draw,3.75,2020-11-05T11:59:50Z,2020-11-21T17:30:00Z,Tottenham Hotspur,Manchester City,EPL
+11994dd96c25973514159e8805dbed24,soccer_epl,betonlineag,h2h,Draw,3.05,2020-11-05T11:54:57Z,2020-11-22T14:00:00Z,Sheffield United,West Ham United,EPL
+11994dd96c25973514159e8805dbed24,soccer_epl,bovada,h2h,Draw,3.2,2020-11-05T11:59:50Z,2020-11-22T14:00:00Z,Sheffield United,West Ham United,EPL
+5abb8152c51f5f8626abf4bfbe1a97d8,soccer_epl,betonlineag,h2h,Draw,3.15,2020-11-05T11:54:57Z,2020-11-22T16:30:00Z,Leeds United,Arsenal,EPL
+5abb8152c51f5f8626abf4bfbe1a97d8,soccer_epl,bovada,h2h,Draw,3.4,2020-11-05T11:59:50Z,2020-11-22T16:30:00Z,Leeds United,Arsenal,EPL
+1692ddbc51c0ef39ad9f455550891db7,soccer_epl,betonlineag,h2h,Draw,3.9,2020-11-15T11:53:41Z,2020-11-21T12:30:00Z,Newcastle United,Chelsea,EPL
+1692ddbc51c0ef39ad9f455550891db7,soccer_epl,bovada,h2h,Draw,4.55,2020-11-15T11:54:48Z,2020-11-21T12:30:00Z,Newcastle United,Chelsea,EPL
+11568662f0a0447ac8d7596744e4311a,soccer_epl,betonlineag,h2h,Draw,3.25,2020-11-15T11:53:41Z,2020-11-21T15:00:00Z,Aston Villa,Brighton and Hove Albion,EPL
+11568662f0a0447ac8d7596744e4311a,soccer_epl,bovada,h2h,Draw,3.45,2020-11-15T11:54:48Z,2020-11-21T15:00:00Z,Aston Villa,Brighton and Hove Albion,EPL
+43f73ba8e0d987d6c41dacba5de88aaf,soccer_epl,betonlineag,h2h,Draw,3.35,2020-11-15T11:53:41Z,2020-11-21T15:00:00Z,Fulham,Everton,EPL
+e61239b1ffb1efc85057d01bbc67f1a8,soccer_epl,betonlineag,h2h,Draw,4.4,2020-11-15T11:53:41Z,2020-11-21T20:00:00Z,Manchester United,West Bromwich Albion,EPL
+e61239b1ffb1efc85057d01bbc67f1a8,soccer_epl,bovada,h2h,Draw,5.25,2020-11-15T11:54:48Z,2020-11-21T20:00:00Z,Manchester United,West Bromwich Albion,EPL
+a5ea739ab96ef773c41e1ec3d6c19c51,soccer_epl,betonlineag,h2h,Draw,3.0,2020-11-15T11:53:41Z,2020-11-21T15:00:00Z,Wolverhampton Wanderers,Southampton,EPL
+8b409d299a660108c6dc061344977cfb,soccer_epl,betonlineag,h2h,Draw,3.4,2020-11-15T11:53:41Z,2020-11-21T17:30:00Z,Tottenham Hotspur,Manchester City,EPL
+8b409d299a660108c6dc061344977cfb,soccer_epl,bovada,h2h,Draw,3.95,2020-11-15T11:54:48Z,2020-11-21T17:30:00Z,Tottenham Hotspur,Manchester City,EPL
+11994dd96c25973514159e8805dbed24,soccer_epl,betonlineag,h2h,Draw,3.05,2020-11-15T11:53:41Z,2020-11-22T14:00:00Z,Sheffield United,West Ham United,EPL
+11994dd96c25973514159e8805dbed24,soccer_epl,bovada,h2h,Draw,3.25,2020-11-15T11:54:48Z,2020-11-22T14:00:00Z,Sheffield United,West Ham United,EPL
+5abb8152c51f5f8626abf4bfbe1a97d8,soccer_epl,betonlineag,h2h,Draw,3.35,2020-11-15T11:53:41Z,2020-11-22T16:30:00Z,Leeds United,Arsenal,EPL
+5abb8152c51f5f8626abf4bfbe1a97d8,soccer_epl,bovada,h2h,Draw,3.65,2020-11-15T11:54:48Z,2020-11-22T16:30:00Z,Leeds United,Arsenal,EPL
+cd886c5ff9c5b10ded073498006c222e,soccer_epl,bovada,h2h,Draw,4.05,2020-11-15T11:54:48Z,2020-11-28T12:30:00Z,Brighton and Hove Albion,Liverpool,EPL
+5e76373c97c5489ae847db2b01ad586d,soccer_epl,bovada,h2h,Draw,6.5,2020-11-15T11:54:48Z,2020-11-28T15:00:00Z,Manchester City,Burnley,EPL
+8250eaa56b63d21cffd497a9aa99cae7,soccer_epl,bovada,h2h,Draw,3.25,2020-11-15T11:54:48Z,2020-11-28T20:00:00Z,West Bromwich Albion,Sheffield United,EPL
+a0feb44c7f54a05f43501064b1588281,soccer_epl,bovada,h2h,Draw,3.55,2020-11-15T11:54:48Z,2020-11-28T17:30:00Z,Everton,Leeds United,EPL
+3b3318097d80d7f45c5577aef0748738,soccer_epl,bovada,h2h,Draw,3.5,2020-11-15T11:54:48Z,2020-11-29T14:00:00Z,Southampton,Manchester United,EPL
+fcf6d472296fb0c38080ac2517624211,soccer_epl,bovada,h2h,Draw,3.45,2020-11-15T11:54:48Z,2020-11-29T16:30:00Z,Chelsea,Tottenham Hotspur,EPL
+470d7d7313eaea3ec820870d2083a90f,soccer_epl,bovada,h2h,Draw,3.55,2020-11-15T11:54:48Z,2020-11-30T20:00:00Z,West Ham United,Aston Villa,EPL
+b8f9875d60d5ce82e6ebb5e07832b41b,soccer_epl,betonlineag,h2h,Draw,3.9,2020-11-15T12:00:23Z,2020-11-22T19:15:00Z,Liverpool,Leicester City,EPL
+b8f9875d60d5ce82e6ebb5e07832b41b,soccer_epl,bovada,h2h,Draw,3.8,2020-11-15T11:54:48Z,2020-11-22T19:15:00Z,Liverpool,Leicester City,EPL
+9606d615a8d8b0698a588e5c5c1ec572,soccer_epl,bovada,h2h,Draw,3.3,2020-11-15T11:54:48Z,2020-11-23T20:00:00Z,Wolverhampton Wanderers,Southampton,EPL
+881447be99b09a0780ac16455f57f5eb,soccer_epl,bovada,h2h,Draw,3.3,2020-11-15T11:54:48Z,2020-11-27T20:00:00Z,Crystal Palace,Newcastle United,EPL
+d92376ed6ffd25242b59c89acdf5c9f5,soccer_epl,bovada,h2h,Draw,3.35,2020-11-15T11:54:48Z,2020-11-29T19:15:00Z,Arsenal,Wolverhampton Wanderers,EPL
+cf63a6871ab0aee5c03f327a9a57114a,soccer_epl,bovada,h2h,Draw,4.15,2020-11-15T11:54:48Z,2020-11-30T17:30:00Z,Leicester City,Fulham,EPL
+cf540b00e242cc90b1b9bff2d1dcd3bf,soccer_epl,betonlineag,h2h,Draw,3.05,2020-11-15T12:00:23Z,2020-11-23T17:30:00Z,Burnley,Crystal Palace,EPL
+cf540b00e242cc90b1b9bff2d1dcd3bf,soccer_epl,bovada,h2h,Draw,3.15,2020-11-15T11:54:48Z,2020-11-23T17:30:00Z,Burnley,Crystal Palace,EPL
+673bf9c3ad592b4b1ee67fbbede03e51,soccer_epl,bovada,h2h,Draw,3.8,2020-11-15T11:54:48Z,2020-11-22T12:00:00Z,Fulham,Everton,EPL
+cd886c5ff9c5b10ded073498006c222e,soccer_epl,betonlineag,h2h,Draw,3.8,2020-11-25T11:58:46Z,2020-11-28T12:30:00Z,Brighton and Hove Albion,Liverpool,EPL
+cd886c5ff9c5b10ded073498006c222e,soccer_epl,bovada,h2h,Draw,4.1,2020-11-25T11:59:32Z,2020-11-28T12:30:00Z,Brighton and Hove Albion,Liverpool,EPL
+5e76373c97c5489ae847db2b01ad586d,soccer_epl,betonlineag,h2h,Draw,6.6,2020-11-25T11:58:46Z,2020-11-28T15:00:00Z,Manchester City,Burnley,EPL
+5e76373c97c5489ae847db2b01ad586d,soccer_epl,bovada,h2h,Draw,7.5,2020-11-25T11:59:32Z,2020-11-28T15:00:00Z,Manchester City,Burnley,EPL
+8250eaa56b63d21cffd497a9aa99cae7,soccer_epl,betonlineag,h2h,Draw,3.0,2020-11-25T11:58:46Z,2020-11-28T20:00:00Z,West Bromwich Albion,Sheffield United,EPL
+8250eaa56b63d21cffd497a9aa99cae7,soccer_epl,bovada,h2h,Draw,3.2,2020-11-25T11:59:32Z,2020-11-28T20:00:00Z,West Bromwich Albion,Sheffield United,EPL
+a0feb44c7f54a05f43501064b1588281,soccer_epl,betonlineag,h2h,Draw,3.5,2020-11-25T11:58:46Z,2020-11-28T17:30:00Z,Everton,Leeds United,EPL
+a0feb44c7f54a05f43501064b1588281,soccer_epl,bovada,h2h,Draw,3.7,2020-11-25T11:59:32Z,2020-11-28T17:30:00Z,Everton,Leeds United,EPL
+3b3318097d80d7f45c5577aef0748738,soccer_epl,betonlineag,h2h,Draw,3.3,2020-11-25T11:58:46Z,2020-11-29T14:00:00Z,Southampton,Manchester United,EPL
+3b3318097d80d7f45c5577aef0748738,soccer_epl,bovada,h2h,Draw,3.6,2020-11-25T11:59:32Z,2020-11-29T14:00:00Z,Southampton,Manchester United,EPL
+fcf6d472296fb0c38080ac2517624211,soccer_epl,betonlineag,h2h,Draw,3.45,2020-11-25T11:58:46Z,2020-11-29T16:30:00Z,Chelsea,Tottenham Hotspur,EPL
+fcf6d472296fb0c38080ac2517624211,soccer_epl,bovada,h2h,Draw,3.55,2020-11-25T11:59:32Z,2020-11-29T16:30:00Z,Chelsea,Tottenham Hotspur,EPL
+470d7d7313eaea3ec820870d2083a90f,soccer_epl,betonlineag,h2h,Draw,3.25,2020-11-25T11:58:46Z,2020-11-30T20:00:00Z,West Ham United,Aston Villa,EPL
+470d7d7313eaea3ec820870d2083a90f,soccer_epl,bovada,h2h,Draw,3.5,2020-11-25T11:59:32Z,2020-11-30T20:00:00Z,West Ham United,Aston Villa,EPL
+881447be99b09a0780ac16455f57f5eb,soccer_epl,bovada,h2h,Draw,3.2,2020-11-25T11:59:32Z,2020-11-27T20:00:00Z,Crystal Palace,Newcastle United,EPL
+881447be99b09a0780ac16455f57f5eb,soccer_epl,betonlineag,h2h,Draw,3.0,2020-11-25T11:58:46Z,2020-11-27T20:00:00Z,Crystal Palace,Newcastle United,EPL
+d92376ed6ffd25242b59c89acdf5c9f5,soccer_epl,bovada,h2h,Draw,3.35,2020-11-25T11:59:32Z,2020-11-29T19:15:00Z,Arsenal,Wolverhampton Wanderers,EPL
+d92376ed6ffd25242b59c89acdf5c9f5,soccer_epl,betonlineag,h2h,Draw,3.15,2020-11-25T11:58:46Z,2020-11-29T19:15:00Z,Arsenal,Wolverhampton Wanderers,EPL
+cf63a6871ab0aee5c03f327a9a57114a,soccer_epl,bovada,h2h,Draw,4.35,2020-11-25T11:59:32Z,2020-11-30T17:30:00Z,Leicester City,Fulham,EPL
+cf63a6871ab0aee5c03f327a9a57114a,soccer_epl,betonlineag,h2h,Draw,3.95,2020-11-25T11:58:46Z,2020-11-30T17:30:00Z,Leicester City,Fulham,EPL
+0b624d9a6cc8456582bba7dc6216f181,soccer_epl,bovada,h2h,Draw,3.5,2020-11-25T11:59:32Z,2020-12-05T15:00:00Z,Burnley,Everton,EPL
+0b624d9a6cc8456582bba7dc6216f181,soccer_epl,betonlineag,h2h,Draw,3.35,2020-11-25T11:58:46Z,2020-12-05T15:00:00Z,Burnley,Everton,EPL
+33b588c516d9b935d79cd9fc49fd54a7,soccer_epl,bovada,h2h,Draw,3.35,2020-11-25T11:59:32Z,2020-12-05T15:00:00Z,Brighton and Hove Albion,Southampton,EPL
+33b588c516d9b935d79cd9fc49fd54a7,soccer_epl,betonlineag,h2h,Draw,3.15,2020-11-25T11:58:46Z,2020-12-05T15:00:00Z,Brighton and Hove Albion,Southampton,EPL
+8a44cfd8c9f2a663a41ccf7ed023acf0,soccer_epl,bovada,h2h,Draw,4.6,2020-11-25T11:59:32Z,2020-12-05T15:00:00Z,Chelsea,Leeds United,EPL
+8a44cfd8c9f2a663a41ccf7ed023acf0,soccer_epl,betonlineag,h2h,Draw,4.09,2020-11-25T11:58:46Z,2020-12-05T15:00:00Z,Chelsea,Leeds United,EPL
+6be075f1b425a3676b863a813ce426ef,soccer_epl,bovada,h2h,Draw,9.5,2020-11-25T11:59:32Z,2020-12-05T15:00:00Z,Manchester City,Fulham,EPL
+6be075f1b425a3676b863a813ce426ef,soccer_epl,betonlineag,h2h,Draw,6.8,2020-11-25T11:58:46Z,2020-12-05T15:00:00Z,Manchester City,Fulham,EPL
+46953d529a40388c85a176658fa8b732,soccer_epl,bovada,h2h,Draw,3.2,2020-11-25T11:59:32Z,2020-12-05T15:00:00Z,West Bromwich Albion,Crystal Palace,EPL
+46953d529a40388c85a176658fa8b732,soccer_epl,betonlineag,h2h,Draw,3.15,2020-11-25T11:58:46Z,2020-12-05T15:00:00Z,West Bromwich Albion,Crystal Palace,EPL
+1532c7d924d060760ec35690d84f43ad,soccer_epl,bovada,h2h,Draw,3.6,2020-11-25T11:59:32Z,2020-12-05T15:00:00Z,West Ham United,Manchester United,EPL
+1532c7d924d060760ec35690d84f43ad,soccer_epl,betonlineag,h2h,Draw,3.5,2020-11-25T11:58:46Z,2020-12-05T15:00:00Z,West Ham United,Manchester United,EPL
+55c75c208e50010f83a14f26e0f40668,soccer_epl,bovada,h2h,Draw,3.8,2020-11-25T11:59:32Z,2020-12-05T15:00:00Z,Aston Villa,Newcastle United,EPL
+55c75c208e50010f83a14f26e0f40668,soccer_epl,betonlineag,h2h,Draw,3.4,2020-11-25T11:58:46Z,2020-12-05T15:00:00Z,Aston Villa,Newcastle United,EPL
+0b624d9a6cc8456582bba7dc6216f181,soccer_epl,bovada,h2h,Draw,3.5,2020-12-05T11:58:53Z,2020-12-05T12:30:00Z,Burnley,Everton,EPL
+0b624d9a6cc8456582bba7dc6216f181,soccer_epl,betonlineag,h2h,Draw,3.35,2020-12-05T11:59:46Z,2020-12-05T12:30:00Z,Burnley,Everton,EPL
+6be075f1b425a3676b863a813ce426ef,soccer_epl,bovada,h2h,Draw,8.75,2020-12-05T11:58:53Z,2020-12-05T15:00:00Z,Manchester City,Fulham,EPL
+6be075f1b425a3676b863a813ce426ef,soccer_epl,betonlineag,h2h,Draw,7.8,2020-12-05T11:59:46Z,2020-12-05T15:00:00Z,Manchester City,Fulham,EPL
+eb683570ef39206da256799a97f5e06a,soccer_epl,bovada,h2h,Draw,3.6,2020-12-05T11:58:53Z,2020-12-05T17:30:00Z,West Ham United,Manchester United,EPL
+eb683570ef39206da256799a97f5e06a,soccer_epl,betonlineag,h2h,Draw,3.35,2020-12-05T11:59:46Z,2020-12-05T17:30:00Z,West Ham United,Manchester United,EPL
+8a44cfd8c9f2a663a41ccf7ed023acf0,soccer_epl,bovada,h2h,Draw,4.8,2020-12-05T11:58:53Z,2020-12-05T20:00:00Z,Chelsea,Leeds United,EPL
+8a44cfd8c9f2a663a41ccf7ed023acf0,soccer_epl,betonlineag,h2h,Draw,4.8,2020-12-05T11:59:46Z,2020-12-05T20:00:00Z,Chelsea,Leeds United,EPL
+9af291f8fc9564c57cee4cd53dec5b47,soccer_epl,bovada,h2h,Draw,3.25,2020-12-05T11:58:53Z,2020-12-06T12:00:00Z,West Bromwich Albion,Crystal Palace,EPL
+9af291f8fc9564c57cee4cd53dec5b47,soccer_epl,betonlineag,h2h,Draw,3.0,2020-12-05T11:59:46Z,2020-12-06T12:00:00Z,West Bromwich Albion,Crystal Palace,EPL
+d7aa99e5af9515a2da80f1d7b0038ff6,soccer_epl,bovada,h2h,Draw,3.5,2020-12-05T11:58:53Z,2020-12-06T14:15:00Z,Sheffield United,Leicester City,EPL
+d7aa99e5af9515a2da80f1d7b0038ff6,soccer_epl,betonlineag,h2h,Draw,3.35,2020-12-05T11:59:46Z,2020-12-06T14:15:00Z,Sheffield United,Leicester City,EPL
+254ecc53f5a942ec1771c834da0a6666,soccer_epl,bovada,h2h,Draw,3.55,2020-12-05T11:58:53Z,2020-12-06T16:30:00Z,Tottenham Hotspur,Arsenal,EPL
+254ecc53f5a942ec1771c834da0a6666,soccer_epl,betonlineag,h2h,Draw,3.3,2020-12-05T11:59:46Z,2020-12-06T16:30:00Z,Tottenham Hotspur,Arsenal,EPL
+cec03580d840e4eb14fcf7278eda7c3f,soccer_epl,betonlineag,h2h,Draw,4.2,2020-12-05T11:59:46Z,2020-12-06T19:15:00Z,Liverpool,Wolverhampton Wanderers,EPL
+cec03580d840e4eb14fcf7278eda7c3f,soccer_epl,bovada,h2h,Draw,4.25,2020-12-05T11:58:53Z,2020-12-06T19:15:00Z,Liverpool,Wolverhampton Wanderers,EPL
+b325b201c095bfef90c9cbd977f986d5,soccer_epl,bovada,h2h,Draw,3.4,2020-12-05T11:58:53Z,2020-12-07T20:00:00Z,Brighton and Hove Albion,Southampton,EPL
+b325b201c095bfef90c9cbd977f986d5,soccer_epl,betonlineag,h2h,Draw,3.05,2020-12-05T11:59:46Z,2020-12-07T20:00:00Z,Brighton and Hove Albion,Southampton,EPL
+400da879fefb5a263877a728e3e55457,soccer_epl,bovada,h2h,Draw,3.65,2020-12-05T11:58:53Z,2020-12-13T12:00:00Z,Southampton,Sheffield United,EPL
+400da879fefb5a263877a728e3e55457,soccer_epl,betonlineag,h2h,Draw,3.5,2020-12-05T11:59:46Z,2020-12-13T12:00:00Z,Southampton,Sheffield United,EPL
+78edfb3a2bca0c1852213c31185370aa,soccer_epl,bovada,h2h,Draw,3.25,2020-12-05T11:58:53Z,2020-12-12T12:30:00Z,Wolverhampton Wanderers,Aston Villa,EPL
+78edfb3a2bca0c1852213c31185370aa,soccer_epl,betonlineag,h2h,Draw,3.25,2020-12-05T11:59:46Z,2020-12-12T12:30:00Z,Wolverhampton Wanderers,Aston Villa,EPL
+a300595fa91e1b2b084a2f7619a4f31a,soccer_epl,bovada,h2h,Draw,3.25,2020-12-05T11:58:53Z,2020-12-12T15:00:00Z,Newcastle United,West Bromwich Albion,EPL
+5fea7c77f38a8da72955ce599541c392,soccer_epl,bovada,h2h,Draw,3.95,2020-12-05T11:58:53Z,2020-12-12T17:30:00Z,Manchester United,Manchester City,EPL
+5fea7c77f38a8da72955ce599541c392,soccer_epl,betonlineag,h2h,Draw,3.45,2020-12-05T11:59:46Z,2020-12-12T17:30:00Z,Manchester United,Manchester City,EPL
+376b225f093b1ceb3a71a256967d1712,soccer_epl,bovada,h2h,Draw,3.8,2020-12-05T11:58:53Z,2020-12-12T20:00:00Z,Everton,Chelsea,EPL
+376b225f093b1ceb3a71a256967d1712,soccer_epl,betonlineag,h2h,Draw,3.5,2020-12-05T11:59:46Z,2020-12-12T20:00:00Z,Everton,Chelsea,EPL
+91fead45a877759bb9dc2f4d60407669,soccer_epl,bovada,h2h,Draw,4.25,2020-12-05T11:58:53Z,2020-12-13T19:15:00Z,Arsenal,Burnley,EPL
+91fead45a877759bb9dc2f4d60407669,soccer_epl,betonlineag,h2h,Draw,4.0,2020-12-05T11:59:46Z,2020-12-13T19:15:00Z,Arsenal,Burnley,EPL
+e4e8cccd2ee63c583f1c93a8f69ca96b,soccer_epl,bovada,h2h,Draw,3.6,2020-12-05T11:58:53Z,2020-12-13T19:15:00Z,Leicester City,Brighton and Hove Albion,EPL
+e4e8cccd2ee63c583f1c93a8f69ca96b,soccer_epl,betonlineag,h2h,Draw,3.5,2020-12-05T11:59:46Z,2020-12-13T19:15:00Z,Leicester City,Brighton and Hove Albion,EPL
+e24816e9f925cbf8632c5cce6b46b868,soccer_epl,bovada,h2h,Draw,5.25,2020-12-05T11:58:53Z,2020-12-13T16:30:00Z,Fulham,Liverpool,EPL
+e24816e9f925cbf8632c5cce6b46b868,soccer_epl,betonlineag,h2h,Draw,4.7,2020-12-05T11:59:46Z,2020-12-13T16:30:00Z,Fulham,Liverpool,EPL
+9a055362f45eee448b2952096f904b6b,soccer_epl,bovada,h2h,Draw,3.8,2020-12-05T11:58:53Z,2020-12-11T20:00:00Z,Leeds United,West Ham United,EPL
+9a055362f45eee448b2952096f904b6b,soccer_epl,betonlineag,h2h,Draw,3.45,2020-12-05T11:59:46Z,2020-12-11T20:00:00Z,Leeds United,West Ham United,EPL
+258e0191ae06816b2f22e51909f14f5f,soccer_epl,bovada,h2h,Draw,3.95,2020-12-05T11:58:53Z,2020-12-13T14:15:00Z,Crystal Palace,Tottenham Hotspur,EPL
+258e0191ae06816b2f22e51909f14f5f,soccer_epl,betonlineag,h2h,Draw,3.65,2020-12-05T11:59:46Z,2020-12-13T14:15:00Z,Crystal Palace,Tottenham Hotspur,EPL
+29bc199b90ffec5b51351ed0f47f61b2,soccer_epl,bovada,h2h,Draw,3.75,2020-12-15T11:54:52Z,2020-12-15T18:00:00Z,Wolverhampton Wanderers,Chelsea,EPL
+29bc199b90ffec5b51351ed0f47f61b2,soccer_epl,betonlineag,h2h,Draw,3.6,2020-12-15T11:58:31Z,2020-12-15T18:00:00Z,Wolverhampton Wanderers,Chelsea,EPL
+dbcec051c4d2cbb65d87bfa82b4c822a,soccer_epl,bovada,h2h,Draw,3.45,2020-12-15T11:54:52Z,2020-12-16T20:00:00Z,West Ham United,Crystal Palace,EPL
+dbcec051c4d2cbb65d87bfa82b4c822a,soccer_epl,betonlineag,h2h,Draw,3.1,2020-12-15T11:58:31Z,2020-12-16T20:00:00Z,West Ham United,Crystal Palace,EPL
+700f0be74818a299d36824bbad6f1684,soccer_epl,bovada,h2h,Draw,3.95,2020-12-15T11:54:52Z,2020-12-17T18:00:00Z,Aston Villa,Burnley,EPL
+700f0be74818a299d36824bbad6f1684,soccer_epl,betonlineag,h2h,Draw,3.39,2020-12-15T11:58:31Z,2020-12-17T18:00:00Z,Aston Villa,Burnley,EPL
+425ee6f2414f6e06607616e20a9c3611,soccer_epl,bovada,h2h,Draw,4.45,2020-12-15T11:54:52Z,2020-12-17T20:00:00Z,Sheffield United,Manchester United,EPL
+425ee6f2414f6e06607616e20a9c3611,soccer_epl,betonlineag,h2h,Draw,4.05,2020-12-15T11:58:31Z,2020-12-17T20:00:00Z,Sheffield United,Manchester United,EPL
+1ef5156f8dfab9a1cd6e62f07cf217dc,soccer_epl,bovada,h2h,Draw,3.45,2020-12-15T11:54:52Z,2020-12-16T18:00:00Z,Arsenal,Southampton,EPL
+1ef5156f8dfab9a1cd6e62f07cf217dc,soccer_epl,betonlineag,h2h,Draw,3.15,2020-12-15T11:58:31Z,2020-12-16T18:00:00Z,Arsenal,Southampton,EPL
+e1a6e9c917255a0e3ef4adfdd2292bba,soccer_epl,bovada,h2h,Draw,3.6,2020-12-15T11:54:52Z,2020-12-16T18:00:00Z,Leicester City,Everton,EPL
+e1a6e9c917255a0e3ef4adfdd2292bba,soccer_epl,betonlineag,h2h,Draw,3.29,2020-12-15T11:58:31Z,2020-12-16T18:00:00Z,Leicester City,Everton,EPL
+6c141473b436bb6b25d271a4f1f2e334,soccer_epl,bovada,h2h,Draw,3.3,2020-12-15T11:54:52Z,2020-12-16T20:00:00Z,Fulham,Brighton and Hove Albion,EPL
+6c141473b436bb6b25d271a4f1f2e334,soccer_epl,betonlineag,h2h,Draw,3.05,2020-12-15T11:58:31Z,2020-12-16T20:00:00Z,Fulham,Brighton and Hove Albion,EPL
+024f6251aed49a7a5cd3209f1f5eb3c0,soccer_epl,bovada,h2h,Draw,3.8,2020-12-15T11:54:52Z,2020-12-16T20:00:00Z,Liverpool,Tottenham Hotspur,EPL
+024f6251aed49a7a5cd3209f1f5eb3c0,soccer_epl,betonlineag,h2h,Draw,3.58,2020-12-15T11:58:31Z,2020-12-16T20:00:00Z,Liverpool,Tottenham Hotspur,EPL
+b179c1d915c446c8dac4887991570737,soccer_epl,bovada,h2h,Draw,10.0,2020-12-15T11:54:52Z,2020-12-15T20:00:00Z,Manchester City,West Bromwich Albion,EPL
+b179c1d915c446c8dac4887991570737,soccer_epl,betonlineag,h2h,Draw,8.75,2020-12-15T11:58:31Z,2020-12-15T20:00:00Z,Manchester City,West Bromwich Albion,EPL
+27dc468121fda20eb36314a24571b646,soccer_epl,bovada,h2h,Draw,3.85,2020-12-15T11:54:52Z,2020-12-16T18:00:00Z,Leeds United,Newcastle United,EPL
+27dc468121fda20eb36314a24571b646,soccer_epl,betonlineag,h2h,Draw,3.39,2020-12-15T11:58:31Z,2020-12-16T18:00:00Z,Leeds United,Newcastle United,EPL
+63264fd795f5ca00b1bc6c4fd9bfbb28,soccer_epl,bovada,h2h,Draw,3.85,2020-12-15T11:54:52Z,2020-12-20T19:15:00Z,West Bromwich Albion,Aston Villa,EPL
+63264fd795f5ca00b1bc6c4fd9bfbb28,soccer_epl,betonlineag,h2h,Draw,3.43,2020-12-15T11:58:31Z,2020-12-20T19:15:00Z,West Bromwich Albion,Aston Villa,EPL
+eb8edfb4ed38f5fa349ae2a466c44443,soccer_epl,bovada,h2h,Draw,4.5,2020-12-15T11:54:52Z,2020-12-19T12:30:00Z,Crystal Palace,Liverpool,EPL
+eb8edfb4ed38f5fa349ae2a466c44443,soccer_epl,betonlineag,h2h,Draw,3.67,2020-12-15T11:58:31Z,2020-12-19T12:30:00Z,Crystal Palace,Liverpool,EPL
+51a2024cb3e96d7283cb4fa1282909a2,soccer_epl,bovada,h2h,Draw,4.85,2020-12-15T11:54:52Z,2020-12-19T15:00:00Z,Southampton,Manchester City,EPL
+51a2024cb3e96d7283cb4fa1282909a2,soccer_epl,betonlineag,h2h,Draw,4.24,2020-12-15T11:58:31Z,2020-12-19T15:00:00Z,Southampton,Manchester City,EPL
+98bb77a4aaad0121472591c9b110583f,soccer_epl,bovada,h2h,Draw,3.55,2020-12-15T11:54:52Z,2020-12-19T17:30:00Z,Everton,Arsenal,EPL
+98bb77a4aaad0121472591c9b110583f,soccer_epl,betonlineag,h2h,Draw,3.15,2020-12-15T11:58:31Z,2020-12-19T17:30:00Z,Everton,Arsenal,EPL
+f6b4c9841d9d92a5936a471f9e6d9ae7,soccer_epl,bovada,h2h,Draw,3.3,2020-12-15T11:54:52Z,2020-12-19T20:00:00Z,Newcastle United,Fulham,EPL
+f6b4c9841d9d92a5936a471f9e6d9ae7,soccer_epl,betonlineag,h2h,Draw,3.05,2020-12-15T11:58:31Z,2020-12-19T20:00:00Z,Newcastle United,Fulham,EPL
+f12b0d2f1a8db234c4eb7a942cb323d7,soccer_epl,bovada,h2h,Draw,3.7,2020-12-15T11:54:52Z,2020-12-20T12:00:00Z,Brighton and Hove Albion,Sheffield United,EPL
+f12b0d2f1a8db234c4eb7a942cb323d7,soccer_epl,betonlineag,h2h,Draw,3.39,2020-12-15T11:58:31Z,2020-12-20T12:00:00Z,Brighton and Hove Albion,Sheffield United,EPL
+51876ced80a84b52ca8791645acd5bd1,soccer_epl,bovada,h2h,Draw,3.65,2020-12-15T11:54:52Z,2020-12-20T14:15:00Z,Tottenham Hotspur,Leicester City,EPL
+51876ced80a84b52ca8791645acd5bd1,soccer_epl,betonlineag,h2h,Draw,3.34,2020-12-15T11:58:31Z,2020-12-20T14:15:00Z,Tottenham Hotspur,Leicester City,EPL
+fc76c73c19716d6b09733df7a6d3f5b3,soccer_epl,bovada,h2h,Draw,4.25,2020-12-15T11:54:52Z,2020-12-20T16:30:00Z,Manchester United,Leeds United,EPL
+fc76c73c19716d6b09733df7a6d3f5b3,soccer_epl,betonlineag,h2h,Draw,3.77,2020-12-15T11:58:31Z,2020-12-20T16:30:00Z,Manchester United,Leeds United,EPL
+39d524740fe3c7efbc288b6d32e033fe,soccer_epl,bovada,h2h,Draw,3.15,2020-12-15T11:54:52Z,2020-12-21T17:30:00Z,Burnley,Wolverhampton Wanderers,EPL
+39d524740fe3c7efbc288b6d32e033fe,soccer_epl,betonlineag,h2h,Draw,3.0,2020-12-15T11:58:31Z,2020-12-21T17:30:00Z,Burnley,Wolverhampton Wanderers,EPL
+4ee7718b24db413cc8248c4718a2be0a,soccer_epl,bovada,h2h,Draw,4.9,2020-12-15T11:54:52Z,2020-12-21T20:00:00Z,Chelsea,West Ham United,EPL
+4ee7718b24db413cc8248c4718a2be0a,soccer_epl,betonlineag,h2h,Draw,4.34,2020-12-15T11:58:31Z,2020-12-21T20:00:00Z,Chelsea,West Ham United,EPL
+58d3b373f28dadad2587b3682c42668e,soccer_epl,bovada,h2h,Draw,3.55,2020-12-25T11:59:23Z,2020-12-26T12:30:00Z,Leicester City,Manchester United,EPL
+58d3b373f28dadad2587b3682c42668e,soccer_epl,betonlineag,h2h,Draw,3.35,2020-12-25T11:58:48Z,2020-12-26T12:30:00Z,Leicester City,Manchester United,EPL
+d7f90b1326e23859c610faa3dd0b5df7,soccer_epl,bovada,h2h,Draw,3.3,2020-12-25T11:59:23Z,2020-12-26T15:00:00Z,Fulham,Southampton,EPL
+d7f90b1326e23859c610faa3dd0b5df7,soccer_epl,betonlineag,h2h,Draw,3.25,2020-12-25T11:58:48Z,2020-12-26T15:00:00Z,Fulham,Southampton,EPL
+409baa9528509339766fef63b1f56183,soccer_epl,bovada,h2h,Draw,3.55,2020-12-25T11:59:23Z,2020-12-26T17:30:00Z,Arsenal,Chelsea,EPL
+409baa9528509339766fef63b1f56183,soccer_epl,betonlineag,h2h,Draw,3.35,2020-12-25T11:58:48Z,2020-12-26T17:30:00Z,Arsenal,Chelsea,EPL
+10a7376aaa18ffdfda20586b8e06987a,soccer_epl,bovada,h2h,Draw,9.0,2020-12-25T11:59:23Z,2020-12-26T20:00:00Z,Manchester City,Newcastle United,EPL
+10a7376aaa18ffdfda20586b8e06987a,soccer_epl,betonlineag,h2h,Draw,7.2,2020-12-25T11:58:48Z,2020-12-26T20:00:00Z,Manchester City,Newcastle United,EPL
+7a87bb0593eeae946b3b2ee2ee338ee4,soccer_epl,bovada,h2h,Draw,3.55,2020-12-25T11:59:23Z,2020-12-26T20:00:00Z,Sheffield United,Everton,EPL
+7a87bb0593eeae946b3b2ee2ee338ee4,soccer_epl,betonlineag,h2h,Draw,3.3,2020-12-25T11:58:48Z,2020-12-26T20:00:00Z,Sheffield United,Everton,EPL
+70a0b6b0955501eb6ff0149553a6c558,soccer_epl,bovada,h2h,Draw,4.05,2020-12-25T11:59:23Z,2020-12-27T12:00:00Z,Leeds United,Burnley,EPL
+70a0b6b0955501eb6ff0149553a6c558,soccer_epl,betonlineag,h2h,Draw,3.75,2020-12-25T11:58:48Z,2020-12-27T12:00:00Z,Leeds United,Burnley,EPL
+52f9c0d9050233e3aaf0be156257ddad,soccer_epl,bovada,h2h,Draw,3.35,2020-12-25T11:59:23Z,2020-12-27T14:15:00Z,West Ham United,Brighton and Hove Albion,EPL
+52f9c0d9050233e3aaf0be156257ddad,soccer_epl,betonlineag,h2h,Draw,3.15,2020-12-25T11:58:48Z,2020-12-27T14:15:00Z,West Ham United,Brighton and Hove Albion,EPL
+3898b6becbd0480d0d8296f84ac8f596,soccer_epl,bovada,h2h,Draw,9.25,2020-12-25T11:59:23Z,2020-12-27T16:30:00Z,Liverpool,West Bromwich Albion,EPL
+3898b6becbd0480d0d8296f84ac8f596,soccer_epl,betonlineag,h2h,Draw,7.6,2020-12-25T11:58:48Z,2020-12-27T16:30:00Z,Liverpool,West Bromwich Albion,EPL
+e09697b1cab3e4489e1e6ecb504658c9,soccer_epl,bovada,h2h,Draw,3.25,2020-12-25T11:59:23Z,2020-12-27T19:15:00Z,Wolverhampton Wanderers,Tottenham Hotspur,EPL
+e09697b1cab3e4489e1e6ecb504658c9,soccer_epl,betonlineag,h2h,Draw,3.3,2020-12-25T11:58:48Z,2020-12-27T19:15:00Z,Wolverhampton Wanderers,Tottenham Hotspur,EPL
+9f3dc25491a343941c019945e38ec14c,soccer_epl,betonlineag,h2h,Draw,3.5,2020-12-25T11:58:48Z,2020-12-26T15:00:00Z,Aston Villa,Crystal Palace,EPL
+9f3dc25491a343941c019945e38ec14c,soccer_epl,bovada,h2h,Draw,3.75,2020-12-25T11:59:23Z,2020-12-26T15:00:00Z,Aston Villa,Crystal Palace,EPL
+d029ccc29d4becf8ba7f18213e3c496e,soccer_epl,bovada,h2h,Draw,3.5,2020-12-25T11:59:23Z,2020-12-28T15:00:00Z,Crystal Palace,Leicester City,EPL
+d029ccc29d4becf8ba7f18213e3c496e,soccer_epl,betonlineag,h2h,Draw,3.25,2020-12-25T11:58:48Z,2020-12-28T15:00:00Z,Crystal Palace,Leicester City,EPL
+55db7755801966ccbbe1ad0aa836425b,soccer_epl,bovada,h2h,Draw,3.35,2020-12-25T11:59:23Z,2020-12-29T18:00:00Z,Brighton and Hove Albion,Arsenal,EPL
+55db7755801966ccbbe1ad0aa836425b,soccer_epl,betonlineag,h2h,Draw,3.2,2020-12-25T11:58:48Z,2020-12-29T18:00:00Z,Brighton and Hove Albion,Arsenal,EPL
+7c6d18cff69d6294638e95a0847efd3b,soccer_epl,bovada,h2h,Draw,3.6,2020-12-25T11:59:23Z,2020-12-29T18:00:00Z,West Bromwich Albion,Leeds United,EPL
+7c6d18cff69d6294638e95a0847efd3b,soccer_epl,betonlineag,h2h,Draw,3.65,2020-12-25T11:58:48Z,2020-12-29T18:00:00Z,West Bromwich Albion,Leeds United,EPL
+06c0997908852b2f65fc00edf732b386,soccer_epl,bovada,h2h,Draw,4.05,2020-12-25T11:59:23Z,2020-12-29T20:00:00Z,Manchester United,Wolverhampton Wanderers,EPL
+06c0997908852b2f65fc00edf732b386,soccer_epl,betonlineag,h2h,Draw,3.65,2020-12-25T11:58:48Z,2020-12-29T20:00:00Z,Manchester United,Wolverhampton Wanderers,EPL
+2afb3afb7f6c8ce983309487da7c9ebd,soccer_epl,bovada,h2h,Draw,4.55,2020-12-25T11:59:23Z,2020-12-28T17:30:00Z,Chelsea,Aston Villa,EPL
+2afb3afb7f6c8ce983309487da7c9ebd,soccer_epl,betonlineag,h2h,Draw,4.09,2020-12-25T11:58:48Z,2020-12-28T17:30:00Z,Chelsea,Aston Villa,EPL
+867769694fc42d8eeff497da1659682e,soccer_epl,bovada,h2h,Draw,4.45,2020-12-25T11:59:23Z,2020-12-28T20:00:00Z,Everton,Manchester City,EPL
+867769694fc42d8eeff497da1659682e,soccer_epl,betonlineag,h2h,Draw,4.09,2020-12-25T11:58:48Z,2020-12-28T20:00:00Z,Everton,Manchester City,EPL
+4544e95d74da5329b740069fbb2979b1,soccer_epl,bovada,h2h,Draw,3.15,2020-12-25T11:59:23Z,2020-12-29T18:00:00Z,Burnley,Sheffield United,EPL
+4544e95d74da5329b740069fbb2979b1,soccer_epl,betonlineag,h2h,Draw,3.05,2020-12-25T11:58:48Z,2020-12-29T18:00:00Z,Burnley,Sheffield United,EPL
+bbf16b2ea518a28936ed30d0434527af,soccer_epl,bovada,h2h,Draw,3.6,2020-12-25T11:59:23Z,2020-12-29T18:00:00Z,Southampton,West Ham United,EPL
+bbf16b2ea518a28936ed30d0434527af,soccer_epl,betonlineag,h2h,Draw,3.45,2020-12-25T11:58:48Z,2020-12-29T18:00:00Z,Southampton,West Ham United,EPL
+f8977157f049ca5352f07ac89f93231b,soccer_epl,bovada,h2h,Draw,5.5,2020-12-25T11:59:23Z,2020-12-30T20:00:00Z,Newcastle United,Liverpool,EPL
+f8977157f049ca5352f07ac89f93231b,soccer_epl,betonlineag,h2h,Draw,4.59,2020-12-25T11:58:48Z,2020-12-30T20:00:00Z,Newcastle United,Liverpool,EPL
+05dedeae3077cfba127bab43aa088125,soccer_epl,bovada,h2h,Draw,4.35,2020-12-25T11:59:23Z,2020-12-30T18:00:00Z,Tottenham Hotspur,Fulham,EPL
+05dedeae3077cfba127bab43aa088125,soccer_epl,betonlineag,h2h,Draw,4.0,2020-12-25T11:58:48Z,2020-12-30T18:00:00Z,Tottenham Hotspur,Fulham,EPL
+39409aa9a47f5743e2f9463af773ca70,soccer_epl,bovada,h2h,Draw,3.25,2020-12-25T11:59:23Z,2021-01-02T17:30:00Z,Brighton and Hove Albion,Wolverhampton Wanderers,EPL
+f9135cbc3fece740449ca73ab94369cb,soccer_epl,bovada,h2h,Draw,3.55,2020-12-25T11:59:23Z,2021-01-01T17:30:00Z,Everton,West Ham United,EPL
+b7c18362153e83fe23afb3717128c159,soccer_epl,bovada,h2h,Draw,4.2,2020-12-25T11:59:23Z,2021-01-01T20:00:00Z,Manchester United,Aston Villa,EPL
+570b9170e9455e7a0dd949e27b6b9c8d,soccer_epl,bovada,h2h,Draw,4.25,2020-12-25T11:59:23Z,2021-01-02T12:30:00Z,Tottenham Hotspur,Leeds United,EPL
+e36cfa3720e02dc571f6c10e716513e6,soccer_epl,bovada,h2h,Draw,3.45,2020-12-25T11:59:23Z,2021-01-02T15:00:00Z,Crystal Palace,Sheffield United,EPL
+7e7fa32adc7d40f22638fbb4e1e8f5dc,soccer_epl,bovada,h2h,Draw,4.05,2020-12-25T11:59:23Z,2021-01-02T20:00:00Z,West Bromwich Albion,Arsenal,EPL
+7668a57f6cb8c1cd692fafdd1c301d84,soccer_epl,bovada,h2h,Draw,3.3,2020-12-25T11:59:23Z,2021-01-03T12:00:00Z,Burnley,Fulham,EPL
+9c66f184ab3a983c5766aa38e9a466bb,soccer_epl,bovada,h2h,Draw,4.1,2020-12-25T11:59:23Z,2021-01-03T14:15:00Z,Newcastle United,Leicester City,EPL
+b40b36dfc20e10076bc7950ab7c3ed3e,soccer_epl,bovada,h2h,Draw,3.65,2020-12-25T11:59:23Z,2021-01-03T16:30:00Z,Chelsea,Manchester City,EPL
+22f0d2dd79e03969c46322234396c94b,soccer_epl,bovada,h2h,Draw,4.25,2020-12-25T11:59:23Z,2021-01-04T20:00:00Z,Southampton,Liverpool,EPL
+bec5bede649ba367a8db9a907308bb1f,soccer_epl,bovada,h2h,Draw,3.15,2021-01-05T11:54:09Z,2021-01-12T18:00:00Z,Sheffield United,Newcastle United,EPL
+bec5bede649ba367a8db9a907308bb1f,soccer_epl,betonlineag,h2h,Draw,3.0,2021-01-05T12:00:04Z,2021-01-12T18:00:00Z,Sheffield United,Newcastle United,EPL
+0a1d213995ef5bc7e7e7ef88eb60cf03,soccer_epl,bovada,h2h,Draw,3.2,2021-01-05T11:54:09Z,2021-01-12T20:15:00Z,Wolverhampton Wanderers,Everton,EPL
+0a1d213995ef5bc7e7e7ef88eb60cf03,soccer_epl,betonlineag,h2h,Draw,3.05,2021-01-05T12:00:04Z,2021-01-12T20:15:00Z,Wolverhampton Wanderers,Everton,EPL
+97aaaf1c01c604e39874a0e3fde2f297,soccer_epl,bovada,h2h,Draw,6.75,2021-01-05T11:54:09Z,2021-01-13T18:00:00Z,Manchester City,Brighton and Hove Albion,EPL
+97aaaf1c01c604e39874a0e3fde2f297,soccer_epl,betonlineag,h2h,Draw,6.8,2021-01-05T12:00:04Z,2021-01-13T18:00:00Z,Manchester City,Brighton and Hove Albion,EPL
+b46c0f92c9835f2f65d71a5b764a1f8a,soccer_epl,bovada,h2h,Draw,3.7,2021-01-05T11:54:09Z,2021-01-13T20:15:00Z,Aston Villa,Tottenham Hotspur,EPL
+b46c0f92c9835f2f65d71a5b764a1f8a,soccer_epl,betonlineag,h2h,Draw,3.25,2021-01-05T12:00:04Z,2021-01-13T20:15:00Z,Aston Villa,Tottenham Hotspur,EPL
+da456ebc542e8389fe8071307ee4844b,soccer_epl,bovada,h2h,Draw,4.25,2021-01-05T11:54:09Z,2021-01-14T20:00:00Z,Arsenal,Crystal Palace,EPL
+da456ebc542e8389fe8071307ee4844b,soccer_epl,betonlineag,h2h,Draw,3.75,2021-01-05T12:00:04Z,2021-01-14T20:00:00Z,Arsenal,Crystal Palace,EPL
+d7c6236a4922a8545ad1d7f4c93c9a71,soccer_epl,bovada,h2h,Draw,4.35,2021-01-05T11:54:09Z,2021-01-15T20:00:00Z,Fulham,Chelsea,EPL
+4e152b97de665e13f60c11e978b9a19c,soccer_epl,bovada,h2h,Draw,3.55,2021-01-05T11:54:09Z,2021-01-16T15:00:00Z,West Ham United,Burnley,EPL
+5dd80dd2b738217116a5c8337db09657,soccer_epl,bovada,h2h,Draw,4.1,2021-01-05T11:54:09Z,2021-01-16T12:30:00Z,Wolverhampton Wanderers,West Bromwich Albion,EPL
+ca0be8417c3838d8d3047a56dbd1373c,soccer_epl,bovada,h2h,Draw,3.7,2021-01-05T11:54:09Z,2021-01-16T15:00:00Z,Leeds United,Brighton and Hove Albion,EPL
+99182269db623999be4191c5127ba295,soccer_epl,bovada,h2h,Draw,3.7,2021-01-05T11:54:09Z,2021-01-16T20:00:00Z,Leicester City,Southampton,EPL
+3a392c6d29a752c9ea4ce4a787afc986,soccer_epl,bovada,h2h,Draw,3.65,2021-01-05T11:54:09Z,2021-01-16T17:30:00Z,Aston Villa,Everton,EPL
+327e71805605e9de90d605037f7c6c5b,soccer_epl,bovada,h2h,Draw,4.45,2021-01-05T11:54:09Z,2021-01-12T20:15:00Z,Burnley,Manchester United,EPL
+327e71805605e9de90d605037f7c6c5b,soccer_epl,betonlineag,h2h,Draw,4.4,2021-01-05T12:00:04Z,2021-01-12T20:15:00Z,Burnley,Manchester United,EPL
+4898c1bdee0d06a7686fc7d433a5631a,soccer_epl,bovada,h2h,Draw,4.3,2021-01-05T11:54:09Z,2021-01-17T14:00:00Z,Sheffield United,Tottenham Hotspur,EPL
+71d13bc11a664af88f244740d982d164,soccer_epl,bovada,h2h,Draw,3.7,2021-01-05T11:54:09Z,2021-01-17T16:30:00Z,Liverpool,Manchester United,EPL
+97ac986c22fa605758bafcb97cd24683,soccer_epl,bovada,h2h,Draw,7.75,2021-01-05T11:54:09Z,2021-01-17T19:15:00Z,Manchester City,Crystal Palace,EPL
+08b97946b3f4d3693b4b9533adc9d67a,soccer_epl,bovada,h2h,Draw,4.35,2021-01-05T11:54:09Z,2021-01-18T20:00:00Z,Arsenal,Newcastle United,EPL
+4e152b97de665e13f60c11e978b9a19c,soccer_epl,bovada,h2h,Draw,3.5,2021-01-15T11:58:57Z,2021-01-16T15:00:00Z,West Ham United,Burnley,EPL
+4e152b97de665e13f60c11e978b9a19c,soccer_epl,betonlineag,h2h,Draw,3.35,2021-01-15T11:53:38Z,2021-01-16T15:00:00Z,West Ham United,Burnley,EPL
+5dd80dd2b738217116a5c8337db09657,soccer_epl,bovada,h2h,Draw,3.7,2021-01-15T11:58:57Z,2021-01-16T12:30:00Z,Wolverhampton Wanderers,West Bromwich Albion,EPL
+5dd80dd2b738217116a5c8337db09657,soccer_epl,betonlineag,h2h,Draw,3.5,2021-01-15T11:53:38Z,2021-01-16T12:30:00Z,Wolverhampton Wanderers,West Bromwich Albion,EPL
+ca0be8417c3838d8d3047a56dbd1373c,soccer_epl,bovada,h2h,Draw,3.6,2021-01-15T11:58:57Z,2021-01-16T15:00:00Z,Leeds United,Brighton and Hove Albion,EPL
+ca0be8417c3838d8d3047a56dbd1373c,soccer_epl,betonlineag,h2h,Draw,3.25,2021-01-15T11:53:38Z,2021-01-16T15:00:00Z,Leeds United,Brighton and Hove Albion,EPL
+99182269db623999be4191c5127ba295,soccer_epl,bovada,h2h,Draw,3.7,2021-01-15T11:58:57Z,2021-01-16T20:00:00Z,Leicester City,Southampton,EPL
+99182269db623999be4191c5127ba295,soccer_epl,betonlineag,h2h,Draw,3.55,2021-01-15T11:53:38Z,2021-01-16T20:00:00Z,Leicester City,Southampton,EPL
+4898c1bdee0d06a7686fc7d433a5631a,soccer_epl,bovada,h2h,Draw,3.7,2021-01-15T11:58:57Z,2021-01-17T14:00:00Z,Sheffield United,Tottenham Hotspur,EPL
+4898c1bdee0d06a7686fc7d433a5631a,soccer_epl,betonlineag,h2h,Draw,3.5,2021-01-15T11:53:38Z,2021-01-17T14:00:00Z,Sheffield United,Tottenham Hotspur,EPL
+71d13bc11a664af88f244740d982d164,soccer_epl,bovada,h2h,Draw,3.85,2021-01-15T11:58:57Z,2021-01-17T16:30:00Z,Liverpool,Manchester United,EPL
+71d13bc11a664af88f244740d982d164,soccer_epl,betonlineag,h2h,Draw,3.5,2021-01-15T11:53:38Z,2021-01-17T16:30:00Z,Liverpool,Manchester United,EPL
+97ac986c22fa605758bafcb97cd24683,soccer_epl,bovada,h2h,Draw,7.75,2021-01-15T11:58:57Z,2021-01-17T19:15:00Z,Manchester City,Crystal Palace,EPL
+97ac986c22fa605758bafcb97cd24683,soccer_epl,betonlineag,h2h,Draw,6.0,2021-01-15T11:53:38Z,2021-01-17T19:15:00Z,Manchester City,Crystal Palace,EPL
+08b97946b3f4d3693b4b9533adc9d67a,soccer_epl,bovada,h2h,Draw,4.65,2021-01-15T11:58:57Z,2021-01-18T20:00:00Z,Arsenal,Newcastle United,EPL
+08b97946b3f4d3693b4b9533adc9d67a,soccer_epl,betonlineag,h2h,Draw,4.3,2021-01-15T11:53:38Z,2021-01-18T20:00:00Z,Arsenal,Newcastle United,EPL
+a55545d78cfca839437d9d03623f4fdd,soccer_epl,bovada,h2h,Draw,4.0,2021-01-15T11:58:57Z,2021-01-19T18:00:00Z,West Ham United,West Bromwich Albion,EPL
+a55545d78cfca839437d9d03623f4fdd,soccer_epl,betonlineag,h2h,Draw,3.8,2021-01-15T12:00:21Z,2021-01-19T18:00:00Z,West Ham United,West Bromwich Albion,EPL
+1232952eccdc0db05d6fbc66490c8b06,soccer_epl,bovada,h2h,Draw,3.45,2021-01-15T11:58:57Z,2021-01-19T20:15:00Z,Leicester City,Chelsea,EPL
+1232952eccdc0db05d6fbc66490c8b06,soccer_epl,betonlineag,h2h,Draw,3.2,2021-01-15T12:00:21Z,2021-01-19T20:15:00Z,Leicester City,Chelsea,EPL
+7a010756eadc1dda10738992d27b9daa,soccer_epl,bovada,h2h,Draw,7.25,2021-01-15T11:58:57Z,2021-01-21T20:00:00Z,Liverpool,Burnley,EPL
+7a010756eadc1dda10738992d27b9daa,soccer_epl,betonlineag,h2h,Draw,6.4,2021-01-15T12:00:21Z,2021-01-21T20:00:00Z,Liverpool,Burnley,EPL
+0423a04db8e63788665a85554d82b5ef,soccer_epl,bovada,h2h,Draw,4.3,2021-01-15T11:58:57Z,2021-01-20T20:15:00Z,Fulham,Manchester United,EPL
+0423a04db8e63788665a85554d82b5ef,soccer_epl,betonlineag,h2h,Draw,4.2,2021-01-15T12:00:21Z,2021-01-20T20:15:00Z,Fulham,Manchester United,EPL
+5faa59cf13719a8e427670e6f08718dd,soccer_epl,bovada,h2h,Draw,6.0,2021-01-15T11:58:57Z,2021-01-20T18:00:00Z,Manchester City,Aston Villa,EPL
+5faa59cf13719a8e427670e6f08718dd,soccer_epl,betonlineag,h2h,Draw,5.6,2021-01-15T12:00:21Z,2021-01-20T18:00:00Z,Manchester City,Aston Villa,EPL
+1dbe7af5c138a7c02cdbff97621fac2f,soccer_epl,betonlineag,h2h,Draw,4.09,2021-01-15T12:00:21Z,2021-01-16T17:30:00Z,Fulham,Chelsea,EPL
+1dbe7af5c138a7c02cdbff97621fac2f,soccer_epl,bovada,h2h,Draw,4.2,2021-01-15T11:58:57Z,2021-01-16T17:30:00Z,Fulham,Chelsea,EPL
+e3ce9320e698b617b5cb1e9c088ad692,soccer_epl,betonlineag,h2h,Draw,3.25,2021-01-25T11:59:23Z,2021-01-26T18:00:00Z,Crystal Palace,West Ham United,EPL
+e3ce9320e698b617b5cb1e9c088ad692,soccer_epl,bovada,h2h,Draw,3.3,2021-01-25T11:58:20Z,2021-01-26T18:00:00Z,Crystal Palace,West Ham United,EPL
+bc94aea7bda5a06d3c9599d2d14f7348,soccer_epl,betonlineag,h2h,Draw,3.2,2021-01-25T11:59:23Z,2021-01-27T19:30:00Z,Brighton and Hove Albion,Fulham,EPL
+bc94aea7bda5a06d3c9599d2d14f7348,soccer_epl,bovada,h2h,Draw,3.4,2021-01-25T11:58:20Z,2021-01-27T19:30:00Z,Brighton and Hove Albion,Fulham,EPL
+889ecdad86cfbab87e3f85d11b3de6e6,soccer_epl,betonlineag,h2h,Draw,3.6,2021-01-25T11:59:23Z,2021-01-26T18:00:00Z,Newcastle United,Leeds United,EPL
+889ecdad86cfbab87e3f85d11b3de6e6,soccer_epl,bovada,h2h,Draw,3.85,2021-01-25T11:58:20Z,2021-01-26T18:00:00Z,Newcastle United,Leeds United,EPL
+44de99166f263e89280dfebb892c605a,soccer_epl,bovada,h2h,Draw,3.4,2021-01-25T11:58:20Z,2021-01-26T20:15:00Z,Southampton,Arsenal,EPL
+44de99166f263e89280dfebb892c605a,soccer_epl,betonlineag,h2h,Draw,3.2,2021-01-25T11:59:23Z,2021-01-26T20:15:00Z,Southampton,Arsenal,EPL
+bad83966e4202fbf34cc8aad0302b960,soccer_epl,betonlineag,h2h,Draw,3.2,2021-01-25T11:59:23Z,2021-01-27T20:15:00Z,Everton,Leicester City,EPL
+bad83966e4202fbf34cc8aad0302b960,soccer_epl,bovada,h2h,Draw,3.3,2021-01-25T11:58:20Z,2021-01-27T20:15:00Z,Everton,Leicester City,EPL
+2a47301dd7d2addecaa9cb0f120dc362,soccer_epl,betonlineag,h2h,Draw,6.4,2021-01-25T11:59:23Z,2021-01-27T20:15:00Z,Manchester United,Sheffield United,EPL
+2a47301dd7d2addecaa9cb0f120dc362,soccer_epl,bovada,h2h,Draw,6.0,2021-01-25T11:58:20Z,2021-01-27T20:15:00Z,Manchester United,Sheffield United,EPL
+27a4ba576b29ad2c1f0ebf89a0c3224e,soccer_epl,betonlineag,h2h,Draw,5.8,2021-01-25T11:59:23Z,2021-01-26T20:15:00Z,West Bromwich Albion,Manchester City,EPL
+27a4ba576b29ad2c1f0ebf89a0c3224e,soccer_epl,bovada,h2h,Draw,7.0,2021-01-25T11:58:20Z,2021-01-26T20:15:00Z,West Bromwich Albion,Manchester City,EPL
+53848ca17ce03ca853cb62b244d439ab,soccer_epl,betonlineag,h2h,Draw,3.7,2021-01-25T11:59:23Z,2021-01-27T18:00:00Z,Chelsea,Wolverhampton Wanderers,EPL
+53848ca17ce03ca853cb62b244d439ab,soccer_epl,bovada,h2h,Draw,4.1,2021-01-25T11:58:20Z,2021-01-27T18:00:00Z,Chelsea,Wolverhampton Wanderers,EPL
+3eb035e868693887bb69264a7291735f,soccer_epl,betonlineag,h2h,Draw,3.45,2021-01-25T11:59:23Z,2021-01-28T20:00:00Z,Tottenham Hotspur,Liverpool,EPL
+3eb035e868693887bb69264a7291735f,soccer_epl,bovada,h2h,Draw,3.6,2021-01-25T11:58:20Z,2021-01-28T20:00:00Z,Tottenham Hotspur,Liverpool,EPL
+5bf020f0e66e8ef932f95a32893f99f1,soccer_epl,betonlineag,h2h,Draw,3.1,2021-01-25T11:59:23Z,2021-01-27T18:00:00Z,Burnley,Aston Villa,EPL
+5bf020f0e66e8ef932f95a32893f99f1,soccer_epl,bovada,h2h,Draw,3.5,2021-01-25T11:58:20Z,2021-01-27T18:00:00Z,Burnley,Aston Villa,EPL
+66ceecb2f56dad0ff8850b917270fc46,soccer_epl,bovada,h2h,Draw,4.3,2021-01-25T11:58:20Z,2021-01-30T12:30:00Z,Everton,Newcastle United,EPL
+66ceecb2f56dad0ff8850b917270fc46,soccer_epl,betonlineag,h2h,Draw,3.65,2021-01-25T11:59:23Z,2021-01-30T12:30:00Z,Everton,Newcastle United,EPL
+2e78d017c8933a971620603a925b36c7,soccer_epl,bovada,h2h,Draw,7.5,2021-01-25T11:58:20Z,2021-01-30T15:00:00Z,Manchester City,Sheffield United,EPL
+2e78d017c8933a971620603a925b36c7,soccer_epl,betonlineag,h2h,Draw,7.6,2021-01-25T11:59:23Z,2021-01-30T15:00:00Z,Manchester City,Sheffield United,EPL
+5d8c9ecb820623133da8d10ac6be2b97,soccer_epl,bovada,h2h,Draw,3.2,2021-01-25T11:58:20Z,2021-01-30T15:00:00Z,West Bromwich Albion,Fulham,EPL
+5d8c9ecb820623133da8d10ac6be2b97,soccer_epl,betonlineag,h2h,Draw,3.1,2021-01-25T11:59:23Z,2021-01-30T15:00:00Z,West Bromwich Albion,Fulham,EPL
+7ac7ced87f0d008f43cf0793dc0a0697,soccer_epl,betonlineag,h2h,Draw,3.2,2021-01-25T11:59:23Z,2021-01-30T17:30:00Z,Arsenal,Manchester United,EPL
+7ac7ced87f0d008f43cf0793dc0a0697,soccer_epl,bovada,h2h,Draw,3.5,2021-01-25T11:58:20Z,2021-01-30T17:30:00Z,Arsenal,Manchester United,EPL
+77fce754959751b67ffc7995d58ff94c,soccer_epl,betonlineag,h2h,Draw,3.1,2021-01-25T11:59:23Z,2021-01-30T20:00:00Z,Southampton,Aston Villa,EPL
+77fce754959751b67ffc7995d58ff94c,soccer_epl,bovada,h2h,Draw,3.6,2021-01-25T11:58:20Z,2021-01-30T20:00:00Z,Southampton,Aston Villa,EPL
+1388815a7a2ab26cd8f7b6a1fd8b9e43,soccer_epl,betonlineag,h2h,Draw,4.2,2021-01-25T11:59:23Z,2021-01-31T12:00:00Z,Chelsea,Burnley,EPL
+1388815a7a2ab26cd8f7b6a1fd8b9e43,soccer_epl,bovada,h2h,Draw,4.65,2021-01-25T11:58:20Z,2021-01-31T12:00:00Z,Chelsea,Burnley,EPL
+1989ec79c4920e4a3e706c79a649640b,soccer_epl,betonlineag,h2h,Draw,3.4,2021-01-25T11:59:23Z,2021-01-31T14:00:00Z,Leicester City,Leeds United,EPL
+1989ec79c4920e4a3e706c79a649640b,soccer_epl,bovada,h2h,Draw,3.85,2021-01-25T11:58:20Z,2021-01-31T14:00:00Z,Leicester City,Leeds United,EPL
+25ab063e6c165dd06360e40f053a6cb5,soccer_epl,betonlineag,h2h,Draw,3.5,2021-01-25T11:59:23Z,2021-01-31T16:30:00Z,West Ham United,Liverpool,EPL
+25ab063e6c165dd06360e40f053a6cb5,soccer_epl,bovada,h2h,Draw,3.9,2021-01-25T11:58:20Z,2021-01-31T16:30:00Z,West Ham United,Liverpool,EPL
+b0f7606b7bb2dc74123a7bcbf6efe1b2,soccer_epl,betonlineag,h2h,Draw,3.3,2021-01-25T11:59:23Z,2021-01-31T19:15:00Z,Brighton and Hove Albion,Tottenham Hotspur,EPL
+b0f7606b7bb2dc74123a7bcbf6efe1b2,soccer_epl,bovada,h2h,Draw,3.55,2021-01-25T11:58:20Z,2021-01-31T19:15:00Z,Brighton and Hove Albion,Tottenham Hotspur,EPL
+cd1e29fc6b4ff56cc7226c4199949a6f,soccer_epl,betonlineag,h2h,Draw,3.0,2021-01-25T11:59:23Z,2021-01-30T15:00:00Z,Crystal Palace,Wolverhampton Wanderers,EPL
+cd1e29fc6b4ff56cc7226c4199949a6f,soccer_epl,bovada,h2h,Draw,3.15,2021-01-25T11:58:20Z,2021-01-30T15:00:00Z,Crystal Palace,Wolverhampton Wanderers,EPL
+eaaf32ad0e2c040144f3c02db8fd10a8,soccer_epl,betonlineag,h2h,Draw,3.25,2021-02-05T12:00:21Z,2021-02-06T17:30:00Z,Fulham,West Ham United,EPL
+eaaf32ad0e2c040144f3c02db8fd10a8,soccer_epl,bovada,h2h,Draw,3.5,2021-02-05T11:58:58Z,2021-02-06T17:30:00Z,Fulham,West Ham United,EPL
+f091cac2fc9312943994c0bf83c34bd5,soccer_epl,betonlineag,h2h,Draw,3.35,2021-02-05T12:00:21Z,2021-02-06T12:30:00Z,Aston Villa,Arsenal,EPL
+f091cac2fc9312943994c0bf83c34bd5,soccer_epl,bovada,h2h,Draw,3.6,2021-02-05T11:58:58Z,2021-02-06T12:30:00Z,Aston Villa,Arsenal,EPL
+947e1d91efb9e08d1ee9ea23861c5309,soccer_epl,betonlineag,h2h,Draw,3.2,2021-02-05T12:00:21Z,2021-02-06T15:00:00Z,Newcastle United,Southampton,EPL
+947e1d91efb9e08d1ee9ea23861c5309,soccer_epl,bovada,h2h,Draw,3.25,2021-02-05T11:58:58Z,2021-02-06T15:00:00Z,Newcastle United,Southampton,EPL
+3174af8fb8645b9666abde32ebd54b3b,soccer_epl,betonlineag,h2h,Draw,3.05,2021-02-05T12:00:21Z,2021-02-06T15:00:00Z,Burnley,Brighton and Hove Albion,EPL
+3174af8fb8645b9666abde32ebd54b3b,soccer_epl,bovada,h2h,Draw,3.25,2021-02-05T11:58:58Z,2021-02-06T15:00:00Z,Burnley,Brighton and Hove Albion,EPL
+1552082cc3d7bad5bdd0994a723ff825,soccer_epl,betonlineag,h2h,Draw,3.15,2021-02-05T12:00:21Z,2021-02-07T14:00:00Z,Wolverhampton Wanderers,Leicester City,EPL
+1552082cc3d7bad5bdd0994a723ff825,soccer_epl,bovada,h2h,Draw,3.4,2021-02-05T11:58:58Z,2021-02-07T14:00:00Z,Wolverhampton Wanderers,Leicester City,EPL
+c29260d95d08f00e2747cae2918b0827,soccer_epl,betonlineag,h2h,Draw,3.35,2021-02-05T12:00:21Z,2021-02-07T16:30:00Z,Liverpool,Manchester City,EPL
+c29260d95d08f00e2747cae2918b0827,soccer_epl,bovada,h2h,Draw,3.65,2021-02-05T11:58:58Z,2021-02-07T16:30:00Z,Liverpool,Manchester City,EPL
+b1aea589b1c565d4df2455910ab6bd8e,soccer_epl,betonlineag,h2h,Draw,4.05,2021-02-05T12:00:21Z,2021-02-06T20:00:00Z,Manchester United,Everton,EPL
+b1aea589b1c565d4df2455910ab6bd8e,soccer_epl,bovada,h2h,Draw,4.4,2021-02-05T11:58:58Z,2021-02-06T20:00:00Z,Manchester United,Everton,EPL
+4fda727e74e2472a8e03950ecd00424d,soccer_epl,betonlineag,h2h,Draw,4.15,2021-02-05T12:00:21Z,2021-02-07T12:00:00Z,Tottenham Hotspur,West Bromwich Albion,EPL
+4fda727e74e2472a8e03950ecd00424d,soccer_epl,bovada,h2h,Draw,4.45,2021-02-05T11:58:58Z,2021-02-07T12:00:00Z,Tottenham Hotspur,West Bromwich Albion,EPL
+59aa33260024793ee629459509d07318,soccer_epl,bovada,h2h,Draw,4.35,2021-02-05T11:58:58Z,2021-02-07T19:15:00Z,Sheffield United,Chelsea,EPL
+59aa33260024793ee629459509d07318,soccer_epl,betonlineag,h2h,Draw,4.0,2021-02-05T12:00:21Z,2021-02-07T19:15:00Z,Sheffield United,Chelsea,EPL
+ff14312386e41e4665d8ff8eb0b54341,soccer_epl,betonlineag,h2h,Draw,3.5,2021-02-05T12:00:21Z,2021-02-08T20:00:00Z,Leeds United,Crystal Palace,EPL
+ff14312386e41e4665d8ff8eb0b54341,soccer_epl,bovada,h2h,Draw,3.85,2021-02-05T11:58:58Z,2021-02-08T20:00:00Z,Leeds United,Crystal Palace,EPL
+90650b3ec5251cd890bb05cf99325971,soccer_epl,betonlineag,h2h,Draw,3.35,2021-02-05T12:00:21Z,2021-02-13T12:30:00Z,Leicester City,Liverpool,EPL
+90650b3ec5251cd890bb05cf99325971,soccer_epl,bovada,h2h,Draw,3.55,2021-02-05T11:58:58Z,2021-02-13T12:30:00Z,Leicester City,Liverpool,EPL
+2db6cb5b5665c5185968895f26068bd0,soccer_epl,betonlineag,h2h,Draw,3.2,2021-02-05T12:00:21Z,2021-02-13T15:00:00Z,Crystal Palace,Burnley,EPL
+2db6cb5b5665c5185968895f26068bd0,soccer_epl,bovada,h2h,Draw,3.25,2021-02-05T11:58:58Z,2021-02-13T15:00:00Z,Crystal Palace,Burnley,EPL
+2930e42181da7351cc618421b35df0c9,soccer_epl,bovada,h2h,Draw,5.25,2021-02-05T11:58:58Z,2021-02-13T17:30:00Z,Manchester City,Tottenham Hotspur,EPL
+2930e42181da7351cc618421b35df0c9,soccer_epl,betonlineag,h2h,Draw,4.8,2021-02-05T12:00:21Z,2021-02-13T17:30:00Z,Manchester City,Tottenham Hotspur,EPL
+07304cdd4f0621bd417e42598e6f7f8f,soccer_epl,betonlineag,h2h,Draw,3.2,2021-02-05T12:00:21Z,2021-02-13T20:00:00Z,Brighton and Hove Albion,Aston Villa,EPL
+07304cdd4f0621bd417e42598e6f7f8f,soccer_epl,bovada,h2h,Draw,3.45,2021-02-05T11:58:58Z,2021-02-13T20:00:00Z,Brighton and Hove Albion,Aston Villa,EPL
+28cb3ef588b966346a52b49458287ace,soccer_epl,bovada,h2h,Draw,5.0,2021-02-05T11:58:58Z,2021-02-14T14:00:00Z,West Bromwich Albion,Manchester United,EPL
+df348d12497556e3ab2fed80a1ca58af,soccer_epl,bovada,h2h,Draw,3.25,2021-02-05T11:58:58Z,2021-02-14T12:00:00Z,Southampton,Wolverhampton Wanderers,EPL
+0ebc845bf795dcea167dd3dd4388f0fd,soccer_epl,bovada,h2h,Draw,4.0,2021-02-05T11:58:58Z,2021-02-14T16:30:00Z,Arsenal,Leeds United,EPL
+0ebc845bf795dcea167dd3dd4388f0fd,soccer_epl,betonlineag,h2h,Draw,3.55,2021-02-05T12:00:21Z,2021-02-14T16:30:00Z,Arsenal,Leeds United,EPL
+0d9caa28e4f884fda1915372e29df6c4,soccer_epl,bovada,h2h,Draw,3.8,2021-02-05T11:58:58Z,2021-02-14T19:00:00Z,Everton,Fulham,EPL
+9a548dc25df0da08fa2fcd5858e48d09,soccer_epl,bovada,h2h,Draw,6.25,2021-02-05T11:58:58Z,2021-02-15T20:00:00Z,Chelsea,Newcastle United,EPL
+e556b8702677c34f45fb655f6fb6d7b1,soccer_epl,bovada,h2h,Draw,3.85,2021-02-05T11:58:58Z,2021-02-15T18:00:00Z,West Ham United,Sheffield United,EPL
+9a548dc25df0da08fa2fcd5858e48d09,soccer_epl,betonlineag,h2h,Draw,6.45,2021-02-15T11:57:07Z,2021-02-15T20:00:00Z,Chelsea,Newcastle United,EPL
+9a548dc25df0da08fa2fcd5858e48d09,soccer_epl,bovada,h2h,Draw,5.75,2021-02-15T11:57:26Z,2021-02-15T20:00:00Z,Chelsea,Newcastle United,EPL
+e556b8702677c34f45fb655f6fb6d7b1,soccer_epl,bovada,h2h,Draw,3.55,2021-02-15T11:57:26Z,2021-02-15T18:00:00Z,West Ham United,Sheffield United,EPL
+e556b8702677c34f45fb655f6fb6d7b1,soccer_epl,betonlineag,h2h,Draw,3.6,2021-02-15T11:57:07Z,2021-02-15T18:00:00Z,West Ham United,Sheffield United,EPL
+ef294f18b44dde9d6488313b78f5e32a,soccer_epl,betonlineag,h2h,Draw,3.15,2021-02-15T11:57:07Z,2021-02-19T20:00:00Z,Wolverhampton Wanderers,Leeds United,EPL
+ef294f18b44dde9d6488313b78f5e32a,soccer_epl,bovada,h2h,Draw,3.2,2021-02-15T11:57:26Z,2021-02-19T20:00:00Z,Wolverhampton Wanderers,Leeds United,EPL
+f2737dc8d79a23539507d4321e271719,soccer_epl,betonlineag,h2h,Draw,3.4,2021-02-15T11:57:07Z,2021-02-20T12:30:00Z,Southampton,Chelsea,EPL
+f2737dc8d79a23539507d4321e271719,soccer_epl,bovada,h2h,Draw,3.75,2021-02-15T11:57:26Z,2021-02-20T12:30:00Z,Southampton,Chelsea,EPL
+8d0bac3434f8563a470b064c9e7862c1,soccer_epl,bovada,h2h,Draw,3.4,2021-02-15T11:57:26Z,2021-02-20T15:00:00Z,Burnley,West Bromwich Albion,EPL
+8d0bac3434f8563a470b064c9e7862c1,soccer_epl,betonlineag,h2h,Draw,3.25,2021-02-15T11:57:07Z,2021-02-20T15:00:00Z,Burnley,West Bromwich Albion,EPL
+4027f00efb62a677934eaf447a659b7a,soccer_epl,bovada,h2h,Draw,4.15,2021-02-15T11:57:26Z,2021-02-20T17:30:00Z,Liverpool,Everton,EPL
+4027f00efb62a677934eaf447a659b7a,soccer_epl,betonlineag,h2h,Draw,3.95,2021-02-15T11:57:07Z,2021-02-20T17:30:00Z,Liverpool,Everton,EPL
+3614cf97230106379cf3b5b3990529d0,soccer_epl,bovada,h2h,Draw,3.2,2021-02-15T11:57:26Z,2021-02-20T20:00:00Z,Fulham,Sheffield United,EPL
+3614cf97230106379cf3b5b3990529d0,soccer_epl,betonlineag,h2h,Draw,3.15,2021-02-15T11:57:07Z,2021-02-20T20:00:00Z,Fulham,Sheffield United,EPL
+85b5f584b5f1aa9765514f57b4216160,soccer_epl,betonlineag,h2h,Draw,3.15,2021-02-15T11:57:07Z,2021-02-21T12:00:00Z,West Ham United,Tottenham Hotspur,EPL
+85b5f584b5f1aa9765514f57b4216160,soccer_epl,bovada,h2h,Draw,3.35,2021-02-15T11:57:26Z,2021-02-21T12:00:00Z,West Ham United,Tottenham Hotspur,EPL
+7e412a3625a1bfb01bc753f9cd34bb40,soccer_epl,bovada,h2h,Draw,4.3,2021-02-15T11:57:26Z,2021-02-21T16:30:00Z,Arsenal,Manchester City,EPL
+7e412a3625a1bfb01bc753f9cd34bb40,soccer_epl,betonlineag,h2h,Draw,3.9,2021-02-15T11:57:07Z,2021-02-21T16:30:00Z,Arsenal,Manchester City,EPL
+f44c7ae28e244b429e78eaf39a0a6cd0,soccer_epl,betonlineag,h2h,Draw,3.15,2021-02-15T11:57:07Z,2021-02-17T18:00:00Z,Burnley,Fulham,EPL
+f44c7ae28e244b429e78eaf39a0a6cd0,soccer_epl,bovada,h2h,Draw,3.15,2021-02-15T11:57:26Z,2021-02-17T18:00:00Z,Burnley,Fulham,EPL
+d6d70d1b50899364ab9332ea7aa292d6,soccer_epl,betonlineag,h2h,Draw,4.84,2021-02-15T11:57:07Z,2021-02-17T20:15:00Z,Everton,Manchester City,EPL
+d6d70d1b50899364ab9332ea7aa292d6,soccer_epl,bovada,h2h,Draw,5.0,2021-02-15T11:57:26Z,2021-02-17T20:15:00Z,Everton,Manchester City,EPL
+81a6a36380cac8f38a5cb7412bef0099,soccer_epl,betonlineag,h2h,Draw,3.25,2021-02-15T11:57:07Z,2021-02-21T14:00:00Z,Aston Villa,Leicester City,EPL
+81a6a36380cac8f38a5cb7412bef0099,soccer_epl,bovada,h2h,Draw,3.55,2021-02-15T11:57:26Z,2021-02-21T14:00:00Z,Aston Villa,Leicester City,EPL
+04e38cb00a36484093d5cc1cf69e33af,soccer_epl,betonlineag,h2h,Draw,5.5,2021-02-15T11:57:07Z,2021-02-21T19:00:00Z,Manchester United,Newcastle United,EPL
+04e38cb00a36484093d5cc1cf69e33af,soccer_epl,bovada,h2h,Draw,6.0,2021-02-15T11:57:26Z,2021-02-21T19:00:00Z,Manchester United,Newcastle United,EPL
+edb0dfaa4aeb4b11e10f6d53dde430f3,soccer_epl,betonlineag,h2h,Draw,3.3,2021-02-15T11:57:07Z,2021-02-22T20:00:00Z,Brighton and Hove Albion,Crystal Palace,EPL
+edb0dfaa4aeb4b11e10f6d53dde430f3,soccer_epl,bovada,h2h,Draw,3.45,2021-02-15T11:57:26Z,2021-02-22T20:00:00Z,Brighton and Hove Albion,Crystal Palace,EPL
+c6de7433c85e9e1accf517a6f575be42,soccer_epl,betonlineag,h2h,Draw,3.4,2021-02-15T11:57:07Z,2021-02-23T18:00:00Z,Leeds United,Southampton,EPL
+c6de7433c85e9e1accf517a6f575be42,soccer_epl,bovada,h2h,Draw,3.5,2021-02-15T11:57:26Z,2021-02-23T18:00:00Z,Leeds United,Southampton,EPL
+db57002530b4028faa20e0ec5aa3a0fb,soccer_epl,bovada,h2h,Draw,5.5,2021-02-15T11:57:26Z,2021-02-27T12:30:00Z,Manchester City,West Ham United,EPL
+81737b74230284edfe66120a8822ac4a,soccer_epl,bovada,h2h,Draw,3.3,2021-02-15T11:57:26Z,2021-02-27T15:00:00Z,West Bromwich Albion,Brighton and Hove Albion,EPL
+71b220afda6b34806fe4f16b2790c66e,soccer_epl,bovada,h2h,Draw,3.5,2021-02-15T11:57:26Z,2021-02-27T17:30:00Z,Leeds United,Aston Villa,EPL
+dc4b1653be96dbef4c6abb9e6a9595f2,soccer_epl,bovada,h2h,Draw,3.15,2021-02-15T11:57:26Z,2021-02-27T20:00:00Z,Newcastle United,Wolverhampton Wanderers,EPL
+45b7b20755533371ca0ecdb3ddc19a40,soccer_epl,bovada,h2h,Draw,3.35,2021-02-15T11:57:26Z,2021-02-28T12:00:00Z,Leicester City,Arsenal,EPL
+e8b9d1415387a869c49200bf7ba55761,soccer_epl,bovada,h2h,Draw,4.05,2021-02-15T11:57:26Z,2021-02-28T14:00:00Z,Tottenham Hotspur,Burnley,EPL
+7714ac607dd899f73de5cd4467c2c291,soccer_epl,bovada,h2h,Draw,3.1,2021-02-15T11:57:26Z,2021-02-28T12:00:00Z,Crystal Palace,Fulham,EPL
+b0a9297221368ffd3adf867d86bdf967,soccer_epl,bovada,h2h,Draw,4.8,2021-02-15T11:57:26Z,2021-02-28T19:15:00Z,Sheffield United,Liverpool,EPL
+f5ac7e302b1866ac36a74687006dd5bf,soccer_epl,bovada,h2h,Draw,3.5,2021-02-15T11:57:26Z,2021-02-28T16:30:00Z,Chelsea,Manchester United,EPL
+fa20d0ee2ea3236a5a8af6f848565a7a,soccer_epl,bovada,h2h,Draw,3.45,2021-02-15T11:57:26Z,2021-03-01T20:00:00Z,Everton,Southampton,EPL
+db57002530b4028faa20e0ec5aa3a0fb,soccer_epl,betonlineag,h2h,Draw,6.0,2021-02-25T11:54:01Z,2021-02-27T12:30:00Z,Manchester City,West Ham United,EPL
+db57002530b4028faa20e0ec5aa3a0fb,soccer_epl,bovada,h2h,Draw,6.25,2021-02-25T11:59:00Z,2021-02-27T12:30:00Z,Manchester City,West Ham United,EPL
+81737b74230284edfe66120a8822ac4a,soccer_epl,betonlineag,h2h,Draw,3.3,2021-02-25T11:54:01Z,2021-02-27T15:00:00Z,West Bromwich Albion,Brighton and Hove Albion,EPL
+81737b74230284edfe66120a8822ac4a,soccer_epl,bovada,h2h,Draw,3.4,2021-02-25T11:59:00Z,2021-02-27T15:00:00Z,West Bromwich Albion,Brighton and Hove Albion,EPL
+71b220afda6b34806fe4f16b2790c66e,soccer_epl,betonlineag,h2h,Draw,3.55,2021-02-25T11:54:01Z,2021-02-27T17:30:00Z,Leeds United,Aston Villa,EPL
+71b220afda6b34806fe4f16b2790c66e,soccer_epl,bovada,h2h,Draw,3.6,2021-02-25T11:59:00Z,2021-02-27T17:30:00Z,Leeds United,Aston Villa,EPL
+dc4b1653be96dbef4c6abb9e6a9595f2,soccer_epl,betonlineag,h2h,Draw,3.2,2021-02-25T11:54:01Z,2021-02-27T20:00:00Z,Newcastle United,Wolverhampton Wanderers,EPL
+dc4b1653be96dbef4c6abb9e6a9595f2,soccer_epl,bovada,h2h,Draw,3.1,2021-02-25T11:59:00Z,2021-02-27T20:00:00Z,Newcastle United,Wolverhampton Wanderers,EPL
+45b7b20755533371ca0ecdb3ddc19a40,soccer_epl,bovada,h2h,Draw,3.3,2021-02-25T11:59:00Z,2021-02-28T12:00:00Z,Leicester City,Arsenal,EPL
+45b7b20755533371ca0ecdb3ddc19a40,soccer_epl,betonlineag,h2h,Draw,3.3,2021-02-25T11:54:01Z,2021-02-28T12:00:00Z,Leicester City,Arsenal,EPL
+7714ac607dd899f73de5cd4467c2c291,soccer_epl,bovada,h2h,Draw,3.1,2021-02-25T11:59:00Z,2021-02-28T12:00:00Z,Crystal Palace,Fulham,EPL
+7714ac607dd899f73de5cd4467c2c291,soccer_epl,betonlineag,h2h,Draw,3.2,2021-02-25T11:54:01Z,2021-02-28T12:00:00Z,Crystal Palace,Fulham,EPL
+e8b9d1415387a869c49200bf7ba55761,soccer_epl,bovada,h2h,Draw,4.0,2021-02-25T11:59:00Z,2021-02-28T14:00:00Z,Tottenham Hotspur,Burnley,EPL
+e8b9d1415387a869c49200bf7ba55761,soccer_epl,betonlineag,h2h,Draw,3.95,2021-02-25T11:54:01Z,2021-02-28T14:00:00Z,Tottenham Hotspur,Burnley,EPL
+f5ac7e302b1866ac36a74687006dd5bf,soccer_epl,bovada,h2h,Draw,3.35,2021-02-25T11:59:00Z,2021-02-28T16:30:00Z,Chelsea,Manchester United,EPL
+f5ac7e302b1866ac36a74687006dd5bf,soccer_epl,betonlineag,h2h,Draw,3.2,2021-02-25T11:54:01Z,2021-02-28T16:30:00Z,Chelsea,Manchester United,EPL
+b0a9297221368ffd3adf867d86bdf967,soccer_epl,bovada,h2h,Draw,4.85,2021-02-25T11:59:00Z,2021-02-28T19:15:00Z,Sheffield United,Liverpool,EPL
+b0a9297221368ffd3adf867d86bdf967,soccer_epl,betonlineag,h2h,Draw,4.75,2021-02-25T11:54:01Z,2021-02-28T19:15:00Z,Sheffield United,Liverpool,EPL
+fa20d0ee2ea3236a5a8af6f848565a7a,soccer_epl,bovada,h2h,Draw,3.4,2021-02-25T11:59:00Z,2021-03-01T20:00:00Z,Everton,Southampton,EPL
+fa20d0ee2ea3236a5a8af6f848565a7a,soccer_epl,betonlineag,h2h,Draw,3.3,2021-02-25T11:54:01Z,2021-03-01T20:00:00Z,Everton,Southampton,EPL
+657d08979aacb2f57cbe0f8d0bf0c661,soccer_epl,betonlineag,h2h,Draw,5.2,2021-02-25T11:54:01Z,2021-03-02T20:00:00Z,Manchester City,Wolverhampton Wanderers,EPL
+657d08979aacb2f57cbe0f8d0bf0c661,soccer_epl,bovada,h2h,Draw,6.25,2021-02-25T11:59:00Z,2021-03-02T20:00:00Z,Manchester City,Wolverhampton Wanderers,EPL
+3cbc8b24083e1210bdc0063de129cede,soccer_epl,betonlineag,h2h,Draw,3.2,2021-02-25T11:54:01Z,2021-03-03T18:00:00Z,Sheffield United,Aston Villa,EPL
+3cbc8b24083e1210bdc0063de129cede,soccer_epl,bovada,h2h,Draw,3.25,2021-02-25T11:59:00Z,2021-03-03T18:00:00Z,Sheffield United,Aston Villa,EPL
+a2b183202c4ba28fc2cbec046eb411bb,soccer_epl,betonlineag,h2h,Draw,3.5,2021-02-25T11:54:01Z,2021-03-03T18:00:00Z,Burnley,Leicester City,EPL
+a2b183202c4ba28fc2cbec046eb411bb,soccer_epl,bovada,h2h,Draw,3.65,2021-02-25T11:59:00Z,2021-03-03T18:00:00Z,Burnley,Leicester City,EPL
+b0dd966d7fb26af0ee94ab18523ce5fc,soccer_epl,betonlineag,h2h,Draw,3.35,2021-02-25T11:54:01Z,2021-03-04T18:00:00Z,Fulham,Tottenham Hotspur,EPL
+b0dd966d7fb26af0ee94ab18523ce5fc,soccer_epl,bovada,h2h,Draw,3.5,2021-02-25T11:59:00Z,2021-03-04T18:00:00Z,Fulham,Tottenham Hotspur,EPL
+9c4eb28fd2244aec88fc67183628a01e,soccer_epl,betonlineag,h2h,Draw,3.4,2021-02-25T11:54:01Z,2021-03-04T18:00:00Z,West Bromwich Albion,Everton,EPL
+9c4eb28fd2244aec88fc67183628a01e,soccer_epl,bovada,h2h,Draw,3.6,2021-02-25T11:59:00Z,2021-03-04T18:00:00Z,West Bromwich Albion,Everton,EPL
+a8040389e0e04a822c99d08db9f2cb7e,soccer_epl,betonlineag,h2h,Draw,3.25,2021-02-25T11:54:01Z,2021-03-04T20:15:00Z,Liverpool,Chelsea,EPL
+a8040389e0e04a822c99d08db9f2cb7e,soccer_epl,bovada,h2h,Draw,3.55,2021-02-25T11:59:00Z,2021-03-04T20:15:00Z,Liverpool,Chelsea,EPL
+65e28fc3f96b017f91c03aefeb39ef71,soccer_epl,betonlineag,h2h,Draw,3.9,2021-02-25T11:54:01Z,2021-03-03T20:15:00Z,Crystal Palace,Manchester United,EPL
+65e28fc3f96b017f91c03aefeb39ef71,soccer_epl,bovada,h2h,Draw,4.4,2021-02-25T11:59:00Z,2021-03-03T20:15:00Z,Crystal Palace,Manchester United,EPL
+612f2cfede62dc51b02348b7830fd910,soccer_epl,betonlineag,h2h,Draw,3.4,2021-02-25T11:54:01Z,2021-03-06T12:30:00Z,Burnley,Arsenal,EPL
+612f2cfede62dc51b02348b7830fd910,soccer_epl,bovada,h2h,Draw,3.6,2021-02-25T11:59:00Z,2021-03-06T12:30:00Z,Burnley,Arsenal,EPL
+eee2837226f82d54a1c0acda926b1637,soccer_epl,betonlineag,h2h,Draw,3.3,2021-02-25T11:54:01Z,2021-03-06T15:00:00Z,Sheffield United,Southampton,EPL
+eee2837226f82d54a1c0acda926b1637,soccer_epl,bovada,h2h,Draw,3.45,2021-02-25T11:59:00Z,2021-03-06T15:00:00Z,Sheffield United,Southampton,EPL
+6735c3186cac11ca9b30731b392a97be,soccer_epl,betonlineag,h2h,Draw,3.3,2021-02-25T11:54:01Z,2021-03-06T20:00:00Z,Brighton and Hove Albion,Leicester City,EPL
+6735c3186cac11ca9b30731b392a97be,soccer_epl,bovada,h2h,Draw,3.4,2021-02-25T11:59:00Z,2021-03-06T20:00:00Z,Brighton and Hove Albion,Leicester City,EPL
+fd50f18a806bffe1b9497803b5bf4094,soccer_epl,betonlineag,h2h,Draw,3.3,2021-02-25T11:54:01Z,2021-03-06T17:30:00Z,Aston Villa,Wolverhampton Wanderers,EPL
+fd50f18a806bffe1b9497803b5bf4094,soccer_epl,bovada,h2h,Draw,3.4,2021-02-25T11:59:00Z,2021-03-06T17:30:00Z,Aston Villa,Wolverhampton Wanderers,EPL
+612f2cfede62dc51b02348b7830fd910,soccer_epl,betonlineag,h2h,Draw,3.7,2021-03-05T11:54:44Z,2021-03-06T12:30:00Z,Burnley,Arsenal,EPL
+612f2cfede62dc51b02348b7830fd910,soccer_epl,bovada,h2h,Draw,3.95,2021-03-05T11:54:14Z,2021-03-06T12:30:00Z,Burnley,Arsenal,EPL
+eee2837226f82d54a1c0acda926b1637,soccer_epl,betonlineag,h2h,Draw,3.2,2021-03-05T11:54:44Z,2021-03-06T15:00:00Z,Sheffield United,Southampton,EPL
+eee2837226f82d54a1c0acda926b1637,soccer_epl,bovada,h2h,Draw,3.35,2021-03-05T11:54:14Z,2021-03-06T15:00:00Z,Sheffield United,Southampton,EPL
+fd50f18a806bffe1b9497803b5bf4094,soccer_epl,betonlineag,h2h,Draw,3.1,2021-03-05T11:54:44Z,2021-03-06T17:30:00Z,Aston Villa,Wolverhampton Wanderers,EPL
+fd50f18a806bffe1b9497803b5bf4094,soccer_epl,bovada,h2h,Draw,3.25,2021-03-05T11:54:14Z,2021-03-06T17:30:00Z,Aston Villa,Wolverhampton Wanderers,EPL
+6735c3186cac11ca9b30731b392a97be,soccer_epl,bovada,h2h,Draw,3.25,2021-03-05T11:54:14Z,2021-03-06T20:00:00Z,Brighton and Hove Albion,Leicester City,EPL
+6735c3186cac11ca9b30731b392a97be,soccer_epl,betonlineag,h2h,Draw,3.1,2021-03-05T11:54:44Z,2021-03-06T20:00:00Z,Brighton and Hove Albion,Leicester City,EPL
+0d6593f1907ce422928f694d6bc24fa2,soccer_epl,betonlineag,h2h,Draw,4.3,2021-03-05T11:54:44Z,2021-03-07T16:30:00Z,Manchester City,Manchester United,EPL
+0d6593f1907ce422928f694d6bc24fa2,soccer_epl,bovada,h2h,Draw,4.3,2021-03-05T11:54:14Z,2021-03-07T16:30:00Z,Manchester City,Manchester United,EPL
+d330b500a85e180cdbb8fac01ee273a6,soccer_epl,betonlineag,h2h,Draw,3.5,2021-03-05T11:54:44Z,2021-03-08T20:00:00Z,West Ham United,Leeds United,EPL
+d330b500a85e180cdbb8fac01ee273a6,soccer_epl,bovada,h2h,Draw,3.6,2021-03-05T11:54:14Z,2021-03-08T20:00:00Z,West Ham United,Leeds United,EPL
+479fe24be897358f1e86e329113d8534,soccer_epl,betonlineag,h2h,Draw,2.97,2021-03-05T11:54:44Z,2021-03-07T12:00:00Z,West Bromwich Albion,Newcastle United,EPL
+479fe24be897358f1e86e329113d8534,soccer_epl,bovada,h2h,Draw,3.25,2021-03-05T11:54:14Z,2021-03-07T12:00:00Z,West Bromwich Albion,Newcastle United,EPL
+013f83a94279c76af7ccd3b3fb5941c8,soccer_epl,betonlineag,h2h,Draw,4.95,2021-03-05T11:54:44Z,2021-03-07T14:00:00Z,Liverpool,Fulham,EPL
+013f83a94279c76af7ccd3b3fb5941c8,soccer_epl,bovada,h2h,Draw,5.0,2021-03-05T11:54:14Z,2021-03-07T14:00:00Z,Liverpool,Fulham,EPL
+7a150d71319ef47ae5709f543a56a577,soccer_epl,betonlineag,h2h,Draw,4.34,2021-03-05T11:54:44Z,2021-03-07T19:15:00Z,Tottenham Hotspur,Crystal Palace,EPL
+7a150d71319ef47ae5709f543a56a577,soccer_epl,bovada,h2h,Draw,4.5,2021-03-05T11:54:14Z,2021-03-07T19:15:00Z,Tottenham Hotspur,Crystal Palace,EPL
+47a614ec6ef020c08242b51f6bb9fdf8,soccer_epl,betonlineag,h2h,Draw,4.09,2021-03-05T11:54:44Z,2021-03-08T18:00:00Z,Chelsea,Everton,EPL
+47a614ec6ef020c08242b51f6bb9fdf8,soccer_epl,bovada,h2h,Draw,4.1,2021-03-05T11:54:14Z,2021-03-08T18:00:00Z,Chelsea,Everton,EPL
+ac7b4e1338e23c333eee51775b9c62ac,soccer_epl,betonlineag,h2h,Draw,3.25,2021-03-05T11:54:44Z,2021-03-12T20:00:00Z,Newcastle United,Aston Villa,EPL
+ac7b4e1338e23c333eee51775b9c62ac,soccer_epl,bovada,h2h,Draw,3.65,2021-03-05T11:54:14Z,2021-03-12T20:00:00Z,Newcastle United,Aston Villa,EPL
+8c7a5c54032c1f77566dbbbb134f820c,soccer_epl,bovada,h2h,Draw,3.95,2021-03-05T11:54:14Z,2021-03-13T12:30:00Z,Leeds United,Chelsea,EPL
+8c7a5c54032c1f77566dbbbb134f820c,soccer_epl,betonlineag,h2h,Draw,3.7,2021-03-05T11:54:44Z,2021-03-13T12:30:00Z,Leeds United,Chelsea,EPL
+b633d4e20657f679375903e0b54ef31a,soccer_epl,betonlineag,h2h,Draw,3.2,2021-03-05T11:54:44Z,2021-03-13T15:00:00Z,Crystal Palace,West Bromwich Albion,EPL
+b633d4e20657f679375903e0b54ef31a,soccer_epl,bovada,h2h,Draw,3.25,2021-03-05T11:54:14Z,2021-03-13T15:00:00Z,Crystal Palace,West Bromwich Albion,EPL
+6e54f226414b57e0aec2bfbde25b6518,soccer_epl,betonlineag,h2h,Draw,5.0,2021-03-05T11:54:44Z,2021-03-13T20:00:00Z,Fulham,Manchester City,EPL
+6e54f226414b57e0aec2bfbde25b6518,soccer_epl,bovada,h2h,Draw,5.5,2021-03-05T11:54:14Z,2021-03-13T20:00:00Z,Fulham,Manchester City,EPL
+ae68331aa362cc96b07a935bc897d173,soccer_epl,betonlineag,h2h,Draw,3.4,2021-03-05T11:54:44Z,2021-03-13T17:30:00Z,Everton,Burnley,EPL
+ae68331aa362cc96b07a935bc897d173,soccer_epl,bovada,h2h,Draw,3.65,2021-03-05T11:54:14Z,2021-03-13T17:30:00Z,Everton,Burnley,EPL
+d839c80bc30c47e55278637041ff018d,soccer_epl,betonlineag,h2h,Draw,3.0,2021-03-05T11:54:44Z,2021-03-14T12:00:00Z,Southampton,Brighton and Hove Albion,EPL
+d839c80bc30c47e55278637041ff018d,soccer_epl,bovada,h2h,Draw,3.25,2021-03-05T11:54:14Z,2021-03-14T12:00:00Z,Southampton,Brighton and Hove Albion,EPL
+b0e6979f5fbed1b7729e216dc30281d4,soccer_epl,betonlineag,h2h,Draw,4.0,2021-03-05T11:54:44Z,2021-03-14T14:00:00Z,Leicester City,Sheffield United,EPL
+b0e6979f5fbed1b7729e216dc30281d4,soccer_epl,bovada,h2h,Draw,4.35,2021-03-05T11:54:14Z,2021-03-14T14:00:00Z,Leicester City,Sheffield United,EPL
+5b7999d93337eb16aed9a92d947941a9,soccer_epl,betonlineag,h2h,Draw,3.3,2021-03-05T11:54:44Z,2021-03-14T16:30:00Z,Arsenal,Tottenham Hotspur,EPL
+5b7999d93337eb16aed9a92d947941a9,soccer_epl,bovada,h2h,Draw,3.45,2021-03-05T11:54:14Z,2021-03-14T16:30:00Z,Arsenal,Tottenham Hotspur,EPL
+d2ba6b3421bcdebd18a9c6bb60d966b7,soccer_epl,betonlineag,h2h,Draw,3.6,2021-03-05T11:54:44Z,2021-03-14T19:15:00Z,Manchester United,West Ham United,EPL
+d2ba6b3421bcdebd18a9c6bb60d966b7,soccer_epl,bovada,h2h,Draw,3.8,2021-03-05T11:54:14Z,2021-03-14T19:15:00Z,Manchester United,West Ham United,EPL
+36311d11842c7e7531696f25e3bca173,soccer_epl,betonlineag,h2h,Draw,5.6,2021-03-05T11:54:44Z,2021-03-10T18:00:00Z,Manchester City,Southampton,EPL
+36311d11842c7e7531696f25e3bca173,soccer_epl,bovada,h2h,Draw,6.25,2021-03-05T11:54:14Z,2021-03-10T18:00:00Z,Manchester City,Southampton,EPL
+9b043aab48bf32aff393cfd73121b57f,soccer_epl,bovada,h2h,Draw,4.05,2021-03-05T11:54:14Z,2021-03-15T20:00:00Z,Wolverhampton Wanderers,Liverpool,EPL
+9b043aab48bf32aff393cfd73121b57f,soccer_epl,betonlineag,h2h,Draw,3.95,2021-03-15T11:57:14Z,2021-03-15T20:00:00Z,Wolverhampton Wanderers,Liverpool,EPL
+9b043aab48bf32aff393cfd73121b57f,soccer_epl,bovada,h2h,Draw,3.8,2021-03-15T11:58:06Z,2021-03-15T20:00:00Z,Wolverhampton Wanderers,Liverpool,EPL
+e7fa544fe463d7e4fa108391c1ae2d13,soccer_epl,betonlineag,h2h,Draw,3.2,2021-03-15T11:57:14Z,2021-03-19T20:00:00Z,Fulham,Leeds United,EPL
+e7fa544fe463d7e4fa108391c1ae2d13,soccer_epl,bovada,h2h,Draw,3.4,2021-03-15T11:58:06Z,2021-03-19T20:00:00Z,Fulham,Leeds United,EPL
+4af9345795dd21e09f443ae0dda0b317,soccer_epl,betonlineag,h2h,Draw,3.6,2021-03-15T11:57:14Z,2021-03-20T20:00:00Z,Brighton and Hove Albion,Newcastle United,EPL
+4af9345795dd21e09f443ae0dda0b317,soccer_epl,bovada,h2h,Draw,3.5,2021-03-15T11:58:06Z,2021-03-20T20:00:00Z,Brighton and Hove Albion,Newcastle United,EPL
+52c4ec9edb474a0f36c0769d7c00bb91,soccer_epl,betonlineag,h2h,Draw,3.25,2021-03-15T11:57:14Z,2021-03-21T19:30:00Z,Aston Villa,Tottenham Hotspur,EPL
+52c4ec9edb474a0f36c0769d7c00bb91,soccer_epl,bovada,h2h,Draw,3.4,2021-03-15T11:58:06Z,2021-03-21T19:30:00Z,Aston Villa,Tottenham Hotspur,EPL
+90c353ea01ca43ace5bf22393efbe71c,soccer_epl,bovada,h2h,Draw,3.45,2021-03-15T11:58:06Z,2021-03-21T15:00:00Z,West Ham United,Arsenal,EPL
+90c353ea01ca43ace5bf22393efbe71c,soccer_epl,betonlineag,h2h,Draw,3.3,2021-03-15T11:57:14Z,2021-03-21T15:00:00Z,West Ham United,Arsenal,EPL
+1b1d5177e94469ad37734e1bdc0ce09a,soccer_epl,bovada,h2h,Draw,3.9,2021-03-15T11:58:06Z,2021-04-03T14:00:00Z,Newcastle United,Tottenham Hotspur,EPL
+ce1fb733f78f42383bf32d922bbb9c56,soccer_epl,bovada,h2h,Draw,3.55,2021-03-15T11:58:06Z,2021-04-03T14:00:00Z,Everton,Crystal Palace,EPL
+06aeab7644908151c36941421b17eefc,soccer_epl,bovada,h2h,Draw,3.35,2021-03-15T11:58:06Z,2021-04-03T14:00:00Z,Southampton,Burnley,EPL
+e099991ff0fa7dfcda544746aa5a460c,soccer_epl,bovada,h2h,Draw,3.6,2021-03-15T11:58:06Z,2021-04-03T14:00:00Z,Arsenal,Liverpool,EPL
+86c541995f9a0e36243441d8d529b0e8,soccer_epl,bovada,h2h,Draw,3.35,2021-03-15T11:58:06Z,2021-04-03T14:00:00Z,Aston Villa,Fulham,EPL
+07cf5f0d81de9eb2518ed1508e0d08ae,soccer_epl,bovada,h2h,Draw,3.15,2021-03-15T11:58:06Z,2021-04-03T14:00:00Z,Wolverhampton Wanderers,West Ham United,EPL
+1fc5b53a8650ceed5411730c31f33e43,soccer_epl,bovada,h2h,Draw,4.45,2021-03-15T11:58:06Z,2021-04-03T14:00:00Z,Leicester City,Manchester City,EPL
+38711aced332ba70122b433de5464217,soccer_epl,bovada,h2h,Draw,4.4,2021-03-15T11:58:06Z,2021-04-03T14:00:00Z,Manchester United,Brighton and Hove Albion,EPL
+4dcb93c95261e8ed2d1e76c992d297f4,soccer_epl,bovada,h2h,Draw,3.7,2021-03-15T11:58:06Z,2021-04-03T14:00:00Z,Leeds United,Sheffield United,EPL
+13aa07e1cdca181b5c35a2081b89ac4d,soccer_epl,bovada,h2h,Draw,5.75,2021-03-15T11:58:06Z,2021-04-03T14:00:00Z,Chelsea,West Bromwich Albion,EPL
+1fc5b53a8650ceed5411730c31f33e43,soccer_epl,betonlineag,h2h,Draw,4.0,2021-03-25T11:58:08Z,2021-04-03T16:30:00Z,Leicester City,Manchester City,EPL
+1fc5b53a8650ceed5411730c31f33e43,soccer_epl,bovada,h2h,Draw,4.25,2021-03-25T11:57:16Z,2021-04-03T16:30:00Z,Leicester City,Manchester City,EPL
+86c541995f9a0e36243441d8d529b0e8,soccer_epl,bovada,h2h,Draw,3.2,2021-03-25T11:57:16Z,2021-04-03T19:00:00Z,Aston Villa,Fulham,EPL
+4dcb93c95261e8ed2d1e76c992d297f4,soccer_epl,betonlineag,h2h,Draw,4.2,2021-03-25T11:58:08Z,2021-04-03T14:00:00Z,Leeds United,Sheffield United,EPL
+4dcb93c95261e8ed2d1e76c992d297f4,soccer_epl,bovada,h2h,Draw,4.35,2021-03-25T11:57:16Z,2021-04-03T14:00:00Z,Leeds United,Sheffield United,EPL
+13aa07e1cdca181b5c35a2081b89ac4d,soccer_epl,betonlineag,h2h,Draw,6.1,2021-03-25T11:58:08Z,2021-04-03T11:30:00Z,Chelsea,West Bromwich Albion,EPL
+13aa07e1cdca181b5c35a2081b89ac4d,soccer_epl,bovada,h2h,Draw,6.25,2021-03-25T11:57:16Z,2021-04-03T11:30:00Z,Chelsea,West Bromwich Albion,EPL
+01c17c344202d3d2e908ddbf4b3a2d13,soccer_epl,betonlineag,h2h,Draw,4.0,2021-03-25T11:58:08Z,2021-04-04T18:30:00Z,Manchester United,Brighton and Hove Albion,EPL
+01c17c344202d3d2e908ddbf4b3a2d13,soccer_epl,bovada,h2h,Draw,4.1,2021-03-25T11:57:16Z,2021-04-04T18:30:00Z,Manchester United,Brighton and Hove Albion,EPL
+a77055cf626842bf5a1237ac668d389d,soccer_epl,betonlineag,h2h,Draw,3.25,2021-03-25T11:58:08Z,2021-04-04T11:00:00Z,Southampton,Burnley,EPL
+a77055cf626842bf5a1237ac668d389d,soccer_epl,bovada,h2h,Draw,3.3,2021-03-25T11:57:16Z,2021-04-04T11:00:00Z,Southampton,Burnley,EPL
+ee3e837237dce75938b3a54b72fe5a55,soccer_epl,betonlineag,h2h,Draw,4.0,2021-03-25T11:58:08Z,2021-04-04T13:05:00Z,Newcastle United,Tottenham Hotspur,EPL
+ee3e837237dce75938b3a54b72fe5a55,soccer_epl,bovada,h2h,Draw,3.95,2021-03-25T11:57:16Z,2021-04-04T13:05:00Z,Newcastle United,Tottenham Hotspur,EPL
+c425f89cca0e659f5f2120cc1fee0127,soccer_epl,bovada,h2h,Draw,3.55,2021-03-25T11:57:16Z,2021-04-04T15:30:00Z,Arsenal,Liverpool,EPL
+7723ecda0970fffa9322988ed9494167,soccer_epl,bovada,h2h,Draw,3.5,2021-03-25T11:57:16Z,2021-04-05T17:00:00Z,Everton,Crystal Palace,EPL
+7723ecda0970fffa9322988ed9494167,soccer_epl,betonlineag,h2h,Draw,3.45,2021-03-25T11:58:08Z,2021-04-05T17:00:00Z,Everton,Crystal Palace,EPL
+19281db4a47fe2a3a828aef4db8f06ab,soccer_epl,betonlineag,h2h,Draw,3.0,2021-03-25T11:58:08Z,2021-04-05T19:15:00Z,Wolverhampton Wanderers,West Ham United,EPL
+19281db4a47fe2a3a828aef4db8f06ab,soccer_epl,bovada,h2h,Draw,3.1,2021-03-25T11:57:16Z,2021-04-05T19:15:00Z,Wolverhampton Wanderers,West Ham United,EPL
+d2fe4504abbdb69ade3795bf12c4e2a0,soccer_epl,bovada,h2h,Draw,3.1,2021-03-25T11:57:16Z,2021-04-09T19:00:00Z,Fulham,Wolverhampton Wanderers,EPL
+b20a32f7cce0362c5b835b91e9ac98f9,soccer_epl,bovada,h2h,Draw,4.85,2021-03-25T11:57:16Z,2021-04-10T14:00:00Z,Liverpool,Aston Villa,EPL
+3065f665f971dca8ff3b65c82d1fc94f,soccer_epl,bovada,h2h,Draw,3.2,2021-03-25T11:57:16Z,2021-04-11T11:00:00Z,Burnley,Newcastle United,EPL
+c3a2687c2343fa51e834061a00945ae4,soccer_epl,bovada,h2h,Draw,3.2,2021-03-25T11:57:16Z,2021-04-12T19:15:00Z,Brighton and Hove Albion,Everton,EPL
+5d9370c07a8ebec0814b7f9d7ac9cf2c,soccer_epl,bovada,h2h,Draw,6.5,2021-03-25T11:57:16Z,2021-04-10T11:30:00Z,Manchester City,Leeds United,EPL
+be8864157a5334dfff413751067cc906,soccer_epl,bovada,h2h,Draw,3.35,2021-03-25T11:57:16Z,2021-04-11T13:05:00Z,West Ham United,Leicester City,EPL
+15fca24e22eea08efaa6ab4fa17ba2e4,soccer_epl,bovada,h2h,Draw,4.35,2021-03-25T11:57:16Z,2021-04-10T16:30:00Z,Crystal Palace,Chelsea,EPL
+38a24d5ae88fd79c8c74079a78c16250,soccer_epl,bovada,h2h,Draw,3.55,2021-03-25T11:57:16Z,2021-04-11T15:30:00Z,Tottenham Hotspur,Manchester United,EPL
+fa392c1c5b33687ed77004abb1a6c539,soccer_epl,bovada,h2h,Draw,3.9,2021-03-25T11:57:16Z,2021-04-11T18:00:00Z,Sheffield United,Arsenal,EPL
+685c9ced058b79efd73601c14d9ddfc6,soccer_epl,bovada,h2h,Draw,3.3,2021-03-25T11:57:16Z,2021-04-12T17:00:00Z,West Bromwich Albion,Southampton,EPL
+8fe93641215d3cb61dfea44f95813e27,soccer_epl,betonlineag,h2h,Draw,3.35,2021-03-25T11:58:08Z,2021-04-03T19:00:00Z,Arsenal,Liverpool,EPL
+d5b77c9d1f54de51322e2e2d1ba5b199,soccer_epl,betonlineag,h2h,Draw,3.15,2021-03-25T11:58:08Z,2021-04-04T15:30:00Z,Aston Villa,Fulham,EPL
+7723ecda0970fffa9322988ed9494167,soccer_epl,bovada,h2h,Draw,3.45,2021-04-05T11:58:59Z,2021-04-05T17:00:00Z,Everton,Crystal Palace,EPL
+7723ecda0970fffa9322988ed9494167,soccer_epl,betonlineag,h2h,Draw,3.45,2021-04-05T11:59:01Z,2021-04-05T17:00:00Z,Everton,Crystal Palace,EPL
+19281db4a47fe2a3a828aef4db8f06ab,soccer_epl,bovada,h2h,Draw,3.05,2021-04-05T11:58:59Z,2021-04-05T19:15:00Z,Wolverhampton Wanderers,West Ham United,EPL
+19281db4a47fe2a3a828aef4db8f06ab,soccer_epl,betonlineag,h2h,Draw,3.15,2021-04-05T11:59:01Z,2021-04-05T19:15:00Z,Wolverhampton Wanderers,West Ham United,EPL
+d2fe4504abbdb69ade3795bf12c4e2a0,soccer_epl,bovada,h2h,Draw,3.1,2021-04-05T11:58:59Z,2021-04-09T19:00:00Z,Fulham,Wolverhampton Wanderers,EPL
+d2fe4504abbdb69ade3795bf12c4e2a0,soccer_epl,betonlineag,h2h,Draw,2.98,2021-04-05T11:59:01Z,2021-04-09T19:00:00Z,Fulham,Wolverhampton Wanderers,EPL
+b20a32f7cce0362c5b835b91e9ac98f9,soccer_epl,bovada,h2h,Draw,4.55,2021-04-05T11:58:59Z,2021-04-10T14:00:00Z,Liverpool,Aston Villa,EPL
+b20a32f7cce0362c5b835b91e9ac98f9,soccer_epl,betonlineag,h2h,Draw,4.5,2021-04-05T11:59:01Z,2021-04-10T14:00:00Z,Liverpool,Aston Villa,EPL
+3065f665f971dca8ff3b65c82d1fc94f,soccer_epl,betonlineag,h2h,Draw,3.15,2021-04-05T11:59:01Z,2021-04-11T11:00:00Z,Burnley,Newcastle United,EPL
+3065f665f971dca8ff3b65c82d1fc94f,soccer_epl,bovada,h2h,Draw,3.2,2021-04-05T11:58:59Z,2021-04-11T11:00:00Z,Burnley,Newcastle United,EPL
+c3a2687c2343fa51e834061a00945ae4,soccer_epl,betonlineag,h2h,Draw,3.15,2021-04-05T11:59:01Z,2021-04-12T19:15:00Z,Brighton and Hove Albion,Everton,EPL
+c3a2687c2343fa51e834061a00945ae4,soccer_epl,bovada,h2h,Draw,3.2,2021-04-05T11:58:59Z,2021-04-12T19:15:00Z,Brighton and Hove Albion,Everton,EPL
+5d9370c07a8ebec0814b7f9d7ac9cf2c,soccer_epl,betonlineag,h2h,Draw,6.2,2021-04-05T11:59:01Z,2021-04-10T11:30:00Z,Manchester City,Leeds United,EPL
+5d9370c07a8ebec0814b7f9d7ac9cf2c,soccer_epl,bovada,h2h,Draw,6.0,2021-04-05T11:58:59Z,2021-04-10T11:30:00Z,Manchester City,Leeds United,EPL
+15fca24e22eea08efaa6ab4fa17ba2e4,soccer_epl,betonlineag,h2h,Draw,3.95,2021-04-05T11:59:01Z,2021-04-10T16:30:00Z,Crystal Palace,Chelsea,EPL
+15fca24e22eea08efaa6ab4fa17ba2e4,soccer_epl,bovada,h2h,Draw,4.0,2021-04-05T11:58:59Z,2021-04-10T16:30:00Z,Crystal Palace,Chelsea,EPL
+be8864157a5334dfff413751067cc906,soccer_epl,betonlineag,h2h,Draw,3.25,2021-04-05T11:59:01Z,2021-04-11T13:05:00Z,West Ham United,Leicester City,EPL
+be8864157a5334dfff413751067cc906,soccer_epl,bovada,h2h,Draw,3.3,2021-04-05T11:58:59Z,2021-04-11T13:05:00Z,West Ham United,Leicester City,EPL
+38a24d5ae88fd79c8c74079a78c16250,soccer_epl,bovada,h2h,Draw,3.45,2021-04-05T11:58:59Z,2021-04-11T15:30:00Z,Tottenham Hotspur,Manchester United,EPL
+38a24d5ae88fd79c8c74079a78c16250,soccer_epl,betonlineag,h2h,Draw,3.2,2021-04-05T11:59:01Z,2021-04-11T15:30:00Z,Tottenham Hotspur,Manchester United,EPL
+fa392c1c5b33687ed77004abb1a6c539,soccer_epl,bovada,h2h,Draw,4.05,2021-04-05T11:58:59Z,2021-04-11T18:00:00Z,Sheffield United,Arsenal,EPL
+fa392c1c5b33687ed77004abb1a6c539,soccer_epl,betonlineag,h2h,Draw,4.0,2021-04-05T11:59:01Z,2021-04-11T18:00:00Z,Sheffield United,Arsenal,EPL
+685c9ced058b79efd73601c14d9ddfc6,soccer_epl,bovada,h2h,Draw,3.3,2021-04-05T11:58:59Z,2021-04-12T17:00:00Z,West Bromwich Albion,Southampton,EPL
+685c9ced058b79efd73601c14d9ddfc6,soccer_epl,betonlineag,h2h,Draw,3.25,2021-04-05T11:59:01Z,2021-04-12T17:00:00Z,West Bromwich Albion,Southampton,EPL
+52763aeafea037e5ddd4cf8c04cc4ee0,soccer_epl,bovada,h2h,Draw,3.6,2021-04-05T11:58:59Z,2021-04-17T11:30:00Z,Newcastle United,West Ham United,EPL
+ce7db81c579eeffeda95d85002476a81,soccer_epl,bovada,h2h,Draw,3.75,2021-04-05T11:58:59Z,2021-04-17T14:00:00Z,Wolverhampton Wanderers,Sheffield United,EPL
+d2ccf2e5f6ed70b327dd29a49a09b745,soccer_epl,bovada,h2h,Draw,3.7,2021-04-05T11:58:59Z,2021-04-18T12:30:00Z,Arsenal,Fulham,EPL
+f945a81122dea0eae96ed68d4dbfba00,soccer_epl,bovada,h2h,Draw,3.35,2021-04-05T11:58:59Z,2021-04-16T19:00:00Z,Everton,Tottenham Hotspur,EPL
+4c21213684b8dbf94ece361adb5a23dd,soccer_epl,bovada,h2h,Draw,4.0,2021-04-05T11:58:59Z,2021-04-20T19:00:00Z,Chelsea,Brighton and Hove Albion,EPL
+0bcfd72ebd30b0bb57091014ae91193e,soccer_epl,bovada,h2h,Draw,4.15,2021-04-05T11:58:59Z,2021-04-19T19:00:00Z,Leeds United,Liverpool,EPL
+52763aeafea037e5ddd4cf8c04cc4ee0,soccer_epl,betonlineag,h2h,Draw,3.45,2021-04-15T11:58:31Z,2021-04-17T11:30:00Z,Newcastle United,West Ham United,EPL
+52763aeafea037e5ddd4cf8c04cc4ee0,soccer_epl,bovada,h2h,Draw,3.5,2021-04-15T11:53:41Z,2021-04-17T11:30:00Z,Newcastle United,West Ham United,EPL
+ce7db81c579eeffeda95d85002476a81,soccer_epl,betonlineag,h2h,Draw,3.4,2021-04-15T11:58:31Z,2021-04-17T19:15:00Z,Wolverhampton Wanderers,Sheffield United,EPL
+ce7db81c579eeffeda95d85002476a81,soccer_epl,bovada,h2h,Draw,3.55,2021-04-15T11:53:41Z,2021-04-17T19:15:00Z,Wolverhampton Wanderers,Sheffield United,EPL
+d2ccf2e5f6ed70b327dd29a49a09b745,soccer_epl,betonlineag,h2h,Draw,3.65,2021-04-15T11:58:31Z,2021-04-18T12:30:00Z,Arsenal,Fulham,EPL
+d2ccf2e5f6ed70b327dd29a49a09b745,soccer_epl,bovada,h2h,Draw,3.65,2021-04-15T11:53:41Z,2021-04-18T12:30:00Z,Arsenal,Fulham,EPL
+f2c7d28b0d71d9d51957ddeb34c636b0,soccer_epl,betonlineag,h2h,Draw,4.84,2021-04-15T11:58:31Z,2021-04-18T15:00:00Z,Manchester United,Burnley,EPL
+f2c7d28b0d71d9d51957ddeb34c636b0,soccer_epl,bovada,h2h,Draw,5.0,2021-04-15T11:53:41Z,2021-04-18T15:00:00Z,Manchester United,Burnley,EPL
+f945a81122dea0eae96ed68d4dbfba00,soccer_epl,betonlineag,h2h,Draw,3.4,2021-04-15T11:58:31Z,2021-04-16T19:00:00Z,Everton,Tottenham Hotspur,EPL
+f945a81122dea0eae96ed68d4dbfba00,soccer_epl,bovada,h2h,Draw,3.35,2021-04-15T11:53:41Z,2021-04-16T19:00:00Z,Everton,Tottenham Hotspur,EPL
+0bcfd72ebd30b0bb57091014ae91193e,soccer_epl,bovada,h2h,Draw,4.2,2021-04-15T11:53:41Z,2021-04-19T19:00:00Z,Leeds United,Liverpool,EPL
+0bcfd72ebd30b0bb57091014ae91193e,soccer_epl,betonlineag,h2h,Draw,4.15,2021-04-15T11:58:31Z,2021-04-19T19:00:00Z,Leeds United,Liverpool,EPL
+4c21213684b8dbf94ece361adb5a23dd,soccer_epl,bovada,h2h,Draw,3.95,2021-04-15T11:53:41Z,2021-04-20T19:00:00Z,Chelsea,Brighton and Hove Albion,EPL
+09d6f176365abc4505f266667e9fa793,soccer_epl,bovada,h2h,Draw,4.9,2021-04-15T12:00:26Z,2021-04-21T19:15:00Z,Aston Villa,Manchester City,EPL
+81d840704ab65fd23187c6e2b5eeca5b,soccer_epl,bovada,h2h,Draw,3.75,2021-04-15T12:00:26Z,2021-04-23T19:00:00Z,Arsenal,Everton,EPL
+fbe10579091db57d5ffe2bef2efa1dbe,soccer_epl,bovada,h2h,Draw,4.0,2021-04-15T12:00:26Z,2021-04-21T17:00:00Z,Tottenham Hotspur,Southampton,EPL
+0a3f892866c0a5741aac6a6dd9066eec,soccer_epl,bovada,h2h,Draw,4.1,2021-04-15T12:00:26Z,2021-04-22T19:00:00Z,Leicester City,West Bromwich Albion,EPL
+829607157a7d900241331679a1bbae21,soccer_epl,bovada,h2h,Draw,6.0,2021-04-15T12:00:26Z,2021-04-24T11:30:00Z,Liverpool,Newcastle United,EPL
+a9fbfbbd040a01171efed1f53a679a21,soccer_epl,bovada,h2h,Draw,3.45,2021-04-15T12:00:26Z,2021-04-24T19:00:00Z,Sheffield United,Brighton and Hove Albion,EPL
+e941031fa55122f70825335c868f39da,soccer_epl,betonlineag,h2h,Draw,3.3,2021-04-15T11:58:31Z,2021-04-25T11:00:00Z,Wolverhampton Wanderers,Burnley,EPL
+e941031fa55122f70825335c868f39da,soccer_epl,bovada,h2h,Draw,3.4,2021-04-15T12:00:26Z,2021-04-25T11:00:00Z,Wolverhampton Wanderers,Burnley,EPL
+4ff6aa2dc1336620677d86442f71393c,soccer_epl,betonlineag,h2h,Draw,3.45,2021-04-15T11:58:31Z,2021-04-25T13:00:00Z,Leeds United,Manchester United,EPL
+4ff6aa2dc1336620677d86442f71393c,soccer_epl,bovada,h2h,Draw,3.75,2021-04-15T12:00:26Z,2021-04-25T13:00:00Z,Leeds United,Manchester United,EPL
+60818141a2368677519e14677ff56417,soccer_epl,bovada,h2h,Draw,3.95,2021-04-15T12:00:26Z,2021-04-25T18:00:00Z,Aston Villa,West Bromwich Albion,EPL
+60818141a2368677519e14677ff56417,soccer_epl,betonlineag,h2h,Draw,3.75,2021-04-15T11:58:31Z,2021-04-25T18:00:00Z,Aston Villa,West Bromwich Albion,EPL
+1569b71cd8d9353628ef958165da3c8c,soccer_epl,bovada,h2h,Draw,4.2,2021-04-15T12:00:26Z,2021-04-26T19:00:00Z,Leicester City,Crystal Palace,EPL
+1569b71cd8d9353628ef958165da3c8c,soccer_epl,betonlineag,h2h,Draw,4.05,2021-04-15T11:58:31Z,2021-04-26T19:00:00Z,Leicester City,Crystal Palace,EPL
+4ff6aa2dc1336620677d86442f71393c,soccer_epl,betonlineag,h2h,Draw,4.0,2021-04-25T11:59:09Z,2021-04-25T13:00:00Z,Leeds United,Manchester United,EPL
+4ff6aa2dc1336620677d86442f71393c,soccer_epl,bovada,h2h,Draw,4.0,2021-04-25T11:59:07Z,2021-04-25T13:00:00Z,Leeds United,Manchester United,EPL
+60818141a2368677519e14677ff56417,soccer_epl,betonlineag,h2h,Draw,3.5,2021-04-25T11:59:09Z,2021-04-25T18:00:00Z,Aston Villa,West Bromwich Albion,EPL
+60818141a2368677519e14677ff56417,soccer_epl,bovada,h2h,Draw,3.55,2021-04-25T11:59:07Z,2021-04-25T18:00:00Z,Aston Villa,West Bromwich Albion,EPL
+1569b71cd8d9353628ef958165da3c8c,soccer_epl,bovada,h2h,Draw,4.3,2021-04-25T11:59:07Z,2021-04-26T19:00:00Z,Leicester City,Crystal Palace,EPL
+1569b71cd8d9353628ef958165da3c8c,soccer_epl,betonlineag,h2h,Draw,4.2,2021-04-25T11:59:09Z,2021-04-26T19:00:00Z,Leicester City,Crystal Palace,EPL
+679607915be0e39ebdd6b6b1d3bf25d0,soccer_epl,bovada,h2h,Draw,3.5,2021-04-25T11:59:07Z,2021-05-01T14:00:00Z,Brighton and Hove Albion,Leeds United,EPL
+eafcabb9555e36d9178da8be3f89e76b,soccer_epl,betonlineag,h2h,Draw,4.0,2021-04-25T11:59:09Z,2021-05-01T16:30:00Z,Chelsea,Fulham,EPL
+eafcabb9555e36d9178da8be3f89e76b,soccer_epl,bovada,h2h,Draw,4.35,2021-04-25T11:59:07Z,2021-05-01T16:30:00Z,Chelsea,Fulham,EPL
+06f5e9b58bb69fd1152c20d68a479f0b,soccer_epl,bovada,h2h,Draw,5.25,2021-04-25T11:59:07Z,2021-05-01T11:30:00Z,Crystal Palace,Manchester City,EPL
+4715aab2ccdba18369a2a1b1eb286d07,soccer_epl,bovada,h2h,Draw,3.5,2021-04-25T11:59:07Z,2021-05-01T19:00:00Z,Everton,Aston Villa,EPL
+9cd04c606e651c6d198d1a5e5104cd4f,soccer_epl,bovada,h2h,Draw,3.6,2021-04-25T11:59:07Z,2021-04-30T19:00:00Z,Southampton,Leicester City,EPL
+be6b1f90618ae44667f7ac80908923ef,soccer_epl,betonlineag,h2h,Draw,3.7,2021-04-25T11:59:09Z,2021-05-02T13:00:00Z,Newcastle United,Arsenal,EPL
+be6b1f90618ae44667f7ac80908923ef,soccer_epl,bovada,h2h,Draw,3.85,2021-04-25T11:59:07Z,2021-05-02T13:00:00Z,Newcastle United,Arsenal,EPL
+34af068f2b4e7bf8b16325848aa40382,soccer_epl,bovada,h2h,Draw,3.55,2021-04-25T11:59:07Z,2021-05-02T15:30:00Z,Manchester United,Liverpool,EPL
+d180d9516dedf22c045626e255c88770,soccer_epl,bovada,h2h,Draw,5.0,2021-04-25T11:59:07Z,2021-05-02T18:15:00Z,Tottenham Hotspur,Sheffield United,EPL
+d180d9516dedf22c045626e255c88770,soccer_epl,betonlineag,h2h,Draw,4.59,2021-04-25T11:59:09Z,2021-05-02T18:15:00Z,Tottenham Hotspur,Sheffield United,EPL
+e65e52c14ba01cbca5c4cb5d236c53bb,soccer_epl,bovada,h2h,Draw,3.25,2021-04-25T11:59:07Z,2021-05-03T17:00:00Z,West Bromwich Albion,Wolverhampton Wanderers,EPL
+4cabf103884fa80b34e401f44ab9685a,soccer_epl,bovada,h2h,Draw,3.5,2021-04-25T11:59:07Z,2021-05-03T19:15:00Z,Burnley,West Ham United,EPL
+f5091b1f88cd1bcf29523a671cb0714b,soccer_epl,betonlineag,h2h,Draw,4.25,2021-05-05T11:56:15Z,2021-05-07T19:00:00Z,Leicester City,Newcastle United,EPL
+f5091b1f88cd1bcf29523a671cb0714b,soccer_epl,bovada,h2h,Draw,4.55,2021-05-05T11:59:50Z,2021-05-07T19:00:00Z,Leicester City,Newcastle United,EPL
+7cfd0816af0de4b85a2dbb7d61529035,soccer_epl,betonlineag,h2h,Draw,3.45,2021-05-05T11:56:15Z,2021-05-08T11:30:00Z,Leeds United,Tottenham Hotspur,EPL
+7cfd0816af0de4b85a2dbb7d61529035,soccer_epl,bovada,h2h,Draw,3.7,2021-05-05T11:59:50Z,2021-05-08T11:30:00Z,Leeds United,Tottenham Hotspur,EPL
+a009e40b2ce002b54201336da646da1d,soccer_epl,betonlineag,h2h,Draw,3.05,2021-05-05T11:56:15Z,2021-05-08T14:00:00Z,Sheffield United,Crystal Palace,EPL
+a009e40b2ce002b54201336da646da1d,soccer_epl,bovada,h2h,Draw,3.2,2021-05-05T11:59:50Z,2021-05-08T14:00:00Z,Sheffield United,Crystal Palace,EPL
+fcfd04b9e49cba8afe95ca6234784804,soccer_epl,betonlineag,h2h,Draw,3.25,2021-05-05T11:56:15Z,2021-05-08T16:30:00Z,Manchester City,Chelsea,EPL
+fcfd04b9e49cba8afe95ca6234784804,soccer_epl,bovada,h2h,Draw,3.45,2021-05-05T11:59:50Z,2021-05-08T16:30:00Z,Manchester City,Chelsea,EPL
+5f89b80535d68fcff0307e18d5e0b2ee,soccer_epl,betonlineag,h2h,Draw,5.4,2021-05-05T11:56:15Z,2021-05-08T19:15:00Z,Liverpool,Southampton,EPL
+5f89b80535d68fcff0307e18d5e0b2ee,soccer_epl,bovada,h2h,Draw,5.5,2021-05-05T11:59:50Z,2021-05-08T19:15:00Z,Liverpool,Southampton,EPL
+c2a6b1638a7b641164e00f11be447640,soccer_epl,betonlineag,h2h,Draw,4.09,2021-05-05T11:56:15Z,2021-05-09T18:00:00Z,Arsenal,West Bromwich Albion,EPL
+c2a6b1638a7b641164e00f11be447640,soccer_epl,bovada,h2h,Draw,4.35,2021-05-05T11:59:50Z,2021-05-09T18:00:00Z,Arsenal,West Bromwich Albion,EPL
+1e6795b2feda343c1e0db65f764cf788,soccer_epl,bovada,h2h,Draw,3.3,2021-05-05T11:59:50Z,2021-05-10T19:00:00Z,Fulham,Burnley,EPL
+1e6795b2feda343c1e0db65f764cf788,soccer_epl,betonlineag,h2h,Draw,3.25,2021-05-05T11:56:15Z,2021-05-10T19:00:00Z,Fulham,Burnley,EPL
+57c415138573d6b377d7a1510b861177,soccer_epl,bovada,h2h,Draw,3.25,2021-05-05T11:59:50Z,2021-05-09T11:00:00Z,Wolverhampton Wanderers,Brighton and Hove Albion,EPL
+57c415138573d6b377d7a1510b861177,soccer_epl,betonlineag,h2h,Draw,3.1,2021-05-05T11:56:15Z,2021-05-09T11:00:00Z,Wolverhampton Wanderers,Brighton and Hove Albion,EPL
+39188bbb148781cff3595d64972d4576,soccer_epl,bovada,h2h,Draw,3.8,2021-05-05T11:59:50Z,2021-05-09T13:05:00Z,Aston Villa,Manchester United,EPL
+39188bbb148781cff3595d64972d4576,soccer_epl,betonlineag,h2h,Draw,3.6,2021-05-05T11:56:15Z,2021-05-09T13:05:00Z,Aston Villa,Manchester United,EPL
+11193031bccf9833fedf07a8b15da455,soccer_epl,betonlineag,h2h,Draw,3.2,2021-05-05T11:56:15Z,2021-05-09T15:30:00Z,West Ham United,Everton,EPL
+11193031bccf9833fedf07a8b15da455,soccer_epl,bovada,h2h,Draw,3.35,2021-05-05T11:59:50Z,2021-05-09T15:30:00Z,West Ham United,Everton,EPL
+89ce9762cc32bc56a00a6403260f276e,soccer_epl,bovada,h2h,Draw,3.35,2021-05-05T11:59:50Z,2021-05-12T17:00:00Z,Manchester United,Leicester City,EPL
+0b44862a536c3d41cd31ffda6cce98fe,soccer_epl,bovada,h2h,Draw,3.65,2021-05-05T11:59:50Z,2021-05-12T19:15:00Z,Chelsea,Arsenal,EPL
+5b453870b584974344c0de63bc41aa70,soccer_epl,bovada,h2h,Draw,3.35,2021-05-05T11:59:50Z,2021-05-15T19:00:00Z,Brighton and Hove Albion,West Ham United,EPL
+54053116e1edc1cc15c4192269995b54,soccer_epl,bovada,h2h,Draw,3.4,2021-05-05T11:59:50Z,2021-05-16T11:00:00Z,Crystal Palace,Aston Villa,EPL
+25f2571b9cccfe11e2ac73439ce81453,soccer_epl,bovada,h2h,Draw,4.3,2021-05-05T11:59:50Z,2021-05-16T13:05:00Z,Tottenham Hotspur,Wolverhampton Wanderers,EPL
+591f2b5497a50b35da34df20a7c05114,soccer_epl,bovada,h2h,Draw,5.0,2021-05-05T11:59:50Z,2021-05-16T15:30:00Z,West Bromwich Albion,Liverpool,EPL
+d3faebec64c962d07b73770b463425b2,soccer_epl,bovada,h2h,Draw,4.25,2021-05-05T11:59:50Z,2021-05-16T18:00:00Z,Everton,Sheffield United,EPL
+cf20793dfd25282c12475a4412510f0d,soccer_epl,bovada,h2h,Draw,5.75,2021-05-05T11:59:50Z,2021-05-14T19:00:00Z,Newcastle United,Manchester City,EPL
+f8ae8e1298893a38fec00af97effdd2e,soccer_epl,bovada,h2h,Draw,3.3,2021-05-05T11:59:50Z,2021-05-15T11:30:00Z,Burnley,Leeds United,EPL
+7201691c4c17334aa91ac81d9a562f51,soccer_epl,bovada,h2h,Draw,3.4,2021-05-05T11:59:50Z,2021-05-15T14:00:00Z,Southampton,Fulham,EPL
+2f3c6d22c3050278f2f9ed495f420434,soccer_epl,bovada,h2h,Draw,3.45,2021-05-05T11:59:50Z,2021-05-13T19:00:00Z,Aston Villa,Everton,EPL
+5bbe83b209207e635a0a06cca7edc96c,soccer_epl,bovada,h2h,Draw,3.45,2021-05-05T11:59:50Z,2021-05-11T19:00:00Z,Southampton,Crystal Palace,EPL
+cade057c80c40ef30a593726e2834117,soccer_epl,bovada,h2h,Draw,4.7,2021-05-15T12:00:14Z,2021-05-18T17:00:00Z,Manchester United,Fulham,EPL
+10535bdb0869b61857fc3a56af6f0627,soccer_epl,bovada,h2h,Draw,3.65,2021-05-15T12:00:14Z,2021-05-18T17:00:00Z,Southampton,Leeds United,EPL
+9d4faff24d08a038326acf2afc70e1d8,soccer_epl,bovada,h2h,Draw,4.25,2021-05-15T12:00:14Z,2021-05-18T18:00:00Z,Brighton and Hove Albion,Manchester City,EPL
+8c02ba49c19648129384199b3d6f17ce,soccer_epl,bovada,h2h,Draw,3.45,2021-05-15T12:00:14Z,2021-05-19T17:00:00Z,Everton,Wolverhampton Wanderers,EPL
+16cd6a85aed6d665e456e86c44f78a87,soccer_epl,bovada,h2h,Draw,3.95,2021-05-15T12:00:14Z,2021-05-19T18:00:00Z,Crystal Palace,Arsenal,EPL
+6b242d771134e498f134f711892878df,soccer_epl,bovada,h2h,Draw,5.75,2021-05-15T12:00:14Z,2021-05-19T19:15:00Z,Burnley,Liverpool,EPL
+b804170c0d3dde0eafe4ee57fa12698a,soccer_epl,bovada,h2h,Draw,3.75,2021-05-15T12:00:14Z,2021-05-19T17:00:00Z,Newcastle United,Sheffield United,EPL
+67ba752547db970c04f2339f7a36b4cc,soccer_epl,bovada,h2h,Draw,4.25,2021-05-15T12:00:14Z,2021-05-19T17:00:00Z,Tottenham Hotspur,Aston Villa,EPL
+f34d899c6d7d9f27b2034c416262f85f,soccer_epl,bovada,h2h,Draw,4.05,2021-05-15T12:00:14Z,2021-05-19T19:15:00Z,West Bromwich Albion,West Ham United,EPL
+5b453870b584974344c0de63bc41aa70,soccer_epl,bovada,h2h,Draw,3.45,2021-05-15T12:00:14Z,2021-05-15T19:00:00Z,Brighton and Hove Albion,West Ham United,EPL
+5b453870b584974344c0de63bc41aa70,soccer_epl,betonlineag,h2h,Draw,3.6,2021-05-15T11:59:11Z,2021-05-15T19:00:00Z,Brighton and Hove Albion,West Ham United,EPL
+54053116e1edc1cc15c4192269995b54,soccer_epl,betonlineag,h2h,Draw,3.55,2021-05-15T11:59:11Z,2021-05-16T11:00:00Z,Crystal Palace,Aston Villa,EPL
+54053116e1edc1cc15c4192269995b54,soccer_epl,bovada,h2h,Draw,3.45,2021-05-15T12:00:14Z,2021-05-16T11:00:00Z,Crystal Palace,Aston Villa,EPL
+25f2571b9cccfe11e2ac73439ce81453,soccer_epl,betonlineag,h2h,Draw,4.34,2021-05-15T11:59:11Z,2021-05-16T13:05:00Z,Tottenham Hotspur,Wolverhampton Wanderers,EPL
+25f2571b9cccfe11e2ac73439ce81453,soccer_epl,bovada,h2h,Draw,4.2,2021-05-15T12:00:14Z,2021-05-16T13:05:00Z,Tottenham Hotspur,Wolverhampton Wanderers,EPL
+591f2b5497a50b35da34df20a7c05114,soccer_epl,bovada,h2h,Draw,7.0,2021-05-15T12:00:14Z,2021-05-16T15:30:00Z,West Bromwich Albion,Liverpool,EPL
+591f2b5497a50b35da34df20a7c05114,soccer_epl,betonlineag,h2h,Draw,7.25,2021-05-15T11:59:11Z,2021-05-16T15:30:00Z,West Bromwich Albion,Liverpool,EPL
+d3faebec64c962d07b73770b463425b2,soccer_epl,bovada,h2h,Draw,4.6,2021-05-15T12:00:14Z,2021-05-16T18:00:00Z,Everton,Sheffield United,EPL
+d3faebec64c962d07b73770b463425b2,soccer_epl,betonlineag,h2h,Draw,4.9,2021-05-15T11:59:11Z,2021-05-16T18:00:00Z,Everton,Sheffield United,EPL
+7201691c4c17334aa91ac81d9a562f51,soccer_epl,betonlineag,h2h,Draw,3.65,2021-05-15T11:59:11Z,2021-05-15T14:00:00Z,Southampton,Fulham,EPL
+7201691c4c17334aa91ac81d9a562f51,soccer_epl,bovada,h2h,Draw,3.55,2021-05-15T12:00:14Z,2021-05-15T14:00:00Z,Southampton,Fulham,EPL
+7e00efdb564b61243c1015d08c3f883a,soccer_epl,bovada,h2h,Draw,3.75,2021-05-15T12:00:14Z,2021-05-18T19:15:00Z,Chelsea,Leicester City,EPL

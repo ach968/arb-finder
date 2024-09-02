@@ -114,7 +114,7 @@ router.get("/", async (_req, res) => {
       sports: l2,
       markets: ["h2h","spreads","totals"],
       time_sent: Date.now() / 1000, // Current time in seconds
-      bookmakers: [],
+      bookmakers: [""],
       regions: ["us","us2"],
     };
 
