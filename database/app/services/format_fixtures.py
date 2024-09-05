@@ -1,6 +1,6 @@
 import pandas as pd
 
-path = '/home/acheney/Downloads/epl-2020-UTC.csv'
+path = '/home/acheney/Downloads/bundesliga-2022-UTC.csv'
 df = pd.read_csv(path)
 
 # Define the substitutions as a dictionary
@@ -15,6 +15,16 @@ substitutions = {
     'West Ham':'West Ham United',
     'Norwich':'Norwich City',
     'Sheffield Utd':'Sheffield United',
+    'Borussia Mönchengladbach':'Borussia Monchengladbach',
+    'FC Augsburg':'Augsburg',
+    'Mainz 05':'FSV Mainz 05',
+    '1. FC Köln':'FC Koln',
+    'SpVgg Greuther Fürth':'Greuther Fürth',
+    'Bayer 04 Leverkusen':'Bayer Leverkusen',
+    'Hertha BSC':'Hertha Berlin',
+    'FC Augsburg':'Augsburg',
+    'Hoffenheim':'TSG Hoffenheim',
+    'FC Bayern':'Bayern Munich',
 }
 
 

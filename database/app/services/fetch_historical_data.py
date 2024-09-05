@@ -143,8 +143,8 @@ def run_fetch_current():
         print(f'error fetching data: {e}')
 
 def run_fetch_historical():
-    start_date = datetime.date(2020, 8, 1)
-    end_date = datetime.date(2021,5, 30)
+    start_date = datetime.date(2023, 8, 1)
+    end_date = datetime.date(2024,5, 30)
 
     arb_data = []
     draws = []
@@ -152,7 +152,7 @@ def run_fetch_historical():
     while current_date <= end_date:
         if current_date.day in [5, 15, 25]:
             print(f"Fetching data for {current_date}")
-            template_url = f"https://api.the-odds-api.com/v4/historical/sports/soccer_epl/odds/?apiKey=a06923bffa794007036e956d4a22e3cb&bookmakers=bovada,fliff,betonlineag&markets=h2h&date={current_date}T12:05:00Z&regions=us,us2"
+            template_url = f"https://api.the-odds-api.com/v4/historical/sports/soccer_spain_la_liga/odds/?apiKey=a06923bffa794007036e956d4a22e3cb&bookmakers=bovada,fliff,betonlineag&markets=h2h&date={current_date}T12:05:00Z&regions=us,us2"
             try:
                 response = urlopen(template_url)
                 data_json = json.loads(response.read())

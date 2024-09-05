@@ -109,12 +109,13 @@ def find_totals_spreads_arbs(df):
                         line_1_raw["name"] != line_2_raw["name"]
                     )
                     condition3 = expected_value > 0
+                    condition4 = line_1_raw["bookmaker_key"] != line_2_raw["bookmaker_key"]
                     
                     stakes = calc_stake_size(
                         odd1=odd_1, odd2=odd_2
                     )
 
-                    if condition1 and condition2 and condition3:
+                    if condition1 and condition2 and condition3 and condition4:
                         arb = {
                             "market": line_1_raw["market_title"],
                             "line_1": {
@@ -174,7 +175,8 @@ def find_two_way_h2h_arbs(df):
             )
             condition1 = expected_value > 0
             # condition2 = line_1_raw["name"] != line_2_raw["name"]
-            if condition1:
+            condition3 = line_1_raw["bookmaker_key"] != line_2_raw["bookmaker_key"]
+            if condition1 and condition3:
                 stakes = calc_stake_size(odd1=odd_1,odd2=odd_2)
                 arb = {
                     "market": line_1_raw["market_title"],
