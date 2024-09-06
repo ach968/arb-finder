@@ -1,10 +1,12 @@
 import { Box, Typography, Button, Avatar, Tooltip } from "@mui/material";
 
 interface LineProps {
-    line1: number;
+    line1: string;
     price1: string;
-    line2: number;
+    point1: number;
+    line2: string;
     price2: string;
+    point2: number;
 }
 
 interface SportbookProp {
@@ -43,8 +45,9 @@ const CardBody: React.FC<CardBodyProps> = ({ lineProps, sportbooks }) => {
 
                 </Tooltip>
                 <Typography variant="body1"
-                    sx={{ textAlign: "center", flex: "1", fontWeight: 600, fontSize: "16px" }}
-                >{lineProps.line1}</Typography>
+                    sx={{ textAlign: "left", flex: "1", fontWeight: 600, fontSize: "14px", marginRight: "8px" }}
+                >{lineProps.line1} {lineProps.point1 > 0 ? "+" : ""}{lineProps.point1}
+                </Typography>
                 <Button variant="contained" disabled sx={{
                     fontSize: "15px",
                     padding: "3px 8px",
@@ -78,8 +81,8 @@ const CardBody: React.FC<CardBodyProps> = ({ lineProps, sportbooks }) => {
 
                 </Tooltip>
                 <Typography variant="body1"
-                    sx={{ textAlign: "center", flex: "1", fontWeight: 600, fontSize: "16px" }}
-                >{lineProps.line2}</Typography>
+                    sx={{ textAlign: "left", flex: "1", fontWeight: 600, fontSize: "14px", marginRight: "8px" }}
+                >{lineProps.line2} {lineProps.point2 > 0 ? "+" : ""}{lineProps.point2}</Typography>
 
                 <Button variant="contained" disabled sx={{
                     fontSize: "15px",

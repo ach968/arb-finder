@@ -2,7 +2,10 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import CardComponent from './components/totals/CardComponentTotals';
+import TotalsCardComponent from './components/totals/TotalsCardComponent';
+import SpreadsCardComponent from './components/spreads/SpreadsCardComponent.tsx';
+import H2HCardComponent from './components/h2h/H2HCardComponent';
+import { Box } from '@mui/material';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -28,7 +31,11 @@ function App() {
       </div>
 
       <div className="card-component">
-        <CardComponent />
+        <H2HCardComponent />
+        <Box sx={{ height: '10px', margin: '4px 0' }} />
+        <SpreadsCardComponent />
+        <Box sx={{ height: '10px', margin: '4px 0' }} />
+        <TotalsCardComponent />
       </div>
 
       <p className="read-the-docs">

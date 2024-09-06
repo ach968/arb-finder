@@ -1,9 +1,9 @@
 import { Box, Typography, Button, Avatar, Tooltip } from "@mui/material";
 
 interface LineProps {
-    line1: number;
+    team1: string;
     price1: string;
-    line2: number;
+    team2: string;
     price2: string;
 }
 
@@ -44,7 +44,7 @@ const CardBody: React.FC<CardBodyProps> = ({ lineProps, sportbooks }) => {
                 </Tooltip>
                 <Typography variant="body1"
                     sx={{ textAlign: "center", flex: "1", fontWeight: 600, fontSize: "16px" }}
-                >{lineProps.line1}</Typography>
+                >{lineProps.team1}</Typography>
                 <Button variant="contained" disabled sx={{
                     fontSize: "15px",
                     padding: "3px 8px",
@@ -79,7 +79,7 @@ const CardBody: React.FC<CardBodyProps> = ({ lineProps, sportbooks }) => {
                 </Tooltip>
                 <Typography variant="body1"
                     sx={{ textAlign: "center", flex: "1", fontWeight: 600, fontSize: "16px" }}
-                >{lineProps.line2}</Typography>
+                >{lineProps.team2}</Typography>
 
                 <Button variant="contained" disabled sx={{
                     fontSize: "15px",

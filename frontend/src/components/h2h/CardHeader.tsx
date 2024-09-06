@@ -22,7 +22,7 @@ const CardHeader: React.FC<CardHeaderProps> = ({ teams, percentage, sportbook1, 
                 sx={{ paddingBottom: '8px' }}
             >
                 <Typography variant="subtitle1" sx={{ fontSize: '15.5px', fontWeight: 700, marginLeft: "8px", textAlign: "left", paddingTop: "2px" }}>
-                    TOTAL
+                    MONEYLINE
                 </Typography>
                 <Box display="flex" alignItems="center">
                     <Avatar src={sportbook1} alt={sportbook1_alias} sx={{ width: 24, height: 24, marginRight: '4px', borderRadius: '8px' }} />
