@@ -19,9 +19,9 @@ const CardHeader: React.FC<CardHeaderProps> = ({ teams, percentage, sportbook1, 
                 display="flex"
                 justifyContent="space-between"
                 alignItems="center"
-                sx={{ paddingBottom: '8px' }}  // Space between "TOTAL" and team info
+                sx={{ paddingBottom: '8px' }}  
             >
-                <Typography variant="subtitle1" sx={{ fontSize: '15.5px', fontWeight: 650, marginLeft: "8px", textAlign: "left", paddingTop: "2px" }}>
+                <Typography variant="subtitle1" sx={{ fontSize: '15.5px', fontWeight: 700, marginLeft: "8px", textAlign: "left", paddingTop: "2px" }}>
                     TOTAL
                 </Typography>
                 <Box display="flex" alignItems="center">

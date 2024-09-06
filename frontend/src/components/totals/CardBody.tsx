@@ -25,7 +25,16 @@ const CardBody: React.FC<CardBodyProps> = ({ overUnder, sportbook1, sportbook2, 
                 <Typography variant="body1"
                     sx={{ textAlign: "center", flex: "1", fontWeight: 600, fontSize: "16px" }}
                 >{overUnder.over}</Typography>
-                <Button variant="contained" disabled sx={{ fontSize: "14px", padding: "3px 8px", borderRadius: "13px" }}>{overUnder.overOdds}</Button>
+                <Button variant="contained" disabled sx={{
+                    fontSize: "15px",
+                    padding: "3px 8px",
+                    borderRadius: "13px",
+                    "&.Mui-disabled": {
+                        backgroundColor: 'gray',
+                        color: 'white',
+                        fontWeight: 600,
+                    },
+                }}>{overUnder.overOdds}</Button>
             </Box>
             <Box sx={{ height: '1px', margin: '6px 0' }} />
             <Box display="flex" alignItems="center">
@@ -34,7 +43,16 @@ const CardBody: React.FC<CardBodyProps> = ({ overUnder, sportbook1, sportbook2, 
                     sx={{ textAlign: "center", flex: "1", fontWeight: 600, fontSize: "16px" }}
                 >{overUnder.under}</Typography>
 
-                <Button variant="contained" disabled sx={{ fontSize: "14px", padding: "3px 8px", borderRadius: "13px", fontWeight: 600, color: 'white' }}>{overUnder.underOdds}</Button>
+                <Button variant="contained" disabled sx={{
+                    fontSize: "15px",
+                    padding: "3px 8px",
+                    borderRadius: "13px",
+                    "&.Mui-disabled": {
+                        backgroundColor: 'gray',
+                        color: 'white',
+                        fontWeight: 600,
+                    },
+                }}>{overUnder.underOdds}</Button>
             </Box>
         </Box>
     );
