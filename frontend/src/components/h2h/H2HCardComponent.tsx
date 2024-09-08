@@ -5,43 +5,45 @@ import CardFooter from './CardFooter';
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 
 interface LineProps {
-    team1: string;
-    price1: string;
-    team2: string;
-    price2: string;
+    bookmaker: string;
+    name: string;
+    point: number;
+    price: number;
 }
 
 interface CardDataProps {
-    teams: string;
-    percentage: number;
-    lineProps: LineProps;
-    sportbook1: string;
-    sportbook2: string;
-    sportbook1_alias: string;
-    sportbook2_alias: string;
+    game_title: string;
+    expected_value: number;
+    line_1: LineProps;
+    line_2: LineProps;
 }
 
-const CardComponent: React.FC = () => {
-    const cardData: CardDataProps = {
-        teams: "Baltimore Ravens @ San Francisco 49ers",
-        percentage: 3.93,
-        lineProps: {
-            team1: "Baltimore Ravens",
-            price1: "+145",
-            team2: "San Francisco 49ers",
-            price2: "-130",
-        },
-        sportbook1: "https://yt3.googleusercontent.com/2iOdtiJYSw27WrYKkQc2uReDqQ3XhyUA1YSOus-Andxj6Rz6TfMI0jeFWWcwaJEzHU9kWKA4=s900-c-k-c0x00ffffff-no-rj",
-        sportbook2: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHZG35WfrgOR2UkQPpRN4inxSnrypyJYNhYA&s",
-        sportbook1_alias: "FanDuel",
-        sportbook2_alias: "Fliff",
-    };
+interface H2HCardComponentProps {
+    data: CardDataProps;
+}
 
+const H2HCardComponent: React.FC<H2HCardComponentProps> = ({ data }) => {
     const theme = createTheme({
         typography: {
             fontFamily: 'Inter,sans-serif',
         }
     });
+
+    // Map the data to what your component expects
+    const cardData = {
+        teams: data.game_title,
+        percentage: data.expected_value * 100,  // Convert expected value to percentage
+        lineProps: {
+            team1: data.line_1.name,
+            price1: `${data.line_1.price > 0 ? '+' : ''}${data.line_1.price}`,  // Add "+" to positive prices
+            team2: data.line_2.name,
+            price2: `${data.line_2.price > 0 ? '+' : ''}${data.line_2.price}`,
+        },
+        sportbook1: data.line_1.bookmaker,
+        sportbook2: data.line_2.bookmaker,
+        sportbook1_alias: data.line_1.bookmaker,
+        sportbook2_alias: data.line_2.bookmaker,
+    };
 
     return (
         <ThemeProvider theme={theme}>
@@ -52,10 +54,13 @@ const CardComponent: React.FC = () => {
                         sportbook2={cardData.sportbook2}
                         sportbook1_alias={cardData.sportbook1_alias}
                         sportbook2_alias={cardData.sportbook2_alias}
-                        datetime="Today 8:20 PM"
+                        datetime="Today 8:20 PM"  // You can update this dynamically if needed
                     />
                     <CardBody lineProps={cardData.lineProps}
-                        sportbooks={[{ picture: cardData.sportbook1, alias: cardData.sportbook1_alias }, { picture: cardData.sportbook2, alias: cardData.sportbook2_alias }]}
+                        sportbooks={[
+                            { picture: cardData.sportbook1, alias: cardData.sportbook1_alias },
+                            { picture: cardData.sportbook2, alias: cardData.sportbook2_alias }
+                        ]}
                     />
                     <CardFooter />
                 </CardContent>
@@ -64,4 +69,4 @@ const CardComponent: React.FC = () => {
     );
 };
 
-export default CardComponent;
+export default H2HCardComponent;

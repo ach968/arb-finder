@@ -12,7 +12,7 @@ from app.services.functions import (
     calc_expected_value,
     calc_stake_size,
     convert_american_to_decimal,
-    convert_decimal_to_american
+    convert_decimal_to_american,
 )
 from app.services.no_fly_list import no_fly_list
 from database_init import db
@@ -75,7 +75,7 @@ def find_arb_opportunities(dfs):
     #     three_way_h2h_arbs = find_three_way_h2h_arbs(dfs[2])
     # except Exception as e:
     #     three_way_h2h_arbs = []
-        
+
     return totals_arbs + two_way_h2h_arbs
 
 
@@ -84,7 +84,7 @@ def find_totals_spreads_arbs(df):
     grouped_df = df.groupby("identifier")
     for current_id, group in grouped_df:
         if len(group) > 1:
-            
+
             for i in range(len(group)):
                 for j in range(i + 1, len(group)):
                     line_1_raw = group.iloc[i]
@@ -94,27 +94,30 @@ def find_totals_spreads_arbs(df):
                     odd_2 = convert_american_to_decimal(line_2_raw["price"])
 
                     expected_value = round(
-                        calc_expected_value(odd1=odd_1,odd2=odd_2), 2
+                        calc_expected_value(odd1=odd_1, odd2=odd_2), 4
                     )
 
                     condition1 = False
-                    if line_1_raw["market_title"] == "spreads" and line_2_raw["market_title"] == "spreads":
+                    if (
+                        line_1_raw["market_title"] == "spreads"
+                        and line_2_raw["market_title"] == "spreads"
+                    ):
                         if line_1_raw["point"] == -line_2_raw["point"]:
                             condition1 = True
-                    elif line_1_raw["market_title"] == "totals" and line_2_raw["market_title"] == "totals":
+                    elif (
+                        line_1_raw["market_title"] == "totals"
+                        and line_2_raw["market_title"] == "totals"
+                    ):
                         if line_1_raw["point"] == line_2_raw["point"]:
                             condition1 = True
 
-                    
-                    condition2 = (
-                        line_1_raw["name"] != line_2_raw["name"]
-                    )
+                    condition2 = line_1_raw["name"] != line_2_raw["name"]
                     condition3 = expected_value > 0
-                    condition4 = line_1_raw["bookmaker_key"] != line_2_raw["bookmaker_key"]
-                    
-                    stakes = calc_stake_size(
-                        odd1=odd_1, odd2=odd_2
+                    condition4 = (
+                        line_1_raw["bookmaker_key"] != line_2_raw["bookmaker_key"]
                     )
+
+                    stakes = calc_stake_size(odd1=odd_1, odd2=odd_2)
 
                     if condition1 and condition2 and condition3 and condition4:
                         arb = {
@@ -124,9 +127,9 @@ def find_totals_spreads_arbs(df):
                                 "name": line_1_raw["name"],
                                 "price": int(line_1_raw["price"]),
                                 "implied odd": round(
-                                    calc_implied_probability(line_1_raw["price"]), 2
+                                    calc_implied_probability(line_1_raw["price"]), 4
                                 ),
-                                "stake": round(stakes[0], 2),
+                                "stake": round(stakes[0], 4),
                                 "point": float(line_1_raw["point"]),
                             },
                             "line_2": {
@@ -134,9 +137,9 @@ def find_totals_spreads_arbs(df):
                                 "name": line_2_raw["name"],
                                 "price": int(line_2_raw["price"]),
                                 "implied odd": round(
-                                    calc_implied_probability(line_2_raw["price"]), 2
+                                    calc_implied_probability(line_2_raw["price"]), 4
                                 ),
-                                "stake": round(stakes[1], 2),
+                                "stake": round(stakes[1], 4),
                                 "point": float(line_2_raw["point"]),
                             },
                             "expected_value": float(expected_value),
@@ -171,14 +174,12 @@ def find_two_way_h2h_arbs(df):
             odd_1 = convert_american_to_decimal(line_1_raw["price"])
             odd_2 = convert_american_to_decimal(line_2_raw["price"])
 
-            expected_value = round(
-                calc_expected_value(odd1=odd_1,odd2=odd_2), 2
-            )
+            expected_value = round(calc_expected_value(odd1=odd_1, odd2=odd_2), 4)
             condition1 = expected_value > 0
             # condition2 = line_1_raw["name"] != line_2_raw["name"]
             condition3 = line_1_raw["bookmaker_key"] != line_2_raw["bookmaker_key"]
             if condition1 and condition3:
-                stakes = calc_stake_size(odd1=odd_1,odd2=odd_2)
+                stakes = calc_stake_size(odd1=odd_1, odd2=odd_2)
                 arb = {
                     "market": line_1_raw["market_title"],
                     "line_1": {
@@ -186,23 +187,25 @@ def find_two_way_h2h_arbs(df):
                         "name": line_1_raw["name"],
                         "price": int(line_1_raw["price"]),
                         "implied odd": round(
-                            calc_implied_probability(line_1_raw["price"]), 2
+                            calc_implied_probability(line_1_raw["price"]), 4
                         ),
-                        "stake": round(stakes[0], 2),
+                        "stake": round(stakes[0], 4),
                     },
                     "line_2": {
                         "bookmaker": line_2_raw["bookmaker_key"],
                         "name": line_2_raw["name"],
                         "price": int(line_2_raw["price"]),
                         "implied odd": round(
-                            calc_implied_probability(line_2_raw["price"]), 2
+                            calc_implied_probability(line_2_raw["price"]), 4
                         ),
-                        "stake": round(stakes[1], 2),
+                        "stake": round(stakes[1], 4),
                     },
                     "expected_value": float(expected_value),
                     "commence_time": float(line_1_raw["commence_time"]),
                     "league": line_1_raw["sport_title"],
-                    "game_title": (f"{line_1_raw['home_team']} (H) @ {line_1_raw['away_team']} (A)"),
+                    "game_title": (
+                        f"{line_1_raw['home_team']} (H) @ {line_1_raw['away_team']} (A)"
+                    ),
                     "last_update": float(line_1_raw["last_update"]),
                     "id": line_1_raw["bookmaker_key"]
                     + line_2_raw["bookmaker_key"]
@@ -218,7 +221,7 @@ def find_two_way_h2h_arbs(df):
 
 
 def generate_lines_df(data_json, time_sent):
-    totals_spreads= []
+    totals_spreads = []
     two_way_h2h = []
     three_way_h2h = []
 
@@ -258,11 +261,11 @@ def generate_lines_df(data_json, time_sent):
                     if len(market.get("outcomes", [])) > 2:
                         three_way_h2h.append(new_row)
                     else:
-                        if new_row["market_title"]=="totals":
+                        if new_row["market_title"] == "totals":
                             totals_spreads.append(new_row)
-                        elif new_row["market_title"]=="h2h":
+                        elif new_row["market_title"] == "h2h":
                             two_way_h2h.append(new_row)
-                        elif new_row["market_title"]=="spreads":
+                        elif new_row["market_title"] == "spreads":
                             totals_spreads.append(new_row)
 
     return [

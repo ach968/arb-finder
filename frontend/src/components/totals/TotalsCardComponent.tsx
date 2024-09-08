@@ -3,60 +3,85 @@ import CardHeader from './CardHeader';
 import CardBody from './CardBody';
 import CardFooter from './CardFooter';
 import { createTheme, ThemeProvider } from "@mui/material/styles";
+import BookmakerLogos from "../../assets/BookmakerLogos";
 
 interface LineProps {
-    line1: number;
-    price1: string;
-    line2: number;
-    price2: string;
+    name: string;
+    bookmaker: string;
+    point: number;
+    price: number;
 }
 
 interface CardDataProps {
-    teams: string;
-    percentage: number;
-    lineProps: LineProps;
-    sportbook1: string;
-    sportbook2: string;
-    sportbook1_alias: string;
-    sportbook2_alias: string;
+    game_title: string;
+    expected_value: number;
+    line_1: LineProps;
+    line_2: LineProps;
+    commence_time: string;  // Timestamp in seconds
 }
 
-const CardComponent: React.FC = () => {
-    const cardData: CardDataProps = {
-        teams: "Baltimore Ravens @ San Francisco 49ers",
-        percentage: 3.93,
-        lineProps: {
-            line1: 14.5,
-            price1: "+145",
-            line2: 14.5,
-            price2: "-130",
-        },
-        sportbook1: "https://yt3.googleusercontent.com/2iOdtiJYSw27WrYKkQc2uReDqQ3XhyUA1YSOus-Andxj6Rz6TfMI0jeFWWcwaJEzHU9kWKA4=s900-c-k-c0x00ffffff-no-rj",
-        sportbook2: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHZG35WfrgOR2UkQPpRN4inxSnrypyJYNhYA&s",
-        sportbook1_alias: "FanDuel",
-        sportbook2_alias: "Fliff",
-    };
+interface TotalsCardComponentProps {
+    data: CardDataProps;
+}
 
+const TotalsCardComponent: React.FC<TotalsCardComponentProps> = ({ data }) => {
     const theme = createTheme({
         typography: {
             fontFamily: 'Inter,sans-serif',
         }
     });
 
+    // Convert UNIX timestamp (in seconds) to a formatted EST date/time string
+    const estDate = new Date(Number(data.commence_time) * 1000).toLocaleString('en-US', {
+        timeZone: 'America/New_York',  // Ensure the time is in EST
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+        hour: 'numeric',
+        minute: 'numeric',
+        hour12: true,  // 12-hour format
+    }) + ' (EST)';
+
+    // Map the data to the structure your component expects
+    const cardData = {
+        teams: data.game_title,
+        percentage: data.expected_value * 100,  // Convert expected value to percentage
+        lineProps: {
+            line1: `${data.line_1.name} ${data.line_1.point}`,
+            price1: `${data.line_1.price > 0 ? '+' : ''}${data.line_1.price}`,
+            line2: `${data.line_2.name} ${data.line_2.point}`,
+            price2: `${data.line_2.price > 0 ? '+' : ''}${data.line_2.price}`,
+        },
+        sportbook1: BookmakerLogos[data.line_1.bookmaker as keyof typeof BookmakerLogos],  // Get logo URL for sportbook1
+        sportbook2: BookmakerLogos[data.line_2.bookmaker as keyof typeof BookmakerLogos],  // Get logo URL for sportbook2
+        sportbook1_alias: data.line_1.bookmaker,
+        sportbook2_alias: data.line_2.bookmaker,
+        commence_time: estDate  // Use formatted EST date/time
+    };
+
     return (
         <ThemeProvider theme={theme}>
             <Card sx={{ backgroundColor: '#333', color: '#fff', width: 325, borderRadius: 5 }}>
                 <CardContent>
-                    <CardHeader teams={cardData.teams} percentage={cardData.percentage}
-                        sportbook1={cardData.sportbook1}
-                        sportbook2={cardData.sportbook2}
+                    {/* Header with teams, percentage and datetime */}
+                    <CardHeader
+                        teams={cardData.teams}
+                        percentage={cardData.percentage.toPrecision(3)}
+                        sportbook1={cardData.sportbook1}   // Pass logo URL for sportbook1
+                        sportbook2={cardData.sportbook2}   // Pass logo URL for sportbook2
                         sportbook1_alias={cardData.sportbook1_alias}
                         sportbook2_alias={cardData.sportbook2_alias}
-                        datetime="Today 8:20 PM"
+                        datetime={cardData.commence_time}  // Display formatted EST date/time
                     />
-                    <CardBody lineProps={cardData.lineProps}
-                        sportbooks={[{ picture: cardData.sportbook1, alias: cardData.sportbook1_alias }, { picture: cardData.sportbook2, alias: cardData.sportbook2_alias }]}
+                    {/* Body with points and prices */}
+                    <CardBody
+                        lineProps={cardData.lineProps}
+                        sportbooks={[
+                            { picture: cardData.sportbook1, alias: cardData.sportbook1_alias },
+                            { picture: cardData.sportbook2, alias: cardData.sportbook2_alias }
+                        ]}
                     />
+                    {/* Footer */}
                     <CardFooter />
                 </CardContent>
             </Card>
@@ -64,4 +89,4 @@ const CardComponent: React.FC = () => {
     );
 };
 
-export default CardComponent;
+export default TotalsCardComponent;

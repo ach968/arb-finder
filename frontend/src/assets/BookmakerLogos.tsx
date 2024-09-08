@@ -1,0 +1,23 @@
+export default {
+    betonlineag: 'https://bstcasinos.com/wp-content/uploads/2023/12/betonline-logo.png',
+    betmgm: 'https://www.nysafebets.com/themes/nysb/assets/sites-logo/mgmbet-logo.png',
+    betrivers: 'https://www.betphilly.com/wp-content/uploads/sites/18/2022/10/betrivers.jpg',
+    betus: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBBtiOQJlw_AX2o7rmBxQCyZlvsxWpT5XkDw&s',
+    bovada: 'https://styles.redditmedia.com/t5_2y4x35/styles/communityIcon_0nfiapd9ttk91.png',
+    williamhill_us: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjX75qz1auB2t9bdT-BDtN_JFm4iy9KSv0Rw&s',
+    draftkings: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwLKwB6F0pZQ7XFkaLr5bElqDm9RPfr7U6z3cA3Yk8mfm9OmENrkGMpsc5Zn-cn7JPVIQ&usqp=CAU',
+    fanduel: 'https://yt3.googleusercontent.com/2iOdtiJYSw27WrYKkQc2uReDqQ3XhyUA1YSOus-Andxj6Rz6TfMI0jeFWWcwaJEzHU9kWKA4=s900-c-k-c0x00ffffff-no-rj',
+    lowvig: 'https://www.offshoresportsbooks.com/wp-content/uploads/lowvig-review-logo.png',
+    mybookieag: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVF4D23qciWyPJEechw2Sd9m5nvg8wsDkUjQ&s',
+    superbook: 'https://pbs.twimg.com/profile_images/1424847278460727311/VrOXU_jl_400x400.jpg',
+    unibet_us: 'https://www.sportsoddshistory.com/wp-content/uploads/2020/05/unibet-logo.png',
+    wynnbet: 'https://pbs.twimg.com/profile_images/1611383483498385408/WoG3kwQS_400x400.png',
+    ballybet: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2BEZDzGgqmPTxJxknDhHGufPSIzFCy1tOqA&s',
+    betanysports: 'https://statsdroneinc.com/media/betanysports-affiliates-medium.jpg',
+    betparx: 'https://www.betparx.com/assets/images/touch-icons/website-betparx-primary-apple-touch-icons-020222-1200x630.png',
+    espnbet: 'https://espnpressroom.com/us/files/2023/10/ESPN-BET-Logo-Secondary.jpg',
+    fliff: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHZG35WfrgOR2UkQPpRN4inxSnrypyJYNhYA&s',
+    hardrockbet: 'https://sportsbooksonline-com.imgix.net/assets/local/Company/logos/hard-rock-bet-square-logo.jpg',
+    sisportsbook: 'https://play-lh.googleusercontent.com/XjUZvQLc6c8h1ciMX6iJJWnMU_Y_X_54n-X7QVf3TTvCvb0lU58srRRi-YsnrS8Jni31',
+    windcreek: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHkiPH03fJU8j3vtqD6jUqBSr6bWKoPhcT1Q&s'
+};

@@ -45,43 +45,7 @@ const CardFooter: React.FC<CardFooterProps> = () => {
                 {"BET"}
             </Button>
 
-            {/* More Lines Button */}
-            <Button
-                variant="text"
-                disableRipple
-                disableFocusRipple
-                onClick={handleToggle}  // Toggle the open state
-                sx={{
-                    color: 'white',
-                    marginTop: '20px',
-                    marginBottom: '-20px',
-                    fontWeight: 600,
-                    '&:focus': {
-                        outline: 'none',
-                    },
-                    '&:hover': {
-                        backgroundColor: 'transparent',  // Ensure no background color change on hover
-                        color: 'white',                  // Maintain the text color on hover
-                    },
-                }}
-            >
-                More Lines
-                <FaAngleDown style={{ marginLeft: '5px' }} /> {/* Angle Down Icon */}
-            </Button>
-
-            {/* Collapse Section */}
-            <Collapse in={open} timeout="auto" unmountOnExit>
-                <Box sx={{ padding: 2, backgroundColor: '#f9f9f9', borderRadius: '8px' }}>
-                    <Box>
-                        <Typography variant="body1" sx={{ color: '#333' }}>
-                            Additional Line 1
-                        </Typography>
-                        <Typography variant="body1" sx={{ color: '#333' }}>
-                            Additional Line 2
-                        </Typography>
-                    </Box>
-                </Box>
-            </Collapse>
+            
         </Box>
     );
 };
