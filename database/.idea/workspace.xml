@@ -1,22 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="58adcae8-c911-4442-8bd3-9787b1da3ca2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../backend/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/routes/fetchArbOpportunities.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/routes/pullArbOpportunities.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/arb_opportunity_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/arb_opportunity_controller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/sport_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/sport_controller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/arb_opportunity.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/arb_opportunity.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/sport.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/sport.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/services/arb_opportunity_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/arb_opportunity_service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +16,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2l86bXTX25Wne3Kghk0C1auzXah" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -36,6 +26,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.new_arb_service.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "/home/acheney/projects/arb-calc/database"

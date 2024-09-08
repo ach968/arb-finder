@@ -84,6 +84,7 @@ def find_totals_spreads_arbs(df):
     grouped_df = df.groupby("identifier")
     for current_id, group in grouped_df:
         if len(group) > 1:
+            
             for i in range(len(group)):
                 for j in range(i + 1, len(group)):
                     line_1_raw = group.iloc[i]
