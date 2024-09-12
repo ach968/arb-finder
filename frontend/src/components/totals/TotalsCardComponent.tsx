@@ -22,9 +22,10 @@ interface CardDataProps {
 
 interface TotalsCardComponentProps {
     data: CardDataProps;
+    onBetClick: () => void;
 }
 
-const TotalsCardComponent: React.FC<TotalsCardComponentProps> = ({ data }) => {
+const TotalsCardComponent: React.FC<TotalsCardComponentProps> = ({ data,onBetClick }) => {
     const theme = createTheme({
         typography: {
             fontFamily: 'Inter,sans-serif',
@@ -82,7 +83,7 @@ const TotalsCardComponent: React.FC<TotalsCardComponentProps> = ({ data }) => {
                         ]}
                     />
                     {/* Footer */}
-                    <CardFooter />
+                    <CardFooter onBetClick = {onBetClick}/>
                 </CardContent>
             </Card>
         </ThemeProvider>

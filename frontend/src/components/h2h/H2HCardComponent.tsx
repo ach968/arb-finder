@@ -1,7 +1,7 @@
 import { Card, CardContent } from "@mui/material";
 import CardHeader from './CardHeader';
 import CardBody from './CardBody';
-import CardFooter from './CardFooter';
+import CardFooter from './CardFooter';  // Ensure CardFooter has the onBetClick functionality
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 
 interface LineProps {
@@ -20,16 +20,17 @@ interface CardDataProps {
 
 interface H2HCardComponentProps {
     data: CardDataProps;
+    onBetClick: () => void;
 }
 
-const H2HCardComponent: React.FC<H2HCardComponentProps> = ({ data }) => {
+const H2HCardComponent: React.FC<H2HCardComponentProps> = ({ data, onBetClick }) => {
     const theme = createTheme({
         typography: {
             fontFamily: 'Inter,sans-serif',
         }
     });
 
-    // Map the data to what your component expects
+    // Map the data to the structure your component expects
     const cardData = {
         teams: data.game_title,
         percentage: data.expected_value * 100,  // Convert expected value to percentage
@@ -49,20 +50,24 @@ const H2HCardComponent: React.FC<H2HCardComponentProps> = ({ data }) => {
         <ThemeProvider theme={theme}>
             <Card sx={{ backgroundColor: '#333', color: '#fff', width: 325, borderRadius: 5 }}>
                 <CardContent>
-                    <CardHeader teams={cardData.teams} percentage={cardData.percentage}
+                    <CardHeader
+                        teams={cardData.teams}
+                        percentage={cardData.percentage}
                         sportbook1={cardData.sportbook1}
                         sportbook2={cardData.sportbook2}
                         sportbook1_alias={cardData.sportbook1_alias}
                         sportbook2_alias={cardData.sportbook2_alias}
                         datetime="Today 8:20 PM"  // You can update this dynamically if needed
                     />
-                    <CardBody lineProps={cardData.lineProps}
+                    <CardBody
+                        lineProps={cardData.lineProps}
                         sportbooks={[
                             { picture: cardData.sportbook1, alias: cardData.sportbook1_alias },
                             { picture: cardData.sportbook2, alias: cardData.sportbook2_alias }
                         ]}
                     />
-                    <CardFooter />
+                    {/* Pass onBetClick to CardFooter */}
+                    <CardFooter onBetClick={onBetClick} />
                 </CardContent>
             </Card>
         </ThemeProvider>

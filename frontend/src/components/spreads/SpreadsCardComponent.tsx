@@ -22,9 +22,10 @@ interface CardDataProps {
 
 interface SpreadsCardComponentProps {
     data: CardDataProps;
+    onBetClick: () => void;
 }
 
-const SpreadsCardComponent: React.FC<SpreadsCardComponentProps> = ({ data }) => {
+const SpreadsCardComponent: React.FC<SpreadsCardComponentProps> = ({ data, onBetClick }) => {
     const theme = createTheme({
         typography: {
             fontFamily: 'Inter,sans-serif',
@@ -84,7 +85,7 @@ const SpreadsCardComponent: React.FC<SpreadsCardComponentProps> = ({ data }) => 
                         ]}
                     />
                     {/* Footer */}
-                    <CardFooter />
+                    <CardFooter onBetClick={onBetClick}/>
                 </CardContent>
             </Card>
         </ThemeProvider>

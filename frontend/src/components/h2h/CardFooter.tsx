@@ -1,23 +1,17 @@
-import { Box, Button, colors, Collapse, Typography } from "@mui/material";
-import { useState } from "react";
-import { FaAngleDown } from "react-icons/fa";
+import { Box, Button, colors } from "@mui/material";
 
 interface CardFooterProps {
-    // You can remove this prop since it's not used anymore
+    onBetClick: () => void;  // Define the prop for handling the BET button click
 }
 
-const CardFooter: React.FC<CardFooterProps> = () => {
-    const [open, setOpen] = useState(false);
-
-    const handleToggle = () => {
-        setOpen(!open);
-    };
-
+const CardFooter: React.FC<CardFooterProps> = ({ onBetClick }) => {
     return (
         <Box textAlign="center" padding={1}>
             {/* Main BET Button */}
-            <Button variant="contained"
+            <Button
+                variant="contained"
                 disableRipple
+                onClick={onBetClick}  // Call the onBetClick prop when the button is clicked
                 sx={{
                     backgroundColor: "#333",
                     color: colors.common.white,
@@ -44,8 +38,6 @@ const CardFooter: React.FC<CardFooterProps> = () => {
             >
                 {"BET"}
             </Button>
-
-
         </Box>
     );
 };

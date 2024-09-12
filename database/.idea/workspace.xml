@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58adcae8-c911-4442-8bd3-9787b1da3ca2" name="Changes" comment="" />
+    <list default="true" id="58adcae8-c911-4442-8bd3-9787b1da3ca2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/arb_opportunities_current.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/arb_opportunities_historical.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/draws_current.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/draws_historical.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/fetch_historical_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/format_fixtures.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/match_scores.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/scrape_scores.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/App.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,14 +32,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.new_arb_service.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/acheney/projects/arb-calc/database"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.new_arb_service.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/acheney/projects/arb-calc/database&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
