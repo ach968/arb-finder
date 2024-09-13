@@ -36,6 +36,10 @@ body {
   justify-content: center;
   align-items: center;
   z-index: 1000;
+  
+  /* Fade-in animation */
+  opacity: 0;
+  animation: fadeIn 0.3s forwards ease-in-out;  /* Animate opacity */
 }
 
 /* Modal content */
@@ -45,4 +49,31 @@ body {
   border-radius: 12px;
   position: relative;
   z-index: 1001;
+  
+  /* Fade-in effect for modal content */
+  opacity: 0;
+  transform: translateY(-20px);  /* Start slightly above */
+  animation: fadeInContent 0.4s forwards ease-in-out;
+}
+
+/* Keyframe for fading in the background */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Keyframe for fading in and sliding down the modal content */
+@keyframes fadeInContent {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

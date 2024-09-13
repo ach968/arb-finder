@@ -61,11 +61,7 @@ const CardBody: React.FC<CardBodyProps> = ({ lineProps, sportbooks }) => {
             </Box>
             <Box sx={{ height: '1px', margin: '4px 0' }} />
             <Box display="flex" alignItems="center">
-                <Tooltip
-                    title={sportbooks[1].alias}
-                    placement="right"
-                    arrow
-                >
+                
                     <Avatar src={sportbooks[1].picture} alt={sportbooks[1].alias}
                         sx={{
                             width: 32,
@@ -78,8 +74,6 @@ const CardBody: React.FC<CardBodyProps> = ({ lineProps, sportbooks }) => {
                                 transform: 'scale(1.2)',
                             }
                         }} />
-
-                </Tooltip>
                 <Typography variant="body1"
                     sx={{ textAlign: "left", flex: "1", fontWeight: 600, fontSize: "14px", marginRight: "8px" }}
                 >{lineProps.line2} {lineProps.point2 > 0 ? "+" : ""}{lineProps.point2}</Typography>

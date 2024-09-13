@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Grid, Avatar, Typography, Button, Divider } from '@mui/material';
+import { Box, Grid, Avatar, Typography, Button, Divider, colors } from '@mui/material';
 import BookmakerLogos from '../assets/BookmakerLogos';
 
 interface BetOverviewProps {
@@ -33,27 +33,29 @@ const BetOverview: React.FC<BetOverviewProps> = ({
         <Box
             sx={{
                 backgroundColor: '#333',
-                borderRadius: '12px',
+                width: '650px',
+                borderRadius: '1px',
                 padding: '20px',
-                maxWidth: '800px',  // Make it wider for the two columns
                 color: 'white',
                 textAlign: 'center',
                 margin: '0 auto'  // Center the modal
             }}
         >
-            <Typography variant="h6" sx={{ marginBottom: '20px' }}>
-                BET OVERVIEW - MONEYLINE
+            <Typography variant="h5" fontWeight={600} sx={{ marginBottom: '10px' }}>
+                BET OVERVIEW
             </Typography>
 
-            <Grid container spacing={2} justifyContent="space-between" alignItems="center">
+            <Grid container spacing={2} justifyContent="space-between" alignItems="stretch">
                 {/* First Column */}
-                <Grid item xs={5}>
-                    <Typography variant="h4">1</Typography>
-                    <Avatar
-                        src={BookmakerLogos[bookmaker1 as keyof typeof BookmakerLogos]}
-                        alt={bookmaker1}
-                        sx={{ width: 50, height: 50, marginBottom: '10px', borderRadius: '18px', alignItems: 'center' }}
-                    />
+                <Grid item xs={5} textAlign="center">
+                    <Typography variant="h4" fontWeight={600} marginBottom={2}>1</Typography>
+                    <Box sx={{ display: 'flex', justifyContent: 'center' }}>
+                        <Avatar
+                            src={BookmakerLogos[bookmaker1 as keyof typeof BookmakerLogos]}
+                            alt={bookmaker1}
+                            sx={{ width: 50, height: 50, marginBottom: '10px', borderRadius: '10px' }}
+                        />
+                    </Box>
                     <Typography variant="h6">{bookmaker1}</Typography>
                     <Button
                         variant="contained"
@@ -77,18 +79,20 @@ const BetOverview: React.FC<BetOverviewProps> = ({
                 </Grid>
 
                 {/* Divider */}
-                <Grid item xs={1}>
+                <Grid item xs={1} sx={{ display: "flex", justifyContent: 'center' }}>
                     <Divider orientation="vertical" sx={{ backgroundColor: 'gray', height: '100%' }} />
                 </Grid>
 
-                {/* Second Column */}
-                <Grid item xs={5}>
-                    <Typography variant="h4">2</Typography>
-                    <Avatar
-                        src={BookmakerLogos[bookmaker2 as keyof typeof BookmakerLogos]}
-                        alt={bookmaker2}
-                        sx={{ width: 50, height: 50, marginBottom: '10px' }}
-                    />
+                {/* Second Column (Replicated from the First Column) */}
+                <Grid item xs={5} textAlign="center">
+                    <Typography variant="h4" fontWeight={600} marginBottom={2}>2</Typography>
+                    <Box sx={{ display: 'flex', justifyContent: 'center' }}>
+                        <Avatar
+                            src={BookmakerLogos[bookmaker2 as keyof typeof BookmakerLogos]}
+                            alt={bookmaker2}
+                            sx={{ width: 50, height: 50, marginBottom: '10px', borderRadius: '10px' }}
+                        />
+                    </Box>
                     <Typography variant="h6">{bookmaker2}</Typography>
                     <Button
                         variant="contained"
@@ -97,10 +101,12 @@ const BetOverview: React.FC<BetOverviewProps> = ({
                     >
                         {odds2}
                     </Button>
-                    <Typography>% HIT</Typography>
-                    <Button variant="contained" disabled sx={{ margin: '5px 0', backgroundColor: 'gray', color: 'white' }}>
-                        {hit2}
-                    </Button>
+                    <Box sx={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
+                        <Typography>% HIT</Typography>
+                        <Button variant="outlined" disabled sx={{ margin: '5px 0', backgroundColor: colors.grey[800], color: 'white !important', marginLeft: '20px' }}>
+                            {hit2}
+                        </Button>
+                    </Box>
                     <Typography>Stake</Typography>
                     <Button variant="contained" disabled sx={{ margin: '5px 0', backgroundColor: 'gray', color: 'white' }}>
                         {stake2}
@@ -112,13 +118,12 @@ const BetOverview: React.FC<BetOverviewProps> = ({
                 </Grid>
             </Grid>
 
-            {/* Return Section */}
-            <Divider sx={{ margin: '20px 0', backgroundColor: 'gray' }} />
-            <Typography variant="h6" sx={{ marginBottom: '10px' }}>
+            <Typography variant="h6" sx={{ marginBottom: '10px', marginTop: '20px' }}>
                 Return
             </Typography>
             <Button
-                variant="contained"
+                disabled
+                variant="outlined"
                 sx={{ backgroundColor: '#4caf50', color: 'white', fontWeight: 'bold', fontSize: '18px', borderRadius: '20px' }}
             >
                 {returnPercentage}

@@ -29,7 +29,7 @@ const CardFooter: React.FC<CardFooterProps> = ({onBetClick}) => {
                         outline: 'none',
                     },
                     width: '100%',
-                    marginTop: '15px',
+                    marginTop: '5px',
                     marginBottom: '-10px',
                     '&:focus': {
                         outline: 'none',
