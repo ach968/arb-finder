@@ -16,6 +16,8 @@ body {
   margin: 0;
   padding: 0;
   justify-content: center;
+  background-color: #1a1a1a;
+  color: white;
 }
 
 /* When modal is open, blur the background */

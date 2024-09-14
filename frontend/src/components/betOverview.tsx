@@ -58,7 +58,7 @@ const BetOverview: React.FC<BetOverviewProps> = ({
                     </Box>
                     <Typography variant="h6">{bookmaker1}</Typography>
                     <Button
-                        variant="contained"
+                        variant="outlined"
                         disabled
                         sx={{ margin: '10px 0', backgroundColor: 'gray', color: 'white', borderRadius: '20px' }}
                     >
@@ -94,18 +94,28 @@ const BetOverview: React.FC<BetOverviewProps> = ({
                         />
                     </Box>
                     <Typography variant="h6">{bookmaker2}</Typography>
-                    <Button
-                        variant="contained"
-                        disabled
-                        sx={{ margin: '10px 0', backgroundColor: 'gray', color: 'white', borderRadius: '20px' }}
+                    <Box
+                        sx={{ margin: '10px auto', backgroundColor: 'gray', color: 'white !important', borderRadius: '20px', fontWeight: 600 , maxWidth: '65px',padding: '8px' }}
                     >
-                        {odds2}
-                    </Button>
-                    <Box sx={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-                        <Typography>% HIT</Typography>
-                        <Button variant="outlined" disabled sx={{ margin: '5px 0', backgroundColor: colors.grey[800], color: 'white !important', marginLeft: '20px' }}>
-                            {hit2}
-                        </Button>
+                        {Number(odds2) > 0 ? `${'+' + odds2}` : odds2}
+                    </Box>
+                    <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                        <Typography sx={{ fontWeight: 600 }}>implied prob</Typography>
+                        <Box
+                            sx={{
+                                margin: '5px 0',
+                                backgroundColor: colors.grey[800],
+                                color: 'white',
+                                padding: '8px 16px',
+                                borderRadius: '4px',
+                                marginLeft: '20px',
+                                border: '1px solid',  // Mimic button's appearance
+                                borderColor: colors.grey[700],  // Border for outlined style
+                            }}
+                        >
+                            {/* Span with selectable text */}
+                            <span>{hit2}</span>
+                        </Box>
                     </Box>
                     <Typography>Stake</Typography>
                     <Button variant="contained" disabled sx={{ margin: '5px 0', backgroundColor: 'gray', color: 'white' }}>
